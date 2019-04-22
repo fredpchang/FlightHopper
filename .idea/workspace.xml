@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad7ba3f8-bd54-4599-86a6-bad384da2d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FlightHopper/TripLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/DirectAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/DirectAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/FlightFreqParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/FlightFreqParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/FlightTicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/FlightTicketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/MulticityAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/MulticityAnalyzer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,12 +31,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="2" />
           <entry key="java" value="1792" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1792" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -58,18 +55,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FlightHopper/Flight.java">
+        <entry file="file://$PROJECT_DIR$/src/FlightHopper/IFlight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="96">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FlightHopper/FlightTicketService.java">
+        <entry file="file://$PROJECT_DIR$/src/FlightHopper/IFlightTicketService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="92">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
@@ -130,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/FlightHopper/TripLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#136#137#0" expanded="true" />
                 <element signature="e#161#162#0" expanded="true" />
@@ -213,7 +210,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555970829007" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555971102249" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -241,18 +238,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="829" height="808" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="808" extended-state="6" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12198221" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20958512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2877095" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2877095" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -289,20 +285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlightHopper/Flight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlightHopper/FlightTicketService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FlightHopper/DirectFlight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -329,6 +311,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlightHopper/IFlight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlightHopper/IFlightTicketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FlightHopper/DirectAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -351,7 +347,7 @@
     <entry file="file://$PROJECT_DIR$/src/FlightHopper/TripLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#136#137#0" expanded="true" />
             <element signature="e#161#162#0" expanded="true" />
