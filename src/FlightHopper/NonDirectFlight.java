@@ -20,4 +20,6 @@ public class NonDirectFlight {
 	String plane;
 	
 	
+	
+	
 }

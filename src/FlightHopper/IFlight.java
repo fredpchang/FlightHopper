@@ -1,8 +1,8 @@
 package FlightHopper;
 
-public interface Flight {
+public interface IFlight {
 
-	public boolean checkValid(Flight flight);
+	public boolean checkValid(IFlight flight);
 	
 	public int getFlightRank(double priceWeight);
 	

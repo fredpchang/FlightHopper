@@ -5,7 +5,7 @@ import java.util.List;
 public class Airport {
 
 	String name;
-	List<Flight> tickets;
+	List<IFlight> tickets;
 	Airport destination;
 	
 	
@@ -24,12 +24,12 @@ public class Airport {
 	}
 
 
-	public List<Flight> getTickets() {
+	public List<IFlight> getTickets() {
 		return tickets;
 	}
 
 
-	public void setTickets(List<Flight> tickets) {
+	public void setTickets(List<IFlight> tickets) {
 		this.tickets = tickets;
 	}
 
