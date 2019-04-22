@@ -13,7 +13,7 @@ public class DirectFlight {
 	String airline;
 	String plane;
 	
-	public boolean checkValid(Flight flight) {
+	public boolean checkValid(IFlight flight) {
 		return true;
 	}
 	
