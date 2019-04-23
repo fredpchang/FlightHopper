@@ -38,5 +38,80 @@ public class DirectFlight {
 		return true;
 	}
 
-	
+
+	public Airport getStartAirport() {
+		return startAirport;
+	}
+
+	public void setStartAirport(Airport startAirport) {
+		this.startAirport = startAirport;
+	}
+
+	public Airport getEndAirport() {
+		return endAirport;
+	}
+
+	public void setEndAirport(Airport endAirport) {
+		this.endAirport = endAirport;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public String getStartTime() {
+		return startTime;
+	}
+
+	public void setStartTime(String startTime) {
+		this.startTime = startTime;
+	}
+
+	public String getEndTime() {
+		return endTime;
+	}
+
+	public void setEndTime(String endTime) {
+		this.endTime = endTime;
+	}
+
+	public int getDuration() {
+		return duration;
+	}
+
+	public void setDuration(int duration) {
+		this.duration = duration;
+	}
+
+	public int getRank() {
+		return rank;
+	}
+
+	public void setRank(int rank) {
+		this.rank = rank;
+	}
+
+	public void setDirect(boolean direct) {
+		isDirect = direct;
+	}
+
+	public String getAirline() {
+		return airline;
+	}
+
+	public void setAirline(String airline) {
+		this.airline = airline;
+	}
+
+	public String getPlane() {
+		return plane;
+	}
+
+	public void setPlane(String plane) {
+		this.plane = plane;
+	}
 }
