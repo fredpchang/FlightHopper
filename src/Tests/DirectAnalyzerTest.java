@@ -122,7 +122,7 @@ public class DirectAnalyzerTest {
 		testInput.add("LAX");
 		assertNull(d.generateList(testInput));
 		myTLL.setStartAirport(lax);
-		myTLL.add(sfo);
+		myTLL.add("SFO");
 		// normal
 		TripLinkedList re = d.generateList(userInputTwo);
 		assertEquals(myTLL.getRoot(), re.getRoot());
