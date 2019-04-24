@@ -74,7 +74,7 @@ public class FlightFreqTableTestest {
 	
 	public void getFreqTableTest() {
 		PriorityQueue<AirportPair> pQueue = new PriorityQueue<AirportPair>();
-		Map<String, pQueue> freqMap = new HashMap<String, pQueue>();
+		Map<String, PriorityQueue> freqMap = new HashMap<String, pQueue>();
 		
 		startAirport = "PHL";
 		
@@ -98,7 +98,8 @@ public class FlightFreqTableTestest {
 		pQueue.add(airportP2);
 		pQueue.add(airportP3);
 		
-		freqMap.add(startAirport,pQueue);
+		freqMap.put(startAirport, pQueue);
+		
 		
 		flightFreqT.setFreqTable(freqMap);
 		
