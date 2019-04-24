@@ -12,13 +12,12 @@ public class MulticityAnalyzer implements IFlightTicketService {
         tripLinkedList = new TripLinkedList();
         routesSelctions = new ArrayList<>();
         scraper = new FlightScraper();
-
     }
 
 
-    MulticityAnalyzer(List<String> userInput) {
-        tripLinkedList = generateList(userInput);
-    }
+//    MulticityAnalyzer(List<String> userInput) {
+//        tripLinkedList = generateList(userInput);
+//    }
     /***
      * Overall function. Given user input generate a list
      * of possible itineraries
@@ -66,7 +65,5 @@ public class MulticityAnalyzer implements IFlightTicketService {
     public List<IFlight> getTickets(String startAirport, String endAirport, String date) {
         return null;
     }
-
-
 
 }

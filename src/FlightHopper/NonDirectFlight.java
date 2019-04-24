@@ -109,6 +109,17 @@ public class NonDirectFlight implements IFlight {
 	 * Check if this is a direct flight with no stops
 	 * @return true if direct, false if not
 	 */
+
+	@Override
+	public boolean equals(Object o) {
+		NonDirectFlight a = (NonDirectFlight) o;
+		return this.startAirport.getName().equals(a.startAirport.getName())
+				&& this.endAirport.getName().equals(a.endAirport.getName())
+				&& this.startTime.equals(a.startTime)
+				&& this.endTime.equals(a.endTime)
+				&& this.price == a.price
+				&& this.airline.equals(a.airline);
+	}
 	public boolean isDirect() {
 		return false;
 	}

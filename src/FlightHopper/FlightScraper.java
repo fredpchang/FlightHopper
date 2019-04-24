@@ -46,7 +46,7 @@ public class FlightScraper {
      * @param rawData
      * @return
      */
-    private List <IFlight> paramFilter(int maxPrice, int maxDuration, List<IFlight> rawData) {
+    public List <IFlight> paramFilter(int maxPrice, int maxDuration, List<IFlight> rawData) {
         return null;
     }
 
