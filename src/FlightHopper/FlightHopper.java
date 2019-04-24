@@ -41,7 +41,15 @@ public class FlightHopper {
                 System.out.println("Please enter max flight duration in int hours, if none enter -1");
                 userInput.add(scanner.nextLine());
                 System.out.println(userInput);
-                // TO DO
+                DirectAnalyzer da = new DirectAnalyzer();
+                System.out.println("Here are the top offers we find for you:");
+                System.out.println(da.getOptimalRoutesOfTwoCities(userInput));
+                System.out.println("Press q quit program, press any other key to return to main menu");
+                String choice = scanner.nextLine();
+                if(choice.equals("q")) break;
+                else {
+                    continue;
+                }
             }
             // multiple cities
             else {
@@ -65,8 +73,18 @@ public class FlightHopper {
                     System.out.println("Please enter how many days you want to stay here");
                     userInput.add(scanner.nextLine());
                 }
-                System.out.println(userInput);
+//                System.out.println(userInput);
+                MulticityAnalyzer ma = new MulticityAnalyzer();
+                System.out.println("Here are top itineraries we generated for you:");
+                System.out.println(ma.getOptimalRoutesOfMultiCities(userInput));
+                System.out.println("Press q quit program, press any other key to return to main menu");
+                String choice = scanner.nextLine();
+                if(choice.equals("q")) break;
+                else {
+                    continue;
+                }
             }
         }
+        System.out.println("Thanks for using Flight Hopper.");
     }
 }

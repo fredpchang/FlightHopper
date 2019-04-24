@@ -120,12 +120,14 @@ public class MulticityAnalyzer implements IFlightTicketService {
             for(int i = 0; i < pq.size() && i < 5; i++) {
                 re.add(pq.poll());
             }
+            // add those back to pq so that we don't poll tickets out and lose that entirely
+            pq.addAll(re);
             cur = cur.getDestination();
         }
         return re;
     }
     /***
-     * Run scarper using start, end and date, to get the json file
+     * Run scraper using start, end and date, to get the json file
      * and then parse into a list of tickets
      * @param startAirport start airport
      * @param endAirport end airport
