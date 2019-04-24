@@ -8,7 +8,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
     List<List<IFlight>> routesSelctions;
     FlightScraper scraper;
     List<String> userInput;
-    MulticityAnalyzer() {
+    public MulticityAnalyzer() {
         tripLinkedList = new TripLinkedList();
         routesSelctions = new ArrayList<>();
         scraper = new FlightScraper();
@@ -16,7 +16,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
     }
 
 
-    MulticityAnalyzer(List<String> userInput) {
+    public MulticityAnalyzer(List<String> userInput) {
         tripLinkedList = generateList(userInput);
     }
     /***

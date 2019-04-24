@@ -4,7 +4,7 @@ public class TripLinkedList {
     private Airport startAirport;
     private int size;
 
-    TripLinkedList() {
+    public TripLinkedList() {
         size = 0;
         startAirport = null;
     }
@@ -30,7 +30,7 @@ public class TripLinkedList {
      * @param node
      * @return true if add successfully, false otherwise
      */
-    public boolean add(Airport node) {
+    public boolean add(String node) {
         return false;
     }
 
@@ -39,7 +39,7 @@ public class TripLinkedList {
      * @param node
      * @return true if remove successfully, false otherwise
      */
-    public boolean remove(Airport node) {
+    public boolean remove(String node) {
         return false;
     }
 
@@ -56,7 +56,44 @@ public class TripLinkedList {
      * @param node
      * @return return true if in, else return false
      */
-    public boolean contains(Airport node) {
+    public boolean contains(String node) {
         return false;
+    }
+
+    public Airport get(int index) {
+        return null;
+    }
+    public Airport get(String node) {
+        return null;
+    }
+
+    public Airport getStartAirport() {
+        return startAirport;
+    }
+
+    public void setStartAirport(Airport startAirport) {
+        this.startAirport = startAirport;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public boolean equals(Object o) {
+
+        TripLinkedList a = (TripLinkedList) o;
+        if(this.size != a.size) return false;
+        Airport cur1 = this.getStartAirport();
+        Airport cur2 = a.getStartAirport();
+        while(cur1 != null && cur2 != null) {
+            if(!cur1.equals(cur2)) return false;
+            cur1 = cur1.destination;
+            cur2 = cur2.destination;
+        }
+        return true;
     }
 }

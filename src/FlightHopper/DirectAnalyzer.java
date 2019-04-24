@@ -8,13 +8,14 @@ public class DirectAnalyzer implements IFlightTicketService {
     FlightScraper scraper;
     List<String> userInput;
 
-    DirectAnalyzer() {
+    public DirectAnalyzer() {
         tripLinkedList = new TripLinkedList();
         routesSelctions = new ArrayList<>();
         scraper = new FlightScraper();
         userInput = new ArrayList<>();
     }
-    DirectAnalyzer(List<String> userInput) {
+    
+    public DirectAnalyzer(List<String> userInput) {
         this.userInput = userInput;
         tripLinkedList = generateList(this.userInput);
     }

@@ -44,7 +44,11 @@ public class Airport {
 	public void setDestination(Airport destination) {
 		this.destination = destination;
 	}
-	
+
+	public boolean equals(Object o) {
+		Airport a = (Airport) o;
+		return a.name.equals(this.name);
+	}
 	
 	
 	
