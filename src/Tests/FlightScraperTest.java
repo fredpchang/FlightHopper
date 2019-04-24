@@ -23,7 +23,7 @@ public class FlightScraperTest {
 	
 	String startAirport = "PHL";
 	String endAirport = "LAX";
-	String date = "201905151800";
+	String date = "201905151800"; //format: yyyymmddhhmm
 	int flex = 1;
 	
 	DirectFlight f1, f2, f3, f4;

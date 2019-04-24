@@ -11,8 +11,8 @@ public class NonDirectFlight implements IFlight {
 	List<Airport> stopAirport;
 	List<String> arriveTimeList;
 	List<String> endTimeList;
-	String startTime;
-	String endTime;
+	String startTime; //format: yyyymmddhhmm
+	String endTime; //format: yyyymmddhhmm
 	int duration;
 	int rank;
 	boolean isDirect;
