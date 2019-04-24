@@ -1,6 +1,6 @@
 package FlightHopper;
 
-public class DirectFlight {
+public class DirectFlight implements IFlight {
 
 	Airport startAirport;
 	Airport endAirport;

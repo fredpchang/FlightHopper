@@ -8,7 +8,9 @@ public class Airport {
 	List<IFlight> tickets;
 	Airport destination;
 	
-	
+	/**
+	 *  Constructor
+	 */
 	public Airport() {
 	
 	}
