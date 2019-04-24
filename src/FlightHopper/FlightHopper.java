@@ -48,6 +48,7 @@ public class FlightHopper {
                 List<String> userInput = new ArrayList<>();
                 System.out.println("Welcome to multi city itinerary generator");
                 System.out.println("Please enter the day you want to start you trip, format is xx/xx/20xx");
+                userInput.add(scanner.nextLine());
                 System.out.println("Please enter the start airport");
                 userInput.add(scanner.nextLine());
                 System.out.println("Please enter the flexibility of the flight, if none enter 0");

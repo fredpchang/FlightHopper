@@ -1,5 +1,6 @@
 package FlightHopper;
 
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class MulticityAnalyzer implements IFlightTicketService {
@@ -37,6 +38,20 @@ public class MulticityAnalyzer implements IFlightTicketService {
      */
     @Override
     public TripLinkedList generateList(List<String> userInput) {
+
+        String[] dateData = userInput.get(0).split("/");
+
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        Calendar date = new GregorianCalendar(Integer.valueOf(dateData[2]),Integer.valueOf(dateData[1])-1,
+                Integer.valueOf(dateData[0]));
+//        date.setTime(new Date()); // Now use today date.
+        String startAirport = userInput.get(1);
+        int flex = Integer.valueOf(userInput.get(2));
+
+        // how to add date
+        date.add(Calendar.DATE, 5);
+        String output = sdf.format(date.getTime());
+//        System.out.println(output);
         return null;
     }
 
