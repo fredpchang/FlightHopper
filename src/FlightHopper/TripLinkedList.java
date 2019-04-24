@@ -60,9 +60,22 @@ public class TripLinkedList {
         return false;
     }
 
+    /**
+     * get the airport on that index
+     * if not in size range return null
+     * @param index
+     * @return
+     */
     public Airport get(int index) {
         return null;
     }
+
+    /**
+     * get the airport by their name
+     * if not in list, return null
+     * @param node
+     * @return
+     */
     public Airport get(String node) {
         return null;
     }
