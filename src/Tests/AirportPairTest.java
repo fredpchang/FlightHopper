@@ -1,12 +1,9 @@
 package Tests;
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.*;
 
-import FlightHopper.*;
+import FlightHopper.AirportPair;
 import org.junit.Before;
 import org.junit.Test;
 
