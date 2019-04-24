@@ -50,26 +50,50 @@ public class FlightScraper {
         return null;
     }
 
+    /**
+     * get cache map
+     * @return cache map
+     */
     public Map<IFlight, List<IFlight>> getCache() {
         return cache;
     }
 
+    /**
+     * set cache map
+     * @param cache
+     */
     public void setCache(Map<IFlight, List<IFlight>> cache) {
         this.cache = cache;
     }
 
+    /**
+     * get the max price
+     * @return max price
+     */
     public int getMaxPrice() {
         return maxPrice;
     }
 
+    /**
+     * set max price
+     * @param maxPrice
+     */
     public void setMaxPrice(int maxPrice) {
         this.maxPrice = maxPrice;
     }
 
+    /**
+     * get max duration of flight
+     * @return max duration of flight
+     */
     public int getMaxDuration() {
         return maxDuration;
     }
 
+    /**
+     * set max duration of flight
+     * @param maxDuration
+     */
     public void setMaxDuration(int maxDuration) {
         this.maxDuration = maxDuration;
     }

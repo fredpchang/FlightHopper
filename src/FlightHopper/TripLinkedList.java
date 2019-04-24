@@ -4,6 +4,9 @@ public class TripLinkedList {
     private Airport startAirport;
     private int size;
 
+    /**
+     * constructor, init the list
+     */
     public TripLinkedList() {
         size = 0;
         startAirport = null;
@@ -80,22 +83,43 @@ public class TripLinkedList {
         return null;
     }
 
+    /**
+     * get the root node
+     * @return root node
+     */
     public Airport getStartAirport() {
         return startAirport;
     }
 
+    /**
+     * set root
+     * @param startAirport
+     */
     public void setStartAirport(Airport startAirport) {
         this.startAirport = startAirport;
     }
 
+    /**
+     * get size of list
+     * @return
+     */
     public int getSize() {
         return size;
     }
 
+    /**
+     * set size
+     * @param size
+     */
     public void setSize(int size) {
         this.size = size;
     }
 
+    /**
+     * override equals method
+     * @param o
+     * @return
+     */
     public boolean equals(Object o) {
 
         TripLinkedList a = (TripLinkedList) o;

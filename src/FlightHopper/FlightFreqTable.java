@@ -23,10 +23,18 @@ public class FlightFreqTable {
         return null;
     }
 
+    /**
+     * get the freq table
+     * @return freq table
+     */
     public Map<String, PriorityQueue<AirportPair>> getFreqTable() {
         return freqTable;
     }
 
+    /**
+     * set freq table
+     * @param freqTable
+     */
     public void setFreqTable(Map<String, PriorityQueue<AirportPair>> freqTable) {
         this.freqTable = freqTable;
     }
