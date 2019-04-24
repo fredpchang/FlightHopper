@@ -18,71 +18,179 @@ public class NonDirectFlight implements IFlight {
 	boolean isDirect;
 	String airline;
 	String plane;
-	
-	
+
+	/**
+	 * get the start airport
+	 * @return start airport
+	 */
 	public Airport getStartAirport() {
 		return startAirport;
 	}
+
+	/**
+	 * set start airport
+	 * @param startAirport
+	 */
 	public void setStartAirport(Airport startAirport) {
 		this.startAirport = startAirport;
 	}
+
+	/**
+	 * get end airport
+	 * @return end airport
+	 */
 	public Airport getEndAirport() {
 		return endAirport;
 	}
+
+	/**
+	 * set end airport
+	 * @param endAirport
+	 */
 	public void setEndAirport(Airport endAirport) {
 		this.endAirport = endAirport;
 	}
+
+	/**
+	 * get ticket price
+	 * @return ticket price
+	 */
 	public double getPrice() {
 		return price;
 	}
+
+	/**
+	 * set ticket price
+	 * @param price
+	 */
 	public void setPrice(double price) {
 		this.price = price;
 	}
+
+	/**
+	 * get how many stops there are
+	 * @return how many stops
+	 */
 	public int getStops() {
 		return stops;
 	}
+
+	/**
+	 * set stop number
+	 * @param stops
+	 */
 	public void setStops(int stops) {
 		this.stops = stops;
 	}
+
+	/**
+	 * get list of stop airport
+	 * @return list of stop airport
+	 */
 	public List<Airport> getStopAirport() {
 		return stopAirport;
 	}
+
+	/**
+	 * set stop airport
+	 * @param stopAirport
+	 */
 	public void setStopAirport(List<Airport> stopAirport) {
 		this.stopAirport = stopAirport;
 	}
+
+	/**
+	 * get the arrival times of stops
+	 * @return arrival times of stops
+	 */
 	public List<String> getArriveTimeList() {
 		return arriveTimeList;
 	}
+
+	/**
+	 * set arrival times of stops
+	 * @param arriveTimeList
+	 */
 	public void setArriveTimeList(List<String> arriveTimeList) {
 		this.arriveTimeList = arriveTimeList;
 	}
+
+	/**
+	 * get list of when take off from stops
+	 * @return list of take off time
+	 */
 	public List<String> getEndTimeList() {
 		return endTimeList;
 	}
+
+	/**
+	 * set list of take off times for stops
+	 * @param endTimeList
+	 */
 	public void setEndTimeList(List<String> endTimeList) {
 		this.endTimeList = endTimeList;
 	}
+
+	/**
+	 * departure time from start airport
+	 * @return departure time
+	 */
 	public String getStartTime() {
 		return startTime;
 	}
+
+	/**
+	 * set departure time
+	 * @param startTime
+	 */
 	public void setStartTime(String startTime) {
 		this.startTime = startTime;
 	}
+
+	/**
+	 * get arrival time
+	 * @return arrival time
+	 */
 	public String getEndTime() {
 		return endTime;
 	}
+
+	/**
+	 * set arrival time
+	 * @param endTime
+	 */
 	public void setEndTime(String endTime) {
 		this.endTime = endTime;
 	}
+
+	/**
+	 * get flight duration
+	 * @return flight duration
+	 */
 	public int getDuration() {
 		return duration;
 	}
+
+	/**
+	 * set flight duration
+	 * @param duration
+	 */
 	public void setDuration(int duration) {
 		this.duration = duration;
 	}
+
+	/**
+	 * get rank of this ticket, used for choosing best offer
+	 * @return rank
+	 */
 	public int getRank() {
 		return rank;
 	}
+
+	/**
+	 * set rank
+	 * @param rank
+	 */
 	public void setRank(int rank) {
 		this.rank = rank;
 	}
@@ -112,18 +220,43 @@ public class NonDirectFlight implements IFlight {
 	public boolean isDirect() {
 		return false;
 	}
+
+	/**
+	 * set if is direct
+	 * @param isDirect
+	 */
 	public void setDirect(boolean isDirect) {
 		this.isDirect = isDirect;
 	}
+
+	/**
+	 * get airline name
+	 * @return airline name
+	 */
 	public String getAirline() {
 		return airline;
 	}
+
+	/**
+	 * set airline name
+	 * @param airline
+	 */
 	public void setAirline(String airline) {
 		this.airline = airline;
 	}
+
+	/**
+	 * get plane type
+	 * @return
+	 */
 	public String getPlane() {
 		return plane;
 	}
+
+	/**
+	 * set plane type
+	 * @param plane
+	 */
 	public void setPlane(String plane) {
 		this.plane = plane;
 	}

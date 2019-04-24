@@ -8,16 +8,25 @@ public class MulticityAnalyzer implements IFlightTicketService {
     List<List<IFlight>> routesSelctions;
     FlightScraper scraper;
     List<String> userInput;
+
+    /**
+     * default constructor, init some fields
+     */
     public MulticityAnalyzer() {
         tripLinkedList = new TripLinkedList();
         routesSelctions = new ArrayList<>();
         scraper = new FlightScraper();
-
+        userInput = new ArrayList<>();
     }
 
-
+    /**
+     * take in user input and set that to be userInput field
+     * @param userInput
+     */
     public MulticityAnalyzer(List<String> userInput) {
         tripLinkedList = generateList(userInput);
+        routesSelctions = new ArrayList<>();
+        scraper = new FlightScraper();
     }
     /***
      * Overall function. Given user input generate a list
