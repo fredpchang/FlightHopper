@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad7ba3f8-bd54-4599-86a6-bad384da2d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tests/DirectAnalyzerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/MulticityAnalyzerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/TripLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/Airport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/DirectAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/DirectAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/FlightHopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/FlightHopper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/MulticityAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/MulticityAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/TripLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/TripLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/NonDirectFlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/NonDirectFlightTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ad7ba3f8-bd54-4599-86a6-bad384da2d04" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +21,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="47" />
+          <entry key="java" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="47" />
+          <entry key="JAVA" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -58,25 +48,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FlightHopper/TripLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+            <state relative-caret-position="234">
+              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1196#1197#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1261#1262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/TripLinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="53" column="43" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -226,7 +204,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18222722" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3295838" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -457,13 +435,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FlightHopper/TripLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        <state relative-caret-position="234">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding>
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
           </folding>
         </state>
       </provider>
