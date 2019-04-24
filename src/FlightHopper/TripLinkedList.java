@@ -4,7 +4,7 @@ public class TripLinkedList {
     private Airport startAirport;
     private int size;
 
-    TripLinkedList() {
+    public TripLinkedList() {
         size = 0;
         startAirport = null;
     }
