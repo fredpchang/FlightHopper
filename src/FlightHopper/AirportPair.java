@@ -5,6 +5,11 @@ public class AirportPair {
     private String endAirport;
     private int frequency;
 
+    public AirportPair() {
+    	startAirport = null;
+    	endAirport = null;
+    	frequency = -1;
+    }
     /**
      * get start airport
      * @return start airport
