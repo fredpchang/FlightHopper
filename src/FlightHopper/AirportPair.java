@@ -7,7 +7,6 @@ public class AirportPair {
 
     public AirportPair() {
     	startAirport = null;
-    	endAirport = null;
     	frequency = -1;
     }
     /**
