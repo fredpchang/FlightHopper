@@ -47,9 +47,7 @@ public class FlightScraperTest {
 		
 		sfo = new Airport();
 		sfo.setName("SFO");
-		
-		
-		
+	
 	}
 	
 	@Test
