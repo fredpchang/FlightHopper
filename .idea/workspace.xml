@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad7ba3f8-bd54-4599-86a6-bad384da2d04" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/Airport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/AirportPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/AirportPair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/DirectAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/DirectAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/DirectFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/DirectFlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/FlightFreqTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/FlightFreqTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/FlightHopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/FlightHopper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/FlightScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/FlightScraper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/MulticityAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/MulticityAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/NonDirectFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/NonDirectFlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlightHopper/TripLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlightHopper/TripLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/FlightScraperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/DirectFlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/DirectFlightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/NonDirectFlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/NonDirectFlightTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -200,7 +192,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FlightHopper/TripLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
+            <state relative-caret-position="-99">
               <caret line="118" column="29" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
               <folding>
                 <element signature="e#1293#1294#0" expanded="true" />
@@ -345,7 +337,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556125707178" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556125746818" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -385,9 +377,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23962805" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23962805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -401,7 +392,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21927375" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.7276536" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -725,7 +716,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FlightHopper/TripLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
+        <state relative-caret-position="-99">
           <caret line="118" column="29" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
           <folding>
             <element signature="e#1293#1294#0" expanded="true" />
