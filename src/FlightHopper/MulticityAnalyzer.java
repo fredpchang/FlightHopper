@@ -63,7 +63,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
      */
     @Override
     public List<IFlight> getTickets(String startAirport, String endAirport, String date) {
-        return null;
+        return this.scraper.runScraper(startAirport, endAirport, date, 0);
     }
 
 }
