@@ -1,5 +1,7 @@
 package FlightHopper;
 
+import com.sun.deploy.util.StringUtils;
+
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -13,6 +15,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
         tripLinkedList = new TripLinkedList();
         routesSelctions = new ArrayList<>();
         scraper = new FlightScraper();
+        userInput = new ArrayList<>();
     }
 
 
@@ -26,7 +29,14 @@ public class MulticityAnalyzer implements IFlightTicketService {
      *                  want to stay
      */
     public List<List<IFlight>> getOptimalRoutesOfMultiCities(List<String> userInput) {
-        return null;
+        generateList(userInput);
+        double weight = 0;
+        for(int i = 0 ; i <4; i++) {
+            List<IFlight> temp = this.getRoute(userInput, weight);
+            routesSelctions.add(new ArrayList<>(temp));
+            weight += 0.25;
+        }
+        return routesSelctions;
     }
     /***
      * given the user input which include like which city they want
@@ -38,21 +48,52 @@ public class MulticityAnalyzer implements IFlightTicketService {
      */
     @Override
     public TripLinkedList generateList(List<String> userInput) {
+        if(userInput.size() % 2==0) return null;
 
         String[] dateData = userInput.get(0).split("/");
-
+        if(dateData.length != 3) return null;
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         Calendar date = new GregorianCalendar(Integer.valueOf(dateData[2]),Integer.valueOf(dateData[1])-1,
                 Integer.valueOf(dateData[0]));
 //        date.setTime(new Date()); // Now use today date.
-        String startAirport = userInput.get(1);
+//        String startAirport = userInput.get(1);
         int flex = Integer.valueOf(userInput.get(2));
-
-        // how to add date
-        date.add(Calendar.DATE, 5);
-        String output = sdf.format(date.getTime());
-//        System.out.println(output);
-        return null;
+        this.tripLinkedList.add(userInput.get(1));
+        //deal with start node
+        List<IFlight> temp = new ArrayList<>();
+        for(int i = 0; i <= flex; i++) {
+            date.add(Calendar.DATE, i);
+            temp.addAll(this.getTickets(userInput.get(1),
+                    userInput.get(3), sdf.format(date.getTime())));
+            date.add(Calendar.DATE, -i);
+        }
+        tripLinkedList.getRoot().setTickets(new ArrayList<>(temp));
+//        date.add(Calendar.DATE, 0-flex);
+        for(int i = 3; i < userInput.size()-1; i+=2) {
+            List<IFlight> t = new ArrayList<>();
+            this.tripLinkedList.add(userInput.get(i));
+            //0 flex date
+            date.add(Calendar.DATE, Integer.valueOf(userInput.get(i+1)));
+            for(int j = 0; j <= flex; j++) {
+                //add flex
+                date.add(Calendar.DATE, j);
+                // get tickets and add to t
+                t.addAll(this.getTickets(userInput.get(i),
+                        userInput.get(i+2), sdf.format(date.getTime())));
+                //subtract flex
+                date.add(Calendar.DATE, -j);
+            }
+            // put all tickets in target node
+            this.tripLinkedList.get((i-1)/2).setTickets(
+                    new ArrayList<>(t)
+            );
+        }
+        this.tripLinkedList.add(userInput.get(userInput.size()-1));
+//        // how to add date
+//        date.add(Calendar.DATE, 5);
+//        String output = sdf.format(date.getTime());
+////        System.out.println(output);
+        return tripLinkedList;
     }
 
     /***
@@ -66,7 +107,22 @@ public class MulticityAnalyzer implements IFlightTicketService {
      */
     @Override
     public List<IFlight> getRoute(List<String> userInput, double priceWeight) {
-        return null;
+        Airport cur = this.tripLinkedList.getRoot();
+        List<IFlight> re = new ArrayList<>();
+        while(cur.destination != null) {
+            // sort in ascending by price weight
+            PriorityQueue<IFlight> pq = new PriorityQueue<>((IFlight a, IFlight b) -> {
+                return a.getFlightRank(priceWeight) - b.getFlightRank(priceWeight);
+            });
+            // add all ticket into pq and sort
+            pq.addAll(cur.getTickets());
+            // get the top 5 tickets
+            for(int i = 0; i < pq.size() && i < 5; i++) {
+                re.add(pq.poll());
+            }
+            cur = cur.getDestination();
+        }
+        return re;
     }
     /***
      * Run scarper using start, end and date, to get the json file
