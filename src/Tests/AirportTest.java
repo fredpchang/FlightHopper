@@ -17,9 +17,9 @@ public class AirportTest {
 	public void testName() {
 		
 		Airport a = new Airport();
-		a.setName("LAX");
+		a.setName("Los Angeles");
 		
-		assertEquals("LAX", a.getName());
+		assertEquals("Los Angeles", a.getName());
 		
 	}
 	

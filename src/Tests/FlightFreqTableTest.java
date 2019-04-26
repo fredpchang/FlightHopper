@@ -9,7 +9,7 @@ import FlightHopper.FlightFreqTable;
 import org.junit.Before;
 import org.junit.Test;
 
-public class FlightFreqTableTestest {
+public class FlightFreqTableTest {
 
 	FlightFreqTable flightFreqT;
 	String startAirport;
@@ -29,7 +29,7 @@ public class FlightFreqTableTestest {
 		airportP1.setFrequency(100);
 		
 		
-		airportP2  = new AirportPair();
+		airportP2 = new AirportPair();
 		airportP2.setStartAirport(startAirport);
 		airportP2.setEndAirport("JFK");
 		airportP2.setFrequency(88);

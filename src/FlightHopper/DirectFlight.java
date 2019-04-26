@@ -142,6 +142,9 @@ public class DirectFlight implements IFlight {
 		return rank;
 	}
 
+	public void setDirect(boolean isDirect) {
+		this.isDirect = isDirect;
+	}
 	/**
 	 * set rank to something
 	 * @param rank

@@ -12,7 +12,7 @@ public class FlightFreqParserTest {
 
 	@Test
 	 public void flightFreqParserTest() {
-		FlightFreqParser flightParse;
+		FlightFreqParser flightParse = new FlightFreqParser();
 		FlightFreqTable flightFreqTable;		
 		String inputFile = "../Filpath/filename";
 		
