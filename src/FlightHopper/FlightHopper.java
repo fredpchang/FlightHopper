@@ -6,6 +6,8 @@ public class FlightHopper {
     public int queryType;
     List<Airport> airports = new ArrayList<>();
 
+//    Map<String, Airport> airports = new HashMap<>();
+
     public static void main(String[] args) {
         System.out.println("Welcome to Flight Hopper!");
         Scanner scanner = new Scanner(System.in);

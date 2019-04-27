@@ -1,12 +1,13 @@
 package FlightHopper;
 
-public class DirectFlight implements IFlight{
+
+public class DirectFlight implements IFlight {
 
 	Airport startAirport;
 	Airport endAirport;
 	double price;
-	String startTime;
-	String endTime;
+	String startTime; //format: yyyymmddhhmm
+	String endTime; //format: yyyymmddhhmm
 	int duration;
 	int rank;
 	boolean isDirect;
@@ -38,6 +39,7 @@ public class DirectFlight implements IFlight{
 		return true;
 	}
 
+
 	@Override
 	public boolean equals(Object o) {
 		NonDirectFlight a = (NonDirectFlight) o;
@@ -49,78 +51,150 @@ public class DirectFlight implements IFlight{
 				&& this.airline.equals(a.airline);
 	}
 
+
+	/**
+	 * get start airport
+	 * @return start airport
+	 */
 	public Airport getStartAirport() {
 		return startAirport;
 	}
 
+	/**
+	 * set start airport to some value
+	 * @param startAirport
+	 */
 	public void setStartAirport(Airport startAirport) {
 		this.startAirport = startAirport;
 	}
 
+	/**
+	 * get end airport
+	 * @return end airport
+	 */
 	public Airport getEndAirport() {
 		return endAirport;
 	}
 
+	/**
+	 * set end airport
+	 * @param endAirport
+	 */
 	public void setEndAirport(Airport endAirport) {
 		this.endAirport = endAirport;
 	}
 
+	/**
+	 * get ticket price
+	 * @return ticket price
+	 */
 	public double getPrice() {
 		return price;
 	}
 
+	/**
+	 * set ticket price
+	 * @param price
+	 */
 	public void setPrice(double price) {
 		this.price = price;
 	}
 
+	/**
+	 * get departure time
+	 * @return departure time
+	 */
 	public String getStartTime() {
 		return startTime;
 	}
 
+	/**
+	 * set departure time to something
+	 * @param startTime
+	 */
 	public void setStartTime(String startTime) {
 		this.startTime = startTime;
 	}
 
+	/**
+	 * get arrival time
+	 * @return arrival time
+	 */
 	public String getEndTime() {
 		return endTime;
 	}
 
+	/**
+	 * set arrival time
+	 * @param endTime
+	 */
 	public void setEndTime(String endTime) {
 		this.endTime = endTime;
 	}
 
+	/**
+	 * get flight duration
+	 * @return flight duration
+	 */
 	public int getDuration() {
 		return duration;
 	}
 
+	/**
+	 * set flight duration
+	 * @param duration
+	 */
 	public void setDuration(int duration) {
 		this.duration = duration;
 	}
 
+	/**
+	 * get the rank of this ticket, use to choose best offer
+	 * @return rank
+	 */
 	public int getRank() {
 		return rank;
 	}
 
+	public void setDirect(boolean isDirect) {
+		this.isDirect = isDirect;
+	}
+	/**
+	 * set rank to something
+	 * @param rank
+	 */
 	public void setRank(int rank) {
 		this.rank = rank;
 	}
 
-	public void setDirect(boolean direct) {
-		isDirect = direct;
-	}
-
+	/**
+	 * get airline name
+	 * @return airline name
+	 */
 	public String getAirline() {
 		return airline;
 	}
 
+	/**
+	 * set airline name
+	 * @param airline
+	 */
 	public void setAirline(String airline) {
 		this.airline = airline;
 	}
 
+	/**
+	 * get plane type
+	 * @return plane type
+	 */
 	public String getPlane() {
 		return plane;
 	}
 
+	/**
+	 * set plane type
+	 * @param plane
+	 */
 	public void setPlane(String plane) {
 		this.plane = plane;
 	}

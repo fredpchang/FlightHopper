@@ -7,11 +7,29 @@ public class DirectAnalyzer implements IFlightTicketService {
     List<IFlight> routesSelctions;
     FlightScraper scraper;
     List<String> userInput;
-    DirectAnalyzer() {
+
+
+    /**
+     * default constructor, init some fields
+     */
+    public DirectAnalyzer() {
         tripLinkedList = new TripLinkedList();
         routesSelctions = new ArrayList<>();
         scraper = new FlightScraper();
         userInput = new ArrayList<>();
+    }
+
+
+    /**
+     * take in userinput and set that to be userInput fields
+     * and also init some other fields
+     * @param userInput list of user input
+     */
+    public DirectAnalyzer(List<String> userInput) {
+        this.userInput = userInput;
+        tripLinkedList = generateList(this.userInput);
+        routesSelctions = new ArrayList<>();
+        scraper = new FlightScraper();
     }
 
 

@@ -3,7 +3,12 @@ package FlightHopper;
 public class TripLinkedList {
     private Airport startAirport;
     private int size;
-    TripLinkedList() {
+
+
+    /**
+     * constructor, init the list
+     */
+    public TripLinkedList() {
         size = 0;
         startAirport = null;
     }
@@ -30,6 +35,7 @@ public class TripLinkedList {
      * @return true if add successfully, false otherwise
      */
     public boolean add(String node) {
+
         if(this.contains(node)) return false;
         if(this.startAirport == null) {
             Airport newNode = new Airport(node);
@@ -44,8 +50,6 @@ public class TripLinkedList {
         cur.destination = new Airport(node);
         size++;
         return true;
-
-
     }
 
     /**
@@ -93,7 +97,6 @@ public class TripLinkedList {
         return false;
     }
 
-
     /**
      * get the airport on that index
      * if not in size range return null
@@ -123,5 +126,56 @@ public class TripLinkedList {
             cur = cur.destination;
         }
         return null;
+    }
+
+    /**
+     * get the root node
+     * @return root node
+     */
+    public Airport getStartAirport() {
+        return startAirport;
+    }
+
+    /**
+     * set root
+     * @param startAirport
+     */
+    public void setStartAirport(Airport startAirport) {
+        this.startAirport = startAirport;
+    }
+
+    /**
+     * get size of list
+     * @return
+     */
+    public int getSize() {
+        return size;
+    }
+
+    /**
+     * set size
+     * @param size
+     */
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    /**
+     * override equals method
+     * @param o
+     * @return
+     */
+    public boolean equals(Object o) {
+
+        TripLinkedList a = (TripLinkedList) o;
+        if(this.size != a.size) return false;
+        Airport cur1 = this.getStartAirport();
+        Airport cur2 = a.getStartAirport();
+        while(cur1 != null && cur2 != null) {
+            if(!cur1.equals(cur2)) return false;
+            cur1 = cur1.destination;
+            cur2 = cur2.destination;
+        }
+        return true;
     }
 }
