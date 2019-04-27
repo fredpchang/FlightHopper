@@ -9,19 +9,19 @@ import java.net.URL;
 
 //need to add jar file into build path
 //Select project ---> Build Path ---> Configure Build Path ---> Add ExternalJARs ---> json-simple-1.1.1.jar
-import java.io.FileReader; 
-import java.util.Iterator; 
-import java.util.Map; 
-import org.json.simple.JSONArray; 
-import org.json.simple.JSONObject; 
-import org.json.simple.parser.*; 
+import java.io.FileReader;
+import java.util.Iterator;
+import java.util.Map;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.*;
 
 
 public class FlightScraper {
     private Map<IFlight, List<IFlight>> cache;
     private int maxPrice = Integer.MAX_VALUE;
     private int maxDuration = Integer.MAX_VALUE;
-    
+
     /**
      * Run the python scraper at run time using parameters
      * @param startAirport start airport
@@ -29,9 +29,9 @@ public class FlightScraper {
      * @param date the date
      * @param flex flexibility
      * @return the list of tickets
-     * @throws ParseException 
-     * @throws IOException 
-     * @throws FileNotFoundException 
+     * @throws ParseException
+     * @throws IOException
+     * @throws FileNotFoundException
      */
     public List<IFlight> runScraper(String startAirport, String endAirport, String[] date) throws FileNotFoundException, IOException, ParseException {
 //    	List<IFlight> to_return = new LinkedList<IFlight>();
@@ -43,16 +43,16 @@ public class FlightScraper {
 //    	return to_return;
     	return null;
     }
-    
+
     /**
      * Run the scraper on one single day
      * @param startAirport
      * @param endAirport
      * @param date
      * @return List<IFlight>
-     * @throws ParseException 
-     * @throws IOException 
-     * @throws FileNotFoundException 
+     * @throws ParseException
+     * @throws IOException
+     * @throws FileNotFoundException
      */
     private List<IFlight> scraperPyHelper(String startAirport, String endAirport, String date) throws FileNotFoundException, IOException, ParseException {
     	Runtime rt = Runtime.getRuntime();
@@ -66,67 +66,67 @@ public class FlightScraper {
 		}
 //    	String filename= startAirport + "-" + endAirport + "-flight-results.json";
 //        return jsonParser(filename);
-    	
-    	
+
+
     	return null;
     }
-    
-    
-    
+
+
+
 
     /**
      * Given the filename, parse the json file into
      * a list of flights
      * @param fileName
      * @return
-     * @throws ParseException 
-     * @throws IOException 
-     * @throws FileNotFoundException 
+     * @throws ParseException
+     * @throws IOException
+     * @throws FileNotFoundException
      */
     List <IFlight> jsonParser(String fileName) throws FileNotFoundException, IOException, ParseException {
     //NOTE: removed "private" word above in order to test from FlightHopper.java class!!!
-    	
-    	
+
+
         //TODO - to be done by Fred
-    	
+
     	/* Set up Parser */
     	//Note: need to import ison-simple jar
     	JSONParser parser = new JSONParser();
     	JSONArray jsonArray =  (JSONArray) parser.parse(new FileReader(fileName));
 //    	System.out.println(jsonArray); //Note: enable to test print all content in jsonArray
-    	
-    	
+
+
     	/* Read each flight and save as IFlight object */
     	for (int i = 0 ; i < jsonArray.size() ; i++) {
     		JSONObject jo = (JSONObject) jsonArray.get(i);
-    		
+
     		//Number of Stops
     		String stops = (String) jo.get("stops");
-    		
+
     		//Ticket Price
     		String ticketPrice = (String) jo.get("ticket price");
-    		
+
     		//Departure City
     		String departure = (String) jo.get("departure");
     		departure = departure.substring(2);
-    		
+
     		//Arrival City
     		String arrival= (String) jo.get("arrival");
     		arrival = arrival.substring(2);
-    		
+
     		//Flight Duration
     		String flightDuration = (String) jo.get("flight duration");
-    		
+
     		//Airline
     		String airline = (String) jo.get("airline");
-    		
+
     		//Plane Type
     		String plane = (String) jo.get("plane");
-    		
+
     		//Detailed itinerary for flight
     		Object timings = jo.get("timings"); //need more work
     		JSONArray timingsArray = (JSONArray) timings;
-    		
+
     		/* Print all info to console */
     		System.out.println("---------------- Option " + i + " ----------------");
     		System.out.printf("[%s] ---> [%s] \n", departure, arrival);
@@ -144,12 +144,12 @@ public class FlightScraper {
     			System.out.println("");
     		}
     		System.out.println("\n \n");
-    		
-    		
-    		
+
+
+
     		/* Populate Flight objects */
-    		
-    		
+
+
     		//Common fields for both flight types
     		String startAirport = departure;
     		String endAirport = arrival;
@@ -160,35 +160,35 @@ public class FlightScraper {
     		int rank;
 //    		airline = airline; //airline is as-is
 //    		plane = plane; //plane is as-is
-    		
-    				
+
+
     		/* Determine if DirectFlight or NonDirectFlight */
     		if (stops.equals("Nonstop")) {
     			//initialize unique fields
     			boolean isDirect = true;
-    			
-    			
+
+
     			//Create DirectFlight object
     			IFlight f = new DirectFlight();
     		}
     		else {
     			boolean isDirect = false;
-    			
+
     			//Create NonDirectFlight object
     			IFlight f = new NonDirectFlight();
     		}
 
     	}
-    	
-    	
-    	return null;	
-    	
-    	
-    	
-    	
-    	
+
+
+    	return null;
+
+
+
+
+
     }
-    
+
     /**
      * given the list of tickets, filter with max price and max duration,
      * and return the result list
