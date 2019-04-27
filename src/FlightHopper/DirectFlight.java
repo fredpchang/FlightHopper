@@ -1,5 +1,6 @@
 package FlightHopper;
 
+
 public class DirectFlight implements IFlight {
 
 	Airport startAirport;
@@ -37,6 +38,19 @@ public class DirectFlight implements IFlight {
 	public boolean isDirect() {
 		return true;
 	}
+
+
+	@Override
+	public boolean equals(Object o) {
+		NonDirectFlight a = (NonDirectFlight) o;
+		return this.startAirport.getName().equals(a.startAirport.getName())
+				&& this.endAirport.getName().equals(a.endAirport.getName())
+				&& this.startTime.equals(a.startTime)
+				&& this.endTime.equals(a.endTime)
+				&& this.price == a.price
+				&& this.airline.equals(a.airline);
+	}
+
 
 	/**
 	 * get start airport
