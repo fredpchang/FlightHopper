@@ -20,22 +20,22 @@ public class FlightFreqTableTest {
 	@Test
 	
 	public void getTopAirportListTest() {
-		startAirport = "PHL";
+		startAirport = "Philadelphia";
 		
 		airportP1 = new AirportPair();
 				
 		airportP1.setStartAirport(startAirport);
-		airportP1.setEndAirport("LAX");
+		airportP1.setEndAirport("Los Angeles");
 		airportP1.setFrequency(100);
 		
 		
 		airportP2 = new AirportPair();
 		airportP2.setStartAirport(startAirport);
-		airportP2.setEndAirport("JFK");
+		airportP2.setEndAirport("New York");
 		airportP2.setFrequency(88);
 		
 		airportP3.setStartAirport(startAirport);
-		airportP3.setEndAirport("SFO");
+		airportP3.setEndAirport("San Franciso");
 		airportP3.setFrequency(70);
 
 		topPlacesList.add(airportP1);
@@ -46,17 +46,17 @@ public class FlightFreqTableTest {
 		a1 = new AirportPair();
 		
 		a1.setStartAirport(startAirport);
-		a1.setEndAirport("LAX");
+		a1.setEndAirport("Los Angeles");
 		a1.setFrequency(100);
 		
 		
 		a2  = new AirportPair();
 		a2.setStartAirport(startAirport);
-		a2.setEndAirport("JFK");
+		a2.setEndAirport("New York");
 		a2.setFrequency(88);
 		
 		a3.setStartAirport(startAirport);
-		a3.setEndAirport("SFO");
+		a3.setEndAirport("San Francisco");
 		a3.setFrequency(70);
 
 		List<AirportPair> testList;
@@ -76,22 +76,22 @@ public class FlightFreqTableTest {
 		PriorityQueue<AirportPair> pQueue = new PriorityQueue<AirportPair>();
 		Map<String, PriorityQueue> freqMap = new HashMap<String, pQueue>();
 		
-		startAirport = "PHL";
+		startAirport = "Philadelphia";
 		
 		airportP1 = new AirportPair();
 				
 		airportP1.setStartAirport(startAirport);
-		airportP1.setEndAirport("LAX");
+		airportP1.setEndAirport("Los Angeles");
 		airportP1.setFrequency(100);
 		
 		
 		airportP2  = new AirportPair();
 		airportP2.setStartAirport(startAirport);
-		airportP2.setEndAirport("JFK");
+		airportP2.setEndAirport("New York");
 		airportP2.setFrequency(88);
 		
 		airportP3.setStartAirport(startAirport);
-		airportP3.setEndAirport("SFO");
+		airportP3.setEndAirport("San Franciso");
 		airportP3.setFrequency(70);
 
 		pQueue.add(airportP1);
