@@ -22,6 +22,9 @@ public interface IFlight {
 	 * @return true if direct, false if not
 	 */
 	public boolean isDirect();
+
+	@Override
+	public boolean equals(Object o);
 	
 	
 

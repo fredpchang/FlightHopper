@@ -1,5 +1,6 @@
 package FlightHopper;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Airport {
@@ -12,9 +13,15 @@ public class Airport {
 	 *  Constructor
 	 */
 	public Airport() {
+		tickets = new ArrayList<IFlight>();
+		this.destination = null;
 	
 	}
-
+	public Airport(String name) {
+		this.name = name;
+		this.tickets = new ArrayList<>();
+		this.destination = null;
+	}
 
 	/**
 	 * get name
