@@ -1,6 +1,9 @@
 package FlightHopper;
 
+import java.io.IOException;
 import java.util.*;
+
+import org.json.simple.parser.ParseException;
 
 public class FlightHopper {
     public int queryType;
@@ -9,6 +12,16 @@ public class FlightHopper {
 //    Map<String, Airport> airports = new HashMap<>();
 
     public static void main(String[] args) {
+
+    	FlightScraper fs = new FlightScraper();
+    	
+    	try {
+			fs.jsonParser("files/jsonFlights/phl-sfo-flight-results.json");
+		} catch (IOException | ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
         System.out.println("Welcome to Flight Hopper!");
         Scanner scanner = new Scanner(System.in);
         FlightHopper flightHopper = new FlightHopper();
@@ -88,5 +101,6 @@ public class FlightHopper {
             }
         }
         System.out.println("Thanks for using Flight Hopper.");
+
     }
 }

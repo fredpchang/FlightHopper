@@ -13,6 +13,34 @@ public class DirectFlight implements IFlight {
 	boolean isDirect;
 	String airline;
 	String plane;
+	
+	public DirectFlight() {
+		
+	}
+	
+	public DirectFlight(Airport startAirport, 
+						Airport endAirport,
+						double price,
+						String startTime,
+						String endTime,
+						int duration,
+						int rank,
+						boolean isDirect,
+						String airline,
+						String plane
+						) {
+		
+		this.startAirport = startAirport;
+		this.endAirport = endAirport;
+		this.price = price;
+		this.startTime = startTime;
+		this.endTime = endTime;
+		this.duration = duration;
+		this.rank = rank;
+		this.isDirect = isDirect;
+		this.airline = airline;
+		this.plane = plane;
+	}
 
 	/**
 	 * Check if two flight are valid together.
