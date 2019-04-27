@@ -1,7 +1,9 @@
 package FlightHopper;
 
 import com.sun.deploy.util.StringUtils;
+import org.json.simple.parser.ParseException;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -152,7 +154,14 @@ public class MulticityAnalyzer implements IFlightTicketService {
      */
     @Override
     public List<IFlight> getTickets(String startAirport, String endAirport, String date) {
-        return this.scraper.runScraper(startAirport, endAirport, date, 0);
+        try {
+            return this.scraper.runScraper(startAirport, endAirport, date, 0);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
 }

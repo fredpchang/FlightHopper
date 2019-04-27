@@ -33,12 +33,12 @@ public class FlightScraper {
      * @throws IOException
      * @throws FileNotFoundException
      */
-    public List<IFlight> runScraper(String startAirport, String endAirport, String[] date) throws FileNotFoundException, IOException, ParseException {
+    public List<IFlight> runScraper(String startAirport, String endAirport, String date, int flex) throws FileNotFoundException, IOException, ParseException {
 //    	List<IFlight> to_return = new LinkedList<IFlight>();
 //    	for (int i = 0; i < date.length; i++) {
 //    		to_return.addAll(scraperPyHelper(startAirport, endAirport, date[i]));
 //    	}
-    	scraperPyHelper(startAirport, endAirport, date[0]);
+    	scraperPyHelper(startAirport, endAirport, date);
     	// expedia.py nyc mia 04/30/2019
 //    	return to_return;
     	return null;
@@ -54,22 +54,40 @@ public class FlightScraper {
      * @throws IOException
      * @throws FileNotFoundException
      */
-    private List<IFlight> scraperPyHelper(String startAirport, String endAirport, String date) throws FileNotFoundException, IOException, ParseException {
-    	Runtime rt = Runtime.getRuntime();
+    private List<IFlight> scraperPyHelper(String startAirport, String endAirport, String date) {
+		String pythonPath = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3";
+
+		Runtime rt = Runtime.getRuntime();
     	try {
-    		String command = "python Desktop/expedia.py" + startAirport + " " +  endAirport + " " + date;
-			rt.exec(command);
+//    		String command = pythonPath + " expedia.py " + startAirport + " " +  endAirport + " " + date;
+			String command = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3 expedia.py tpe sfo 05/29/2019";
+			System.out.println(command);
+    		Process p = rt.exec(command);
+    		p.waitFor();
+
 			System.out.println("finish");
-		} catch (IOException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 //    	String filename= startAirport + "-" + endAirport + "-flight-results.json";
 //        return jsonParser(filename);
+				String file = "/Users/chezhenhao/Desktop/UPenn-courses/CIT594/proj/flight/expedia.py";
 
+//		try {
+//
+//			ProcessBuilder pb = new ProcessBuilder(pythonPath + "/" + "python3","expedia.py sfo phl 05/15/2019");
+//
+//			Process p = pb.start();
+//			p.waitFor();
+//			System.out.println("here");
+//		}
+//		catch(Exception e) {
+//					System.out.println("Python error");
+//		}
 
-    	return null;
-    }
+			return null;
+		}
 
 
 
@@ -197,7 +215,7 @@ public class FlightScraper {
      * @param rawData
      * @return
      */
-    private List <IFlight> paramFilter(int maxPrice, int maxDuration, List<IFlight> rawData) {
+    public List <IFlight> paramFilter(int maxPrice, int maxDuration, List<IFlight> rawData) {
     	List <IFlight> to_delete = new LinkedList<IFlight>();
     	for (int i = 0; i < rawData.size(); i++) {
     		if (rawData.get(i) instanceof DirectFlight) {
