@@ -21,8 +21,8 @@ public class FlightScraperTest {
 	FlightScraper s;
 	List<IFlight> list;
 	
-	String startAirport = "PHL";
-	String endAirport = "LAX";
+	String startAirport = "Philadelphia";
+	String endAirport = "Los Angeles";
 	String date = "201905151800"; //format: yyyymmddhhmm
 	int flex = 1;
 	
@@ -37,16 +37,16 @@ public class FlightScraperTest {
 		list = new LinkedList<IFlight>();
 		
 		phl = new Airport();
-		phl.setName("PHL");
+		phl.setName("Philadelphia");
 		phl.setDestination(sfo);
 		
 		lax = new Airport();
-		lax.setName("lax");
+		lax.setName("Los Angeles");
 		lax.setDestination(sfo);
 		
 		
 		sfo = new Airport();
-		sfo.setName("SFO");
+		sfo.setName("San Francisco");
 	
 	}
 	

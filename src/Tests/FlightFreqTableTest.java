@@ -55,11 +55,12 @@ public class FlightFreqTableTest {
 		a2.setEndAirport("New York");
 		a2.setFrequency(88);
 		
+		a3 = new AirportPair();
 		a3.setStartAirport(startAirport);
 		a3.setEndAirport("San Francisco");
 		a3.setFrequency(70);
 
-		List<AirportPair> testList;
+		List<AirportPair> testList = new ArrayList<>();
 		
 		testList.add(a1);
 		testList.add(a2);
@@ -74,7 +75,7 @@ public class FlightFreqTableTest {
 	
 	public void getFreqTableTest() {
 		PriorityQueue<AirportPair> pQueue = new PriorityQueue<AirportPair>();
-		Map<String, PriorityQueue> freqMap = new HashMap<String, pQueue>();
+		Map<String, PriorityQueue<AirportPair>> freqMap = new HashMap<>();
 		
 		startAirport = "Philadelphia";
 		

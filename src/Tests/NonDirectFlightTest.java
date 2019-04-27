@@ -23,10 +23,10 @@ public class NonDirectFlightTest {
 	@Before
 	public void setUp() {
 		//Set up airports
-		phl.setName("PHL");
-		lax.setName("LAX");
-		sfo.setName("SFO");
-		sea.setName("SEA");
+		phl.setName("Philadelphia");
+		lax.setName("Los Angeles");
+		sfo.setName("San Francisco");
+		sea.setName("Seattle");
 		
 		//Set up flights start and end PHL-LAX-SFO-SEA
 		f1.setStartAirport(phl);
@@ -102,7 +102,7 @@ public class NonDirectFlightTest {
 	@Test
 	public void startAirportTest() {
 		
-		assertEquals("PHL", f1.getStartAirport());
+		assertEquals("Philadelphia", f1.getStartAirport());
 	}
 	
 	@Test

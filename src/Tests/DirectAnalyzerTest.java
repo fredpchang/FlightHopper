@@ -20,22 +20,22 @@ public class DirectAnalyzerTest {
 		userInputTwo = new ArrayList<>();
 		userInputMul = new ArrayList<>();
 		lax = new Airport(); sfo = new Airport(); sea = new Airport();
-		lax.setName("LAX");
-		sfo.setName("SFO");
-		sea.setName("SEA");
-		userInputTwo.add("LAX");
-		userInputTwo.add("SFO");
+		lax.setName("Los Angeles");
+		sfo.setName("San Francisco");
+		sea.setName("Seattle");
+		userInputTwo.add("Los Angeles");
+		userInputTwo.add("San Francisco");
 		userInputTwo.add("05/15/2019");
 		userInputTwo.add("0");
 		userInputTwo.add("500");
 		userInputTwo.add("10");
 
 		userInputMul.add("05/15/2019");
-		userInputMul.add("LAX");
+		userInputMul.add("Los Angeles");
 		userInputMul.add("0");
-		userInputMul.add("SFO");
+		userInputMul.add("San Francisco");
 		userInputMul.add("2");
-		userInputMul.add("SEA");
+		userInputMul.add("Seattle");
 
 		f1 = new DirectFlight();
 		f1.setDuration(3);
@@ -68,8 +68,8 @@ public class DirectAnalyzerTest {
 		DirectAnalyzer d = new DirectAnalyzer(userInputTwo);
 		assertEquals(l, d.getOptimalRoutesOfTwoCities(userInputTwo));
 		List<String> testInput = new ArrayList<>();
-		testInput.add("LAX");
-		testInput.add("SFO");
+		testInput.add("Los Angeles");
+		testInput.add("San Francisco");
 		testInput.add("05/15/2019");
 		testInput.add("0");
 		testInput.add("0");
@@ -82,8 +82,8 @@ public class DirectAnalyzerTest {
 		l1.add(f4);
 		assertEquals(l1, d.getOptimalRoutesOfTwoCities(testInput));
 		List<String> testInput1 = new ArrayList<>();
-		testInput1.add("LAX");
-		testInput1.add("SFO");
+		testInput1.add("Los Angeles");
+		testInput1.add("San Francisco");
 		testInput1.add("05/15/2019");
 		testInput1.add("0");
 		testInput1.add("500");
@@ -96,8 +96,8 @@ public class DirectAnalyzerTest {
 		assertEquals(l2, d.getOptimalRoutesOfTwoCities(testInput1));
 
 		List<String> testInput2 = new ArrayList<>();
-		testInput2.add("LAX");
-		testInput2.add("SFO");
+		testInput2.add("Los Angeles");
+		testInput2.add("San Francisco");
 		testInput2.add("05/15/2019");
 		testInput2.add("0");
 		testInput2.add("0");
@@ -119,10 +119,10 @@ public class DirectAnalyzerTest {
 		assertNull(d.generateList(new ArrayList<>()));
 		// not enough required fields
 		List<String> testInput = new ArrayList<>();
-		testInput.add("LAX");
+		testInput.add("Los Angeles");
 		assertNull(d.generateList(testInput));
 		myTLL.setStartAirport(lax);
-		myTLL.add("SFO");
+		myTLL.add("San Francisco");
 		// normal
 		TripLinkedList re = d.generateList(userInputTwo);
 		assertEquals(myTLL.getRoot(), re.getRoot());
@@ -170,7 +170,7 @@ public class DirectAnalyzerTest {
 		l.add(f3);
 		l.add(f4);
 		DirectAnalyzer d = new DirectAnalyzer();
-		assertEquals(l, d.getTickets("LAX", "SFO", "05/15/2019"));
+		assertEquals(l, d.getTickets("Los Angeles", "San Francisco", "05/15/2019"));
 	}
 
 	

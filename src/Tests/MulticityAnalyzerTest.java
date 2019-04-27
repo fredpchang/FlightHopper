@@ -19,16 +19,16 @@ public class MulticityAnalyzerTest {
 	public void setUp() throws Exception {
 		userInputMul = new ArrayList<>();
 		lax = new Airport(); sfo = new Airport(); sea = new Airport();
-		lax.setName("LAX");
-		sfo.setName("SFO");
-		sea.setName("SEA");
+		lax.setName("Los Angeles");
+		sfo.setName("San Francisco");
+		sea.setName("Seattle");
 
 		userInputMul.add("05/15/2019");
-		userInputMul.add("LAX");
+		userInputMul.add("Los Angeles");
 		userInputMul.add("0");
-		userInputMul.add("SFO");
+		userInputMul.add("San Francisco");
 		userInputMul.add("2");
-		userInputMul.add("SEA");
+		userInputMul.add("Seattle");
 
 		f1 = new DirectFlight();
 		f1.setDuration(3);
@@ -73,30 +73,30 @@ public class MulticityAnalyzerTest {
 
 		List<String> userInputMul1 = new ArrayList<>();
 		userInputMul1.add("05/15/2019");
-		userInputMul1.add("LAX");
+		userInputMul1.add("Los Angeles");
 		userInputMul1.add("0");
-		userInputMul1.add("SFO");
+		userInputMul1.add("San Francisco");
 		userInputMul1.add("2");
 		// no end airport
 		assertNull(m.getOptimalRoutesOfMultiCities(userInputMul1));
 
 		List<String> userInputMul2 = new ArrayList<>();
 //		userInputMul2.add("05/15/2019");
-		userInputMul2.add("LAX");
+		userInputMul2.add("Los Angeles");
 		userInputMul2.add("0");
-		userInputMul2.add("SFO");
+		userInputMul2.add("San Francisco");
 		userInputMul2.add("2");
-		userInputMul2.add("SEA");
+		userInputMul2.add("Seattle");
 		// no start date
 		assertNull(m.getOptimalRoutesOfMultiCities(userInputMul2));
 
 		List<String> userInputMul3 = new ArrayList<>();
 		userInputMul3.add("05/15/2019");
-		userInputMul3.add("LAX");
+		userInputMul3.add("Los Angeles");
 		userInputMul3.add("0");
-		userInputMul3.add("SFO");
+		userInputMul3.add("San Francisco");
 //		userInputMul3.add("2");
-		userInputMul3.add("SEA");
+		userInputMul3.add("Seattle");
 		// no stay time during for city in the middle
 		assertNull(m.getOptimalRoutesOfMultiCities(userInputMul3));
 
@@ -163,16 +163,16 @@ public class MulticityAnalyzerTest {
 	@Test
 	public void getTicketsTest() {
 		List<String> userInput = new LinkedList<String>();
-		userInput.add("LAX");
-		userInput.add("SFO");
-		userInput.add("JFK");
+		userInput.add("Los Angeles");
+		userInput.add("San Francisco");
+		userInput.add("New York");
 		List<IFlight> l = new LinkedList<IFlight>();
 		IFlight f1 = new DirectFlight();
 		IFlight f2 = new DirectFlight();
 		l.add(f1);
 		l.add(f2);
 		MulticityAnalyzer m = new MulticityAnalyzer(userInput);
-		assertEquals(l, m.getTickets("LAX", "SFO", "20190422"));
+		assertEquals(l, m.getTickets("Los Angeles", "San Francisco", "20190422"));
 	}
 
 }
