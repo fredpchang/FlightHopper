@@ -21,7 +21,7 @@ public class FlightScraper {
     private Map<IFlight, List<IFlight>> cache;
     private int maxPrice = Integer.MAX_VALUE;
     private int maxDuration = Integer.MAX_VALUE;
-
+    
     /**
      * Run the python scraper at run time using parameters
      * @param startAirport start airport
@@ -29,21 +29,50 @@ public class FlightScraper {
      * @param date the date
      * @param flex flexibility
      * @return the list of tickets
+     * @throws ParseException 
+     * @throws IOException 
+     * @throws FileNotFoundException 
      */
-    public List<IFlight> runScraper(String startAirport, String endAirport, String date, int flex) {
-        return null;
+    public List<IFlight> runScraper(String startAirport, String endAirport, String[] date) throws FileNotFoundException, IOException, ParseException {
+//    	List<IFlight> to_return = new LinkedList<IFlight>();
+//    	for (int i = 0; i < date.length; i++) {
+//    		to_return.addAll(scraperPyHelper(startAirport, endAirport, date[i]));
+//    	}
+    	scraperPyHelper(startAirport, endAirport, date[0]);
+    	// expedia.py nyc mia 04/30/2019
+//    	return to_return;
+    	return null;
     }
-
+    
     /**
      * Run the scraper on one single day
      * @param startAirport
      * @param endAirport
      * @param date
-     * @return
+     * @return List<IFlight>
+     * @throws ParseException 
+     * @throws IOException 
+     * @throws FileNotFoundException 
      */
-    private List<IFlight> scraperPyHelper(String startAirport, String endAirport, String date) {
-        return null;
+    private List<IFlight> scraperPyHelper(String startAirport, String endAirport, String date) throws FileNotFoundException, IOException, ParseException {
+    	Runtime rt = Runtime.getRuntime();
+    	try {
+    		String command = "python Desktop/expedia.py" + startAirport + " " +  endAirport + " " + date;
+			rt.exec(command);
+			System.out.println("finish");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+//    	String filename= startAirport + "-" + endAirport + "-flight-results.json";
+//        return jsonParser(filename);
+    	
+    	
+    	return null;
     }
+    
+    
+    
 
     /**
      * Given the filename, parse the json file into
@@ -97,7 +126,6 @@ public class FlightScraper {
     		//Detailed itinerary for flight
     		Object timings = jo.get("timings"); //need more work
     		JSONArray timingsArray = (JSONArray) timings;
-    		
     		
     		/* Print all info to console */
     		System.out.println("---------------- Option " + i + " ----------------");
@@ -160,7 +188,7 @@ public class FlightScraper {
     	
     	
     }
-
+    
     /**
      * given the list of tickets, filter with max price and max duration,
      * and return the result list
@@ -170,7 +198,21 @@ public class FlightScraper {
      * @return
      */
     private List <IFlight> paramFilter(int maxPrice, int maxDuration, List<IFlight> rawData) {
-        return null;
+    	List <IFlight> to_delete = new LinkedList<IFlight>();
+    	for (int i = 0; i < rawData.size(); i++) {
+    		if (rawData.get(i) instanceof DirectFlight) {
+    			if ( ((DirectFlight)rawData.get(i)).getPrice() > maxPrice || ((DirectFlight)rawData.get(i)).getDuration() > maxDuration ) {
+    				to_delete.add(rawData.get(i));
+    			}
+    		}
+    		else if (rawData.get(i) instanceof NonDirectFlight) {
+    			if ( ((NonDirectFlight)rawData.get(i)).getPrice() > maxPrice || ((NonDirectFlight)rawData.get(i)).getDuration() > maxDuration ) {
+    				to_delete.add(rawData.get(i));
+    			}
+    		}
+    	}
+    	rawData.removeAll(to_delete);
+        return rawData;
     }
 
     /**
