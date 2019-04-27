@@ -4,9 +4,10 @@ import java.util.*;
 
 public class DirectAnalyzer implements IFlightTicketService {
     TripLinkedList tripLinkedList;
-    List<List<IFlight>> routesSelctions;
+    List<IFlight> routesSelctions;
     FlightScraper scraper;
     List<String> userInput;
+
 
     /**
      * default constructor, init some fields
@@ -17,6 +18,7 @@ public class DirectAnalyzer implements IFlightTicketService {
         scraper = new FlightScraper();
         userInput = new ArrayList<>();
     }
+
 
     /**
      * take in userinput and set that to be userInput fields
@@ -30,6 +32,7 @@ public class DirectAnalyzer implements IFlightTicketService {
         scraper = new FlightScraper();
     }
 
+
     /***
      * The overall function, given the user input and give you
      * the overall List of tickets to choose from
@@ -39,7 +42,14 @@ public class DirectAnalyzer implements IFlightTicketService {
      * @return the collection of ticket that satisfy the condition
      */
     public List<IFlight> getOptimalRoutesOfTwoCities(List<String> userInput) {
-        return null;
+        Set<IFlight> re = new HashSet<IFlight>();
+        double priceWeight = 0;
+        for(int i = 0; i < 4; i++) {
+            re.addAll(this.getRoute(userInput, priceWeight));
+            priceWeight += 0.25;
+        }
+        this.routesSelctions.addAll(re);
+        return routesSelctions;
     }
 
     /***
@@ -52,6 +62,21 @@ public class DirectAnalyzer implements IFlightTicketService {
      */
     @Override
     public TripLinkedList generateList(List<String> userInput) {
+        String startAirport = userInput.get(0), endAirport = userInput.get(1),
+                date = userInput.get(2), flexibility = userInput.get(3);
+        int maxPrice = Integer.valueOf(userInput.get(4))
+                , maxDuration = Integer.valueOf(userInput.get(5));
+        if(maxPrice == -1) maxPrice = Integer.MAX_VALUE;
+        if(maxDuration == -1) maxDuration = Integer.MAX_VALUE;
+        int flex = Integer.valueOf(flexibility);
+        Set<IFlight> re = new HashSet<IFlight>();
+        double priceWeight = 0;
+        for(int i = 0; i < 4; i++) {
+            re.addAll(this.getRoute(userInput, priceWeight));
+            priceWeight += 0.25;
+        }
+        //TODO finish this graph, even though it's trivial
+
         return null;
     }
     /***
@@ -65,7 +90,24 @@ public class DirectAnalyzer implements IFlightTicketService {
      */
     @Override
     public List<IFlight> getRoute(List<String> userInput, double priceWeight) {
-        return null;
+        String startAirport = userInput.get(0), endAirport = userInput.get(1),
+                date = userInput.get(2), flexibility = userInput.get(3);
+        int maxPrice = Integer.valueOf(userInput.get(4))
+                , maxDuration = Integer.valueOf(userInput.get(5));
+        if(maxPrice == -1) maxPrice = Integer.MAX_VALUE;
+        if(maxDuration == -1) maxDuration = Integer.MAX_VALUE;
+        int flex = Integer.valueOf(flexibility);
+
+        List<IFlight> tickets = this.getTickets(startAirport, endAirport, date, flexibility,
+                maxPrice, maxDuration);
+        tickets.sort((IFlight a, IFlight b) -> {
+            return a.getFlightRank(priceWeight) - b.getFlightRank(priceWeight);
+        });
+        List<IFlight> result = new ArrayList<IFlight>();
+        for(int i = 0; i < 5; i++) {
+            result.add(tickets.get(i));
+        }
+        return result;
     }
     /***
      * Run scarper using start, end and date, to get the json file
@@ -77,7 +119,8 @@ public class DirectAnalyzer implements IFlightTicketService {
      */
     @Override
     public List<IFlight> getTickets(String startAirport, String endAirport, String date) {
-        return null;
+
+        return this.scraper.runScraper(startAirport, endAirport, date, 0);
     }
 
     /***
@@ -92,7 +135,10 @@ public class DirectAnalyzer implements IFlightTicketService {
      */
     private List<IFlight> getTickets(String startAirport, String endAirport, String date,
                                      String flexibility, int maxPrice, int maxFlightTime) {
-        return null;
+        int flex = Integer.valueOf(flexibility);
+        List<IFlight> rawData = this.getTickets(startAirport, endAirport, date);
+        List<IFlight> filtered = this.scraper.paramFilter(maxPrice, maxFlightTime, rawData);
+        return filtered;
     }
 
     /***
@@ -103,6 +149,21 @@ public class DirectAnalyzer implements IFlightTicketService {
      * @return return true if satisfy both, return false otherwise
      */
     private boolean checkValid(IFlight f, int maxFlightTime, int price) {
-        return false;
+        if(f.isDirect()) {
+            DirectFlight df = (DirectFlight) f;
+            return df.getDuration() <= maxFlightTime && df.getPrice() <= price;
+        }
+        else {
+            NonDirectFlight ndf = (NonDirectFlight) f;
+            return ndf.getDuration() <= maxFlightTime && ndf.getPrice() <= price;
+        }
+    }
+
+    public List<String> getUserInput() {
+        return userInput;
+    }
+
+    public void setUserInput(List<String> userInput) {
+        this.userInput = userInput;
     }
 }
