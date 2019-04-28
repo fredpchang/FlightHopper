@@ -20,7 +20,7 @@ public class NonDirectFlightTest {
 
 	@Before
 	public void setUp() {
-		
+
 		//Initialize airports
 		f1 = new NonDirectFlight();
 		f2 = new NonDirectFlight();
@@ -78,9 +78,9 @@ public class NonDirectFlightTest {
 		flight2.setEndTime("20190515");
 		flight1.getStartTime();
 		flight1.getEndTime();
-		
+
 		assertTrue(flight1.checkValid(flight2));
-		
+
 	}
 
 	@Test
@@ -93,9 +93,9 @@ public class NonDirectFlightTest {
 
 		//rank formula = (priceInDollar * priceWeight + flightDuration*50*(1-priceWeight)) * 100
 		int expRank = (int) (price * priceWeight + duration*50*(1-priceWeight)) * 100;
-		
+
 		assertEquals(expRank, flight.getRank());
-		
+
 		flight.getFlightRank(priceWeight);
 
 	}
@@ -120,7 +120,7 @@ public class NonDirectFlightTest {
 		assertEquals(80, output);
 
 	}
-	
+
 	@Test
 	public void routingTest() {
 		ArrayList<String> routing = new ArrayList();
@@ -130,7 +130,7 @@ public class NonDirectFlightTest {
 		f1.setRouting(routing);
 		assertEquals(routing, f1.getRouting());
 	}
-	
+
 	@Test
 	public void flightDurationTest() {
 		f1.setFlightDuration("0 days 5 hours 32 minutes");
@@ -164,15 +164,15 @@ public class NonDirectFlightTest {
 	public void stopsTest() {
 		assertEquals(3, f2.getStops());
 	}
-	
+
 	@Test
 	public void equalsTest() {
 		assertTrue(!f1.equals(f2));
 	}
-	
+
 	@Test
 	public void constructorTestAndPrintTest() {
-		
+
 		String startAirport = "LAX";
 		String endAirport = "SFO";
 		double price = 500;
@@ -188,7 +188,7 @@ public class NonDirectFlightTest {
 		boolean isDirect = false;
 		String airline = "United";
 		String plane = "Being 737 Max";
-		
+
 		NonDirectFlight f = new NonDirectFlight(
 												startAirport,
 												endAirport,
@@ -204,11 +204,11 @@ public class NonDirectFlightTest {
 												airline,
 												plane
 											);
-		
+
 		//Test printflight
 		f.printFlight();
 		f.toString();
-		
+
 		assertEquals(airline, f.getAirline());
 	}
 
