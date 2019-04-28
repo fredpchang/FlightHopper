@@ -5,9 +5,6 @@ public class AirportPair {
     private String endAirport;
     private int frequency;
 
-    /**
-     * Default constructor: initialize some fields
-     */
     public AirportPair() {
     	startAirport = null;
     	frequency = -1;
@@ -22,7 +19,7 @@ public class AirportPair {
 
     /**
      * set start airport
-     * @param startAirport the name of start airport
+     * @param startAirport
      */
     public void setStartAirport(String startAirport) {
         this.startAirport = startAirport;
@@ -38,7 +35,7 @@ public class AirportPair {
 
     /**
      * set end airport
-     * @param endAirport name of the end/destination airport
+     * @param endAirport
      */
     public void setEndAirport(String endAirport) {
         this.endAirport = endAirport;
@@ -54,7 +51,7 @@ public class AirportPair {
 
     /**
      * set frequency number
-     * @param frequency the frequency number
+     * @param frequency
      */
     public void setFrequency(int frequency) {
         this.frequency = frequency;

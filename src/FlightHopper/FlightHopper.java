@@ -38,6 +38,7 @@ public class FlightHopper {
         FlightHopper flightHopper = new FlightHopper();
         IFlightTicketService twoCity = new DirectAnalyzer();
         IFlightTicketService mulCity = new MulticityAnalyzer();
+        FlightFreqTable freqTable = new FlightFreqTable();
         while(1==1) {
             System.out.println("1. I want to find flights between two cities!");
             System.out.println("2. I want to generate an itinerary for multiple cities");
@@ -55,7 +56,9 @@ public class FlightHopper {
 //                String input;
                 System.out.println("Welcome to direct ticket search engine!");
                 System.out.println("Please enter the start airport");
-                userInput.add(scanner.nextLine());
+                String input = scanner.nextLine();
+                userInput.add(input);
+//                System.out.println(freqTable.getTop(input));
                 System.out.println("Please enter the end airport");
                 userInput.add(scanner.nextLine());
                 System.out.println("Please enter the day you want to travel, format is xx/xx/20xx");
