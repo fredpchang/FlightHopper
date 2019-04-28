@@ -3,8 +3,8 @@ package FlightHopper;
 
 public class DirectFlight implements IFlight {
 
-	Airport startAirport;
-	Airport endAirport;
+	String startAirport;
+	String endAirport;
 	double price;
 	String startTime; //format: yyyymmddhhmm
 	String endTime; //format: yyyymmddhhmm
@@ -18,13 +18,12 @@ public class DirectFlight implements IFlight {
 		
 	}
 	
-	public DirectFlight(Airport startAirport, 
-						Airport endAirport,
+	public DirectFlight(String startAirport,
+						String endAirport,
 						double price,
 						String startTime,
 						String endTime,
 						int duration,
-						int rank,
 						boolean isDirect,
 						String airline,
 						String plane
@@ -36,7 +35,6 @@ public class DirectFlight implements IFlight {
 		this.startTime = startTime;
 		this.endTime = endTime;
 		this.duration = duration;
-		this.rank = rank;
 		this.isDirect = isDirect;
 		this.airline = airline;
 		this.plane = plane;
@@ -56,9 +54,12 @@ public class DirectFlight implements IFlight {
 	 * @param priceWeight how much price contribute to rank
 	 * @return
 	 */
-	public int getFlightRank(double priceWeight) {
-		return 0;
-	}
+	@Override
+    public int getFlightRank(double priceWeight) {
+        this.rank = (int) (100 * (this.getPrice()*priceWeight +
+                this.getDuration()*50*(1-priceWeight)));
+        return this.rank;
+    }
 	/**
 	 * Check if this is a direct flight with no stops
 	 * @return true if direct, false if not
@@ -70,13 +71,26 @@ public class DirectFlight implements IFlight {
 
 	@Override
 	public boolean equals(Object o) {
-		NonDirectFlight a = (NonDirectFlight) o;
-		return this.startAirport.getName().equals(a.startAirport.getName())
-				&& this.endAirport.getName().equals(a.endAirport.getName())
-				&& this.startTime.equals(a.startTime)
-				&& this.endTime.equals(a.endTime)
-				&& this.price == a.price
-				&& this.airline.equals(a.airline);
+		if(o instanceof DirectFlight) {
+			DirectFlight a = (DirectFlight) o;
+			return this.startAirport.equals(a.startAirport)
+					&& this.endAirport.equals(a.endAirport)
+					&& this.startTime.equals(a.startTime)
+					&& this.endTime.equals(a.endTime)
+					&& this.price == a.price
+					&& this.airline.equals(a.airline)
+					&& this.plane.equals(a.plane)
+					&& this.duration == a.duration;
+		}
+		else {
+			NonDirectFlight a = (NonDirectFlight) o;
+			return this.startAirport.equals(a.startAirport)
+					&& this.endAirport.equals(a.endAirport)
+					&& this.startTime.equals(a.startTime)
+					&& this.endTime.equals(a.endTime)
+					&& this.price == a.price
+					&& this.airline.equals(a.airline);
+		}
 	}
 
 
@@ -84,7 +98,7 @@ public class DirectFlight implements IFlight {
 	 * get start airport
 	 * @return start airport
 	 */
-	public Airport getStartAirport() {
+	public String getStartAirport() {
 		return startAirport;
 	}
 
@@ -92,7 +106,7 @@ public class DirectFlight implements IFlight {
 	 * set start airport to some value
 	 * @param startAirport
 	 */
-	public void setStartAirport(Airport startAirport) {
+	public void setStartAirport(String startAirport) {
 		this.startAirport = startAirport;
 	}
 
@@ -100,7 +114,7 @@ public class DirectFlight implements IFlight {
 	 * get end airport
 	 * @return end airport
 	 */
-	public Airport getEndAirport() {
+	public String getEndAirport() {
 		return endAirport;
 	}
 
@@ -108,7 +122,7 @@ public class DirectFlight implements IFlight {
 	 * set end airport
 	 * @param endAirport
 	 */
-	public void setEndAirport(Airport endAirport) {
+	public void setEndAirport(String endAirport) {
 		this.endAirport = endAirport;
 	}
 
@@ -225,5 +239,18 @@ public class DirectFlight implements IFlight {
 	 */
 	public void setPlane(String plane) {
 		this.plane = plane;
+	}
+
+	@Override
+	public String toString() {
+		return "DirectFlight{" +
+				"startAirport='" + startAirport + '\'' +
+				", endAirport='" + endAirport + '\'' +
+				", price=" + price +
+				", duration=" + duration +
+				", isDirect=" + isDirect +
+				", airline='" + airline + '\'' +
+				", plane='" + plane + '\'' +
+				'}' + "\n";
 	}
 }

@@ -1,0 +1,842 @@
+[
+    {
+        "airline": "Hong Kong Airlines",
+        "plane code": "359",
+        "timings": [
+            {
+                "departure_time": "11:50am",
+                "arrival_time": "6:20pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "10:35pm",
+                "arrival_time": "12:40am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 21 hours 50 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "559.91",
+        "plane": "AIRBUS INDUSTRIE A350-900"
+    },
+    {
+        "airline": "Japan Airlines",
+        "plane code": "789",
+        "timings": [
+            {
+                "departure_time": "10:25am",
+                "arrival_time": "2:20pm",
+                "arrival_airport": "Tokyo, Japan (HND-Haneda)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "8:50am",
+                "arrival_time": "11:30am",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_airport": "Tokyo, Japan (HND-Haneda)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 34 hours 5 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "563.09",
+        "plane": "BOEING 787-9"
+    },
+    {
+        "airline": "Japan Airlines",
+        "plane code": "789",
+        "timings": [
+            {
+                "departure_time": "12:10pm",
+                "arrival_time": "3:55pm",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "11:10am",
+                "arrival_time": "2:05pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 34 hours 55 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "563.45",
+        "plane": "BOEING 787-9"
+    },
+    {
+        "airline": "Japan Airlines",
+        "plane code": "773",
+        "timings": [
+            {
+                "departure_time": "1:10pm",
+                "arrival_time": "4:45pm",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "11:10am",
+                "arrival_time": "2:05pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 33 hours 55 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "563.45",
+        "plane": "BOEING 777-300 PASSENGER"
+    },
+    {
+        "airline": "Hong Kong Airlines",
+        "plane code": "359",
+        "timings": [
+            {
+                "departure_time": "11:50am",
+                "arrival_time": "6:20pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "1:00pm",
+                "arrival_time": "2:55pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 36 hours 5 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "575.21",
+        "plane": "AIRBUS INDUSTRIE A350-900"
+    },
+    {
+        "airline": "Hong Kong Airlines",
+        "plane code": "359",
+        "timings": [
+            {
+                "departure_time": "11:50am",
+                "arrival_time": "6:20pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "5:50pm",
+                "arrival_time": "7:50pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 41 hours 0 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "575.21",
+        "plane": "AIRBUS INDUSTRIE A350-900"
+    },
+    {
+        "airline": "Hong Kong Airlines",
+        "plane code": "359",
+        "timings": [
+            {
+                "departure_time": "11:50am",
+                "arrival_time": "6:20pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "9:10am",
+                "arrival_time": "11:15am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 32 hours 25 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "575.21",
+        "plane": "AIRBUS INDUSTRIE A350-900"
+    },
+    {
+        "airline": "Air Canada",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "5:00pm",
+                "arrival_time": "7:53pm",
+                "arrival_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "11:00am",
+                "arrival_time": "2:15pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 30 hours 15 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "661.00",
+        "plane": "Airbus A320"
+    },
+    {
+        "airline": "Asiana Airlines",
+        "plane code": "359",
+        "timings": [
+            {
+                "departure_time": "11:00pm",
+                "arrival_time": "4:20am",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "2:20pm",
+                "arrival_time": "3:50pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 25 hours 50 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "669.12",
+        "plane": "AIRBUS INDUSTRIE A350-900"
+    },
+    {
+        "airline": "Asiana Airlines",
+        "plane code": "388",
+        "timings": [
+            {
+                "departure_time": "12:10pm",
+                "arrival_time": "5:35pm",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "2:20pm",
+                "arrival_time": "3:50pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 36 hours 40 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "669.12",
+        "plane": "Airbus Industrie A380-800 Passenger"
+    },
+    {
+        "airline": "Asiana Airlines",
+        "plane code": "359",
+        "timings": [
+            {
+                "departure_time": "11:00pm",
+                "arrival_time": "4:20am",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "10:00am",
+                "arrival_time": "11:30am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 21 hours 30 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "669.12",
+        "plane": "AIRBUS INDUSTRIE A350-900"
+    },
+    {
+        "airline": "Asiana Airlines",
+        "plane code": "388",
+        "timings": [
+            {
+                "departure_time": "12:10pm",
+                "arrival_time": "5:35pm",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "10:00am",
+                "arrival_time": "11:30am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 32 hours 20 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "669.12",
+        "plane": "Airbus Industrie A380-800 Passenger"
+    },
+    {
+        "airline": "China Airlines",
+        "plane code": "359",
+        "timings": [
+            {
+                "departure_time": "12:10am",
+                "arrival_time": "5:20am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Ontario, CA (ONT-Los Angeles - Ontario Intl.)"
+            }
+        ],
+        "stops": "Nonstop",
+        "flight duration": "0 days 14 hours 10 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Ontario",
+        "ticket price": "708.70",
+        "plane": "AIRBUS INDUSTRIE A350-900"
+    },
+    {
+        "airline": "China Airlines",
+        "plane code": "77W",
+        "timings": [
+            {
+                "departure_time": "12:05am",
+                "arrival_time": "5:00am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "Nonstop",
+        "flight duration": "0 days 13 hours 55 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "708.70",
+        "plane": "BOEING 777-300ER"
+    },
+    {
+        "airline": "United",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "9:30am",
+                "arrival_time": "11:08am",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "2:25pm",
+                "arrival_time": "6:45pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 18 hours 15 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "760.20",
+        "plane": "Boeing 737-900"
+    },
+    {
+        "airline": "United",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "10:45am",
+                "arrival_time": "12:23pm",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "2:25pm",
+                "arrival_time": "6:45pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 17 hours 0 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "760.20",
+        "plane": "Airbus A320"
+    },
+    {
+        "airline": "American Airlines",
+        "plane code": "773",
+        "timings": [
+            {
+                "departure_time": "1:10pm",
+                "arrival_time": "4:45pm",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "6:00pm",
+                "arrival_time": "8:55pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 16 hours 45 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "760.74",
+        "plane": "BOEING 777-300 PASSENGER"
+    },
+    {
+        "airline": "American Airlines",
+        "plane code": "789",
+        "timings": [
+            {
+                "departure_time": "12:10pm",
+                "arrival_time": "3:55pm",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "6:00pm",
+                "arrival_time": "8:55pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 17 hours 45 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "760.74",
+        "plane": "BOEING 787-9"
+    },
+    {
+        "airline": "Japan Airlines",
+        "plane code": "789",
+        "timings": [
+            {
+                "departure_time": "10:25am",
+                "arrival_time": "2:20pm",
+                "arrival_airport": "Tokyo, Japan (HND-Haneda)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "6:15pm",
+                "arrival_time": "8:55pm",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_airport": "Tokyo, Japan (HND-Haneda)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 19 hours 30 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "764.55",
+        "plane": "BOEING 787-9"
+    },
+    {
+        "airline": "Japan Airlines",
+        "plane code": "789",
+        "timings": [
+            {
+                "departure_time": "12:10pm",
+                "arrival_time": "3:55pm",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "6:00pm",
+                "arrival_time": "8:55pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 17 hours 45 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "767.14",
+        "plane": "BOEING 787-9"
+    },
+    {
+        "airline": "Japan Airlines",
+        "plane code": "773",
+        "timings": [
+            {
+                "departure_time": "1:10pm",
+                "arrival_time": "4:45pm",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "6:00pm",
+                "arrival_time": "8:55pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 16 hours 45 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "767.14",
+        "plane": "BOEING 777-300 PASSENGER"
+    },
+    {
+        "airline": "United",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "9:15pm",
+                "arrival_time": "10:46pm",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "2:25pm",
+                "arrival_time": "6:45pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 30 hours 30 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "812.80",
+        "plane": "Boeing 737-900"
+    },
+    {
+        "airline": "United",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "10:45pm",
+                "arrival_time": "12:16am",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "2:25pm",
+                "arrival_time": "6:45pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 29 hours 0 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "812.80",
+        "plane": "Airbus A320"
+    },
+    {
+        "airline": "United",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "5:00pm",
+                "arrival_time": "6:31pm",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "2:25pm",
+                "arrival_time": "6:45pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 34 hours 45 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "812.80",
+        "plane": "Boeing 737-900"
+    },
+    {
+        "airline": "United",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "2:00pm",
+                "arrival_time": "3:34pm",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "2:25pm",
+                "arrival_time": "6:45pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 37 hours 45 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "812.80",
+        "plane": "Boeing 737-900"
+    },
+    {
+        "airline": "United",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "7:45pm",
+                "arrival_time": "9:16pm",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "2:25pm",
+                "arrival_time": "6:45pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 32 hours 0 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "812.80",
+        "plane": "Boeing 737-900"
+    },
+    {
+        "airline": "Air Canada",
+        "plane code": "321",
+        "timings": [
+            {
+                "departure_time": "1:30pm",
+                "arrival_time": "4:24pm",
+                "arrival_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "11:00am",
+                "arrival_time": "2:15pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 33 hours 45 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "815.27",
+        "plane": "Airbus A321"
+    },
+    {
+        "airline": "Air Canada",
+        "plane code": "319",
+        "timings": [
+            {
+                "departure_time": "9:20am",
+                "arrival_time": "12:14pm",
+                "arrival_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "11:00am",
+                "arrival_time": "2:15pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 37 hours 55 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "815.27",
+        "plane": "Airbus A319"
+    },
+    {
+        "airline": "KLM",
+        "plane code": "74E",
+        "timings": [
+            {
+                "departure_time": "1:45pm",
+                "arrival_time": "9:00am",
+                "arrival_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "11:00am",
+                "arrival_time": "6:00am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Amsterdam, Netherlands (AMS-Schiphol)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 25 hours 15 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "822.07",
+        "plane": "Boeing 747-400"
+    },
+    {
+        "airline": "KLM",
+        "plane code": "789",
+        "timings": [
+            {
+                "departure_time": "4:59pm",
+                "arrival_time": "12:20pm",
+                "arrival_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "11:00am",
+                "arrival_time": "6:00am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Amsterdam, Netherlands (AMS-Schiphol)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "1 days 46 hours 1 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "822.07",
+        "plane": "BOEING 787-9"
+    },
+    {
+        "airline": "China Southern Airlines",
+        "plane code": "380",
+        "timings": [
+            {
+                "departure_time": "11:50pm",
+                "arrival_time": "5:40am",
+                "arrival_airport": "Guangzhou, China (CAN-Baiyun Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "11:30am",
+                "arrival_time": "1:30pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Guangzhou, China (CAN-Baiyun Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 22 hours 40 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "826.06",
+        "plane": "AIRBUS INDUSTRIE A380-800 PASSENGER"
+    },
+    {
+        "airline": "Xiamen Airlines",
+        "plane code": "789",
+        "timings": [
+            {
+                "departure_time": "1:30am",
+                "arrival_time": "5:10am",
+                "arrival_airport": "Qingdao, China (TAO-Liuting Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "7:10am",
+                "arrival_time": "9:30am",
+                "arrival_airport": "Xiamen, China (XMN-Xiamen Intl.)",
+                "departure_airport": "Qingdao, China (TAO-Liuting Intl.)"
+            },
+            {
+                "departure_time": "5:00pm",
+                "arrival_time": "6:45pm",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_airport": "Xiamen, China (XMN-Xiamen Intl.)"
+            }
+        ],
+        "stops": "2 Stop",
+        "flight duration": "1 days 26 hours 15 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "840.03",
+        "plane": "BOEING 787-9"
+    },
+    {
+        "airline": "Xiamen Airlines",
+        "plane code": "789",
+        "timings": [
+            {
+                "departure_time": "1:30am",
+                "arrival_time": "5:10am",
+                "arrival_airport": "Qingdao, China (TAO-Liuting Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "7:10am",
+                "arrival_time": "9:30am",
+                "arrival_airport": "Xiamen, China (XMN-Xiamen Intl.)",
+                "departure_airport": "Qingdao, China (TAO-Liuting Intl.)"
+            },
+            {
+                "departure_time": "8:45am",
+                "arrival_time": "10:25am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Xiamen, China (XMN-Xiamen Intl.)"
+            }
+        ],
+        "stops": "2 Stop",
+        "flight duration": "1 days 41 hours 55 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "840.03",
+        "plane": "BOEING 787-9"
+    },
+    {
+        "airline": "Cathay Pacific",
+        "plane code": "77W",
+        "timings": [
+            {
+                "departure_time": "12:30am",
+                "arrival_time": "6:45am",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "8:05am",
+                "arrival_time": "9:50am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 18 hours 20 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "857.71",
+        "plane": "BOEING 777-300ER"
+    },
+    {
+        "airline": "Cathay Pacific",
+        "plane code": "77W",
+        "timings": [
+            {
+                "departure_time": "12:30am",
+                "arrival_time": "6:45am",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "departure_time": "10:25am",
+                "arrival_time": "12:25pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "flight duration": "0 days 20 hours 55 minutes",
+        "arrival": ", Taipei",
+        "departure": ", Los Angeles",
+        "ticket price": "857.71",
+        "plane": "BOEING 777-300ER"
+    }
+]

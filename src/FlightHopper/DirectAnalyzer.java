@@ -45,13 +45,27 @@ public class DirectAnalyzer implements IFlightTicketService {
      * @return the collection of ticket that satisfy the condition
      */
     public List<IFlight> getOptimalRoutesOfTwoCities(List<String> userInput) {
-        Set<IFlight> re = new HashSet<IFlight>();
-        double priceWeight = 0;
+        List<IFlight> re = new ArrayList<IFlight>();
+        double priceWeight = 1;
         for(int i = 0; i < 4; i++) {
-            re.addAll(this.getRoute(userInput, priceWeight));
-            priceWeight += 0.25;
+            List<IFlight> temp = this.getRoute(userInput, priceWeight);
+            // only care about top 3
+            int j = 0;
+            for(IFlight f : temp) {
+                if(j>=3) break;
+                if(!re.contains(f)) {
+                    re.add(f);
+                    j++;
+                }
+            }
+
+            priceWeight -= 0.25;
         }
+        this.routesSelctions = new ArrayList<>();
         this.routesSelctions.addAll(re);
+//        Collections.sort(re,(IFlight a, IFlight b) -> {
+//            a.getFlightRank()
+//        });
         return routesSelctions;
     }
 
@@ -106,11 +120,11 @@ public class DirectAnalyzer implements IFlightTicketService {
         tickets.sort((IFlight a, IFlight b) -> {
             return a.getFlightRank(priceWeight) - b.getFlightRank(priceWeight);
         });
-        List<IFlight> result = new ArrayList<IFlight>();
-        for(int i = 0; i < 5; i++) {
-            result.add(tickets.get(i));
-        }
-        return result;
+//        List<IFlight> result = new ArrayList<IFlight>();
+//        for(int i = 0; i < 5; i++) {
+//            result.add(tickets.get(i));
+//        }
+        return tickets;
     }
     /***
      * Run scarper using start, end and date, to get the json file
@@ -145,10 +159,16 @@ public class DirectAnalyzer implements IFlightTicketService {
      */
     private List<IFlight> getTickets(String startAirport, String endAirport, String date,
                                      String flexibility, int maxPrice, int maxFlightTime) {
-        int flex = Integer.valueOf(flexibility);
-        List<IFlight> rawData = this.getTickets(startAirport, endAirport, date);
-        List<IFlight> filtered = this.scraper.paramFilter(maxPrice, maxFlightTime, rawData);
-        return filtered;
+        try {
+            int flex = Integer.valueOf(flexibility);
+            List<IFlight> rawData = this.scraper.runScraper(startAirport,endAirport, date,flex);
+            List<IFlight> filtered = this.scraper.paramFilter(maxPrice, maxFlightTime, rawData);
+            return filtered;
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     /***

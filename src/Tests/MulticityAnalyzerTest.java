@@ -32,23 +32,23 @@ public class MulticityAnalyzerTest {
 
 		f1 = new DirectFlight();
 		f1.setDuration(3);
-		f1.setStartAirport(lax);
-		f1.setEndAirport(sfo);
+		f1.setStartAirport(lax.getName());
+		f1.setEndAirport(sfo.getName());
 		f1.setPrice(100);
 		f2 = new DirectFlight();
 		f2.setDuration(1);
-		f2.setStartAirport(lax);
-		f2.setEndAirport(sfo);
+		f2.setStartAirport(lax.getName());
+		f2.setEndAirport(sfo.getName());
 		f2.setPrice(1000);
 		f3 = new DirectFlight();
 		f3.setDuration(1);
-		f3.setStartAirport(sfo);
-		f3.setEndAirport(sea);
+		f3.setStartAirport(sfo.getName());
+		f3.setEndAirport(sea.getName());
 		f3.setPrice(200);
 		f4 = new DirectFlight();
 		f4.setDuration(10);
-		f4.setStartAirport(sfo);
-		f4.setEndAirport(sea);
+		f4.setStartAirport(sfo.getName());
+		f4.setEndAirport(sea.getName());
 		f4.setPrice(50);
 	}
 	@Test

@@ -13,7 +13,7 @@ public class FlightHopper {
 //    Map<String, Airport> airports = new HashMap<>();
 
     public static void main(String[] args) {
-//    	FlightScraper fs = new FlightScraper();
+    	FlightScraper fs = new FlightScraper();
 
 //    	try {
 //			fs.jsonParser("files/jsonFlights/phl-sfo-flight-results.json");
@@ -21,15 +21,17 @@ public class FlightHopper {
 //			// TODO Auto-generated catch block
 //			e.printStackTrace();
 //		}
+//		List<IFlight> ls = new ArrayList<>();
+//    	FlightScraper tst = new FlightScraper();
+////		String[] dates = {"04/30/2019", "04/31/2019"};
+//		try {
+//			ls = tst.runScraper("phl", "lax", "05/16/2019", 3);
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		System.out.println("test end");
 
-    	FlightScraper tst = new FlightScraper();
-		String[] dates = {"04/30/2019", "04/31/2019"};
-		try {
-			tst.runScraper("phl", "lax", "05/16/2019", 0);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} 
 
 //        System.out.println("Welcome to Flight Hopper!");
 //        Scanner scanner = new Scanner(System.in);
@@ -110,6 +112,18 @@ public class FlightHopper {
 //            }
 //        }
 //        System.out.println("Thanks for using Flight Hopper.");
+
+		MulticityAnalyzer ma = new MulticityAnalyzer();
+		List<String> userInput = new ArrayList<>();
+		userInput.add("06/01/2019");
+		userInput.add("phl");
+		userInput.add("0");
+		userInput.add("sfo");
+		userInput.add("2");
+		userInput.add("tpe");
+		userInput.add("5");
+		userInput.add("lax");
+		System.out.println(ma.getOptimalRoutesOfMultiCities(userInput));
 
     }
 }

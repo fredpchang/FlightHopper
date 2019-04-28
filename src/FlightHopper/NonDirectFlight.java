@@ -4,8 +4,8 @@ import java.util.List;
 
 public class NonDirectFlight implements IFlight {
 
-	Airport startAirport;
-	Airport endAirport;
+	String startAirport;
+	String endAirport;
 	double price;
 	int stops;
 	List<Airport> stopAirport;
@@ -19,11 +19,28 @@ public class NonDirectFlight implements IFlight {
 	String airline;
 	String plane;
 
-	/**
+	public NonDirectFlight() {
+    }
+
+    public NonDirectFlight(String startAirport, String endAirport, double price, int stops, String startTime,
+                           String endTime, int duration, boolean isDirect, String airline, String plane) {
+        this.startAirport = startAirport;
+        this.endAirport = endAirport;
+        this.price = price;
+        this.stops = stops;
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.duration = duration;
+        this.isDirect = isDirect;
+        this.airline = airline;
+        this.plane = plane;
+    }
+
+    /**
 	 * get the start airport
 	 * @return start airport
 	 */
-	public Airport getStartAirport() {
+	public String getStartAirport() {
 		return startAirport;
 	}
 
@@ -31,7 +48,7 @@ public class NonDirectFlight implements IFlight {
 	 * set start airport
 	 * @param startAirport
 	 */
-	public void setStartAirport(Airport startAirport) {
+	public void setStartAirport(String startAirport) {
 		this.startAirport = startAirport;
 	}
 
@@ -39,7 +56,7 @@ public class NonDirectFlight implements IFlight {
 	 * get end airport
 	 * @return end airport
 	 */
-	public Airport getEndAirport() {
+	public String getEndAirport() {
 		return endAirport;
 	}
 
@@ -47,7 +64,7 @@ public class NonDirectFlight implements IFlight {
 	 * set end airport
 	 * @param endAirport
 	 */
-	public void setEndAirport(Airport endAirport) {
+	public void setEndAirport(String endAirport) {
 		this.endAirport = endAirport;
 	}
 
@@ -211,7 +228,9 @@ public class NonDirectFlight implements IFlight {
 	 */
 	@Override
 	public int getFlightRank(double priceWeight) {
-		return 0;
+		this.rank = (int) (100 * (this.getPrice()*priceWeight +
+				this.getDuration()*50*(1-priceWeight)));
+		return this.rank;
 	}
 	/**
 	 * Check if this is a direct flight with no stops
@@ -220,13 +239,26 @@ public class NonDirectFlight implements IFlight {
 
 	@Override
 	public boolean equals(Object o) {
-		NonDirectFlight a = (NonDirectFlight) o;
-		return this.startAirport.getName().equals(a.startAirport.getName())
-				&& this.endAirport.getName().equals(a.endAirport.getName())
-				&& this.startTime.equals(a.startTime)
-				&& this.endTime.equals(a.endTime)
-				&& this.price == a.price
-				&& this.airline.equals(a.airline);
+        if(o instanceof DirectFlight) {
+            DirectFlight a = (DirectFlight) o;
+            return this.startAirport.equals(a.startAirport)
+                    && this.endAirport.equals(a.endAirport)
+                    && this.startTime.equals(a.startTime)
+                    && this.endTime.equals(a.endTime)
+                    && this.price == a.price
+                    && this.airline.equals(a.airline)
+                    && this.plane.equals(a.plane)
+                    && this.duration == a.duration;
+        }
+        else {
+            NonDirectFlight a = (NonDirectFlight) o;
+            return this.startAirport.equals(a.startAirport)
+                    && this.endAirport.equals(a.endAirport)
+                    && this.startTime.equals(a.startTime)
+                    && this.endTime.equals(a.endTime)
+                    && this.price == a.price
+                    && this.airline.equals(a.airline);
+        }
 	}
 	public boolean isDirect() {
 		return false;
@@ -271,8 +303,19 @@ public class NonDirectFlight implements IFlight {
 	public void setPlane(String plane) {
 		this.plane = plane;
 	}
-	
-	
-	
-	
+
+
+    @Override
+    public String toString() {
+        return "NonDirectFlight{" +
+                "startAirport='" + startAirport + '\'' +
+                ", endAirport='" + endAirport + '\'' +
+                ", price=" + price +
+                ", stops=" + stops +
+                ", duration=" + duration +
+                ", isDirect=" + isDirect +
+                ", airline='" + airline + '\'' +
+                ", plane='" + plane + '\'' +
+                '}' + "\n";
+    }
 }

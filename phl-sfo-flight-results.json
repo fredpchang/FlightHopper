@@ -1,0 +1,842 @@
+[
+    {
+        "flight duration": "0 days 19 hours 46 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "2299.80",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "5:27am",
+                "arrival_time": "6:43am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "6:20pm",
+                "arrival_time": "10:13pm",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 23 hours 3 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "2299.80",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "5:27am",
+                "arrival_time": "6:43am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "9:59pm",
+                "arrival_time": "1:30am",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 11 hours 19 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "2343.00",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "1:54pm",
+                "arrival_time": "3:22pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "6:20pm",
+                "arrival_time": "10:13pm",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 23 hours 10 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "2359.80",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "1:54pm",
+                "arrival_time": "3:22pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "6:30am",
+                "arrival_time": "10:04am",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 14 hours 36 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "2359.80",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "1:54pm",
+                "arrival_time": "3:22pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "9:59pm",
+                "arrival_time": "1:30am",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "1 days 26 hours 30 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "2404.80",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "10:34am",
+                "arrival_time": "11:54am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "6:30am",
+                "arrival_time": "10:04am",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 14 hours 39 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "2404.80",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "10:34am",
+                "arrival_time": "11:54am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "6:20pm",
+                "arrival_time": "10:13pm",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 17 hours 56 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "2404.80",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "10:34am",
+                "arrival_time": "11:54am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "9:59pm",
+                "arrival_time": "1:30am",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 9 hours 44 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "2595.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "11:20am",
+                "arrival_time": "12:23pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "3:00pm",
+                "arrival_time": "6:04pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 9 hours 7 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "2595.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "5:18pm",
+                "arrival_time": "6:22pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "8:00pm",
+                "arrival_time": "11:25pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 10 hours 7 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "2595.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "2:18pm",
+                "arrival_time": "3:22pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "6:00pm",
+                "arrival_time": "9:25pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 8 hours 46 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "2595.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "12:18pm",
+                "arrival_time": "1:22pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "3:00pm",
+                "arrival_time": "6:04pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 10 hours 6 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "2595.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "4:19pm",
+                "arrival_time": "5:22pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "8:00pm",
+                "arrival_time": "11:25pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 9 hours 20 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "2595.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "3:05pm",
+                "arrival_time": "4:08pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "6:00pm",
+                "arrival_time": "9:25pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 11 hours 20 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "2595.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "3:05pm",
+                "arrival_time": "4:08pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "8:00pm",
+                "arrival_time": "11:25pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 10 hours 39 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "2595.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "10:25am",
+                "arrival_time": "11:33am",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "3:00pm",
+                "arrival_time": "6:04pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 11 hours 6 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "2595.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "1:19pm",
+                "arrival_time": "2:22pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "6:00pm",
+                "arrival_time": "9:25pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 16 hours 30 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "3649.80",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "5:27am",
+                "arrival_time": "6:43am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "3:15pm",
+                "arrival_time": "6:57pm",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "1 days 26 hours 13 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "3709.80",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "1:54pm",
+                "arrival_time": "3:22pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "9:28am",
+                "arrival_time": "1:07pm",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 11 hours 23 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "3738.00",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "10:34am",
+                "arrival_time": "11:54am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "3:15pm",
+                "arrival_time": "6:57pm",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "1 days 29 hours 33 minutes",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "JetBlue Airways",
+        "ticket price": "3754.80",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "10:34am",
+                "arrival_time": "11:54am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "9:28am",
+                "arrival_time": "1:07pm",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)"
+            }
+        ],
+        "plane code": "E90",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 9 hours 16 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "4095.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "5:15am",
+                "arrival_time": "6:14am",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "8:15am",
+                "arrival_time": "11:31am",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 10 hours 10 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "4095.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "5:15am",
+                "arrival_time": "6:14am",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "9:15am",
+                "arrival_time": "12:25pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 11 hours 7 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "5:15am",
+                "arrival_time": "6:14am",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "10:00am",
+                "arrival_time": "1:22pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 9 hours 56 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "10:25am",
+                "arrival_time": "11:33am",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "2:00pm",
+                "arrival_time": "5:21pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 11 hours 2 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "7:19am",
+                "arrival_time": "8:22am",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "12:00pm",
+                "arrival_time": "3:21pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 10 hours 58 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "9:23am",
+                "arrival_time": "10:25am",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "2:00pm",
+                "arrival_time": "5:21pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 9 hours 3 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "7:19am",
+                "arrival_time": "8:22am",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "10:00am",
+                "arrival_time": "1:22pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 9 hours 7 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "2:18pm",
+                "arrival_time": "3:22pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "5:00pm",
+                "arrival_time": "8:25pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 10 hours 0 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "12:18pm",
+                "arrival_time": "1:22pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "4:10pm",
+                "arrival_time": "7:18pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 10 hours 58 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "11:20am",
+                "arrival_time": "12:23pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "4:10pm",
+                "arrival_time": "7:18pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 8 hours 59 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "1:19pm",
+                "arrival_time": "2:22pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "4:10pm",
+                "arrival_time": "7:18pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 10 hours 6 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "1:19pm",
+                "arrival_time": "2:22pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "5:00pm",
+                "arrival_time": "8:25pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 8 hours 58 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "9:23am",
+                "arrival_time": "10:25am",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "12:00pm",
+                "arrival_time": "3:21pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    },
+    {
+        "flight duration": "0 days 9 hours 1 minutes",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "ticket price": "6195.90",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "11:20am",
+                "arrival_time": "12:23pm",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "2:00pm",
+                "arrival_time": "5:21pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)"
+            }
+        ],
+        "plane code": "TRN",
+        "arrival": ", San Francisco"
+    }
+]

@@ -29,12 +29,12 @@ public class NonDirectFlightTest {
 		sea.setName("SEA");
 		
 		//Set up flights start and end PHL-LAX-SFO-SEA
-		f1.setStartAirport(phl);
-		f1.setEndAirport(lax);
-		f2.setStartAirport(lax);
-		f2.setEndAirport(sfo);
-		f3.setStartAirport(sfo);
-		f3.setEndAirport(sea);
+		f1.setStartAirport(phl.getName());
+		f1.setEndAirport(lax.getName());
+		f2.setStartAirport(lax.getName());
+		f2.setEndAirport(sfo.getName());
+		f3.setStartAirport(sfo.getName());
+		f3.setEndAirport(sea.getName());
 		
 		//Set up flight prices
 		f1.setPrice(200);
@@ -64,8 +64,8 @@ public class NonDirectFlightTest {
 		/* Unique */
 		
 		//Add stop to PHL to SFO via LAX
-		f4.setStartAirport(phl);
-		f4.setEndAirport(sfo);
+		f4.setStartAirport(phl.getName());
+		f4.setEndAirport(sfo.getName());
 		List<Airport> stopAirportList = new LinkedList<Airport>();
 		stopAirportList.add(lax);
 		f1.setStopAirport(stopAirportList);

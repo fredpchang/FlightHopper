@@ -48,11 +48,20 @@ public class MulticityAnalyzer implements IFlightTicketService {
      */
     public List<List<IFlight>> getOptimalRoutesOfMultiCities(List<String> userInput) {
         generateList(userInput);
-        double weight = 0;
+        double weight = 1;
         for(int i = 0 ; i <4; i++) {
             List<IFlight> temp = this.getRoute(userInput, weight);
+//            List<IFlight> shows = new ArrayList<>();
+//            int j = 0;
+//            for(IFlight f : temp) {
+//                if(j>=1) break;
+//                if(!shows.contains(f)) {
+//                    j++;
+//                    shows.add(f);
+//                }
+//            }
             routesSelctions.add(new ArrayList<>(temp));
-            weight += 0.25;
+            weight -= 0.25;
         }
         return routesSelctions;
     }
@@ -66,13 +75,14 @@ public class MulticityAnalyzer implements IFlightTicketService {
      */
     @Override
     public TripLinkedList generateList(List<String> userInput) {
-        if(userInput.size() % 2==0) return null;
+        if(userInput.size() % 2!=0) return null;
 
         String[] dateData = userInput.get(0).split("/");
         if(dateData.length != 3) return null;
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-        Calendar date = new GregorianCalendar(Integer.valueOf(dateData[2]),Integer.valueOf(dateData[1])-1,
-                Integer.valueOf(dateData[0]));
+        SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
+        Calendar date = new GregorianCalendar(Integer.valueOf(dateData[2]),Integer.valueOf(dateData[0])-1,
+                Integer.valueOf(dateData[1]));
+//        System.out.println(sdf.format(date.getTime()));
 //        date.setTime(new Date()); // Now use today date.
 //        String startAirport = userInput.get(1);
         int flex = Integer.valueOf(userInput.get(2));
@@ -81,6 +91,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
         List<IFlight> temp = new ArrayList<>();
         for(int i = 0; i <= flex; i++) {
             date.add(Calendar.DATE, i);
+//            System.out.println();
             temp.addAll(this.getTickets(userInput.get(1),
                     userInput.get(3), sdf.format(date.getTime())));
             date.add(Calendar.DATE, -i);
@@ -135,7 +146,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
             // add all ticket into pq and sort
             pq.addAll(cur.getTickets());
             // get the top 5 tickets
-            for(int i = 0; i < pq.size() && i < 5; i++) {
+            for(int i = 0; i < pq.size() && i < 1; i++) {
                 re.add(pq.poll());
             }
             // add those back to pq so that we don't poll tickets out and lose that entirely
@@ -155,6 +166,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
     @Override
     public List<IFlight> getTickets(String startAirport, String endAirport, String date) {
         try {
+
             return this.scraper.runScraper(startAirport, endAirport, date, 0);
         } catch (IOException e) {
             e.printStackTrace();

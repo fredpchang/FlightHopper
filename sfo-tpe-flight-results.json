@@ -1,0 +1,812 @@
+[
+    {
+        "timings": [
+            {
+                "departure_time": "1:40am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "5:20am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "507.70",
+        "flight duration": "0 days 12 hours 40 minutes",
+        "stops": "Nonstop",
+        "airline": "China Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "2:25pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "6:45pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "533.70",
+        "flight duration": "0 days 13 hours 20 minutes",
+        "stops": "Nonstop",
+        "airline": "United",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "11:50am",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:35pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "5:40pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:15pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "547.74",
+        "flight duration": "0 days 17 hours 25 minutes",
+        "stops": "1 Stop",
+        "airline": "United",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "12:40pm",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "3:25pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "5:40pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:15pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "547.74",
+        "flight duration": "0 days 16 hours 35 minutes",
+        "stops": "1 Stop",
+        "airline": "United",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "12:40pm",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "3:25pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "5:40pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:15pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "549.74",
+        "flight duration": "0 days 16 hours 35 minutes",
+        "stops": "1 Stop",
+        "airline": "All Nippon Airways",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "12:40pm",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "3:25pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "5:40pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:15pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "553.36",
+        "flight duration": "0 days 16 hours 35 minutes",
+        "stops": "1 Stop",
+        "airline": "All Nippon Airways",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:00pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_time": "5:35pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "10:35pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "12:40am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "plane code": "359",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "559.91",
+        "flight duration": "0 days 20 hours 40 minutes",
+        "stops": "1 Stop",
+        "airline": "Hong Kong Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "4:05pm",
+                "arrival_airport": "Tokyo, Japan (HND-Haneda)",
+                "arrival_time": "7:00pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "8:50am",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "arrival_time": "11:30am",
+                "departure_airport": "Tokyo, Japan (HND-Haneda)"
+            }
+        ],
+        "plane code": "773",
+        "plane": "BOEING 777-300 PASSENGER",
+        "ticket price": "563.09",
+        "flight duration": "1 days 28 hours 25 minutes",
+        "stops": "1 Stop",
+        "airline": "Japan Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "4:05pm",
+                "arrival_airport": "Tokyo, Japan (HND-Haneda)",
+                "arrival_time": "7:00pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "6:15pm",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "arrival_time": "8:55pm",
+                "departure_airport": "Tokyo, Japan (HND-Haneda)"
+            }
+        ],
+        "plane code": "773",
+        "plane": "BOEING 777-300 PASSENGER",
+        "ticket price": "563.09",
+        "flight duration": "1 days 37 hours 50 minutes",
+        "stops": "1 Stop",
+        "airline": "Japan Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:00pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_time": "5:35pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "1:15pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "3:00pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "plane code": "359",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "575.21",
+        "flight duration": "1 days 35 hours 0 minutes",
+        "stops": "1 Stop",
+        "airline": "Hong Kong Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:00pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_time": "5:35pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "9:10am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "11:15am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "plane code": "359",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "575.21",
+        "flight duration": "1 days 31 hours 15 minutes",
+        "stops": "1 Stop",
+        "airline": "Hong Kong Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:00am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "4:50am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "618.70",
+        "flight duration": "0 days 12 hours 50 minutes",
+        "stops": "Nonstop",
+        "airline": "EVA Airways",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:00pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "4:50pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "618.70",
+        "flight duration": "0 days 12 hours 50 minutes",
+        "stops": "Nonstop",
+        "airline": "EVA Airways",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:20am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "5:10am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "618.70",
+        "flight duration": "0 days 12 hours 50 minutes",
+        "stops": "Nonstop",
+        "airline": "EVA Airways",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "10:30pm",
+                "arrival_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)",
+                "arrival_time": "3:30am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "7:15am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "9:25am",
+                "departure_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)"
+            }
+        ],
+        "plane code": "773",
+        "plane": "BOEING 777-300 PASSENGER",
+        "ticket price": "705.24",
+        "flight duration": "0 days 19 hours 55 minutes",
+        "stops": "1 Stop",
+        "airline": "Philippine Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "10:30pm",
+                "arrival_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)",
+                "arrival_time": "3:30am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "5:50pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:00pm",
+                "departure_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)"
+            }
+        ],
+        "plane code": "773",
+        "plane": "BOEING 777-300 PASSENGER",
+        "ticket price": "705.24",
+        "flight duration": "1 days 30 hours 30 minutes",
+        "stops": "1 Stop",
+        "airline": "Philippine Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "10:30pm",
+                "arrival_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)",
+                "arrival_time": "3:30am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "6:05am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:40am",
+                "departure_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)"
+            }
+        ],
+        "plane code": "773",
+        "plane": "BOEING 777-300 PASSENGER",
+        "ticket price": "705.24",
+        "flight duration": "0 days 19 hours 10 minutes",
+        "stops": "1 Stop",
+        "airline": "Philippine Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "11:00pm",
+                "arrival_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)",
+                "arrival_time": "4:00am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "5:50pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:00pm",
+                "departure_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)"
+            }
+        ],
+        "plane code": "773",
+        "plane": "BOEING 777-300 PASSENGER",
+        "ticket price": "705.24",
+        "flight duration": "1 days 30 hours 0 minutes",
+        "stops": "1 Stop",
+        "airline": "Philippine Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "11:00pm",
+                "arrival_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)",
+                "arrival_time": "4:00am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "7:15am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "9:25am",
+                "departure_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)"
+            }
+        ],
+        "plane code": "773",
+        "plane": "BOEING 777-300 PASSENGER",
+        "ticket price": "705.24",
+        "flight duration": "0 days 19 hours 25 minutes",
+        "stops": "1 Stop",
+        "airline": "Philippine Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "11:00pm",
+                "arrival_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)",
+                "arrival_time": "4:00am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "6:05am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:40am",
+                "departure_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)"
+            }
+        ],
+        "plane code": "773",
+        "plane": "BOEING 777-300 PASSENGER",
+        "ticket price": "705.24",
+        "flight duration": "0 days 18 hours 40 minutes",
+        "stops": "1 Stop",
+        "airline": "Philippine Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "12:00pm",
+                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "arrival_time": "4:10pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "7:50pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "9:50pm",
+                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)"
+            }
+        ],
+        "plane code": "773",
+        "plane": "BOEING 777-300 PASSENGER",
+        "ticket price": "727.06",
+        "flight duration": "0 days 18 hours 50 minutes",
+        "stops": "1 Stop",
+        "airline": "China Eastern Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "11:30pm",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:00am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "10:00am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "11:30am",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            }
+        ],
+        "plane code": "359",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "731.12",
+        "flight duration": "0 days 21 hours 0 minutes",
+        "stops": "1 Stop",
+        "airline": "Asiana Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "11:30pm",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:00am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "2:20pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "3:50pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            }
+        ],
+        "plane code": "359",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "731.12",
+        "flight duration": "1 days 25 hours 20 minutes",
+        "stops": "1 Stop",
+        "airline": "Asiana Airlines",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:00pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_time": "5:35pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "9:15pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "11:10pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "plane code": "359",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "746.12",
+        "flight duration": "0 days 19 hours 10 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:00pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_time": "5:35pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "8:10pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:05pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "plane code": "359",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "746.12",
+        "flight duration": "0 days 18 hours 5 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:00pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_time": "5:35pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "10:25pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "12:05am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "plane code": "359",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "746.12",
+        "flight duration": "0 days 20 hours 5 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:15am",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_time": "6:35am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "1:40pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "3:25pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "752.90",
+        "flight duration": "0 days 23 hours 10 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:20pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_time": "6:45pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "9:15pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "11:10pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "756.51",
+        "flight duration": "0 days 18 hours 50 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:20pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_time": "6:45pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "8:10pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:05pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "756.51",
+        "flight duration": "0 days 17 hours 45 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "1:20pm",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_time": "6:45pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "10:25pm",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "12:05am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)"
+            }
+        ],
+        "plane code": "77W",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "756.51",
+        "flight duration": "0 days 19 hours 45 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "4:00pm",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "5:40pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "12:45am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "5:00am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "plane code": "32S",
+        "plane": "Airbus A319-321",
+        "ticket price": "772.09",
+        "flight duration": "0 days 22 hours 0 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "7:00pm",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "8:40pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "12:45am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "5:00am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "plane code": "32S",
+        "plane": "Airbus A319-321",
+        "ticket price": "772.09",
+        "flight duration": "0 days 19 hours 0 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "6:00pm",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "7:40pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "12:45am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "5:00am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "plane code": "32S",
+        "plane": "Airbus A319-321",
+        "ticket price": "772.09",
+        "flight duration": "0 days 20 hours 0 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "9:00pm",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "10:40pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "12:45am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "5:00am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "plane code": "32S",
+        "plane": "Airbus A319-321",
+        "ticket price": "772.09",
+        "flight duration": "0 days 17 hours 0 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    },
+    {
+        "timings": [
+            {
+                "departure_time": "8:00pm",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "9:40pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "departure_time": "12:45am",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "5:00am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "plane code": "320",
+        "plane": "Airbus A320",
+        "ticket price": "772.09",
+        "flight duration": "0 days 18 hours 0 minutes",
+        "stops": "1 Stop",
+        "airline": "",
+        "departure": ", San Francisco",
+        "arrival": ", Taipei"
+    }
+]
