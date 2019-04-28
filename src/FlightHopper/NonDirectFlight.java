@@ -39,8 +39,8 @@ public class NonDirectFlight implements IFlight {
 	 * @param duration flight duration in integer
 	 * @param rank flight rank
 	 * @param isDirect whether this is direct flight
-	 * @param airline
-	 * @param plane
+	 * @param airline name of the airline
+	 * @param plane plane type
 	 */
 	public NonDirectFlight(String startAirport,
 						   String endAirport,
@@ -72,7 +72,9 @@ public class NonDirectFlight implements IFlight {
 		this.plane = plane;
 	}
 
-
+	/**
+	 * print method for flight
+	 */
 	@Override
 	public void printFlight(){
 
@@ -100,7 +102,7 @@ public class NonDirectFlight implements IFlight {
 
 	/**
 	 * set start airport
-	 * @param startAirport
+	 * @param startAirport name of start airport
 	 */
 	public void setStartAirport(String startAirport) {
 		this.startAirport = startAirport;
@@ -116,7 +118,7 @@ public class NonDirectFlight implements IFlight {
 
 	/**
 	 * set end airport
-	 * @param endAirport
+	 * @param endAirport end airport name
 	 */
 	public void setEndAirport(String endAirport) {
 		this.endAirport = endAirport;
@@ -132,7 +134,7 @@ public class NonDirectFlight implements IFlight {
 
 	/**
 	 * set ticket price
-	 * @param price
+	 * @param price ticket price
 	 */
 	public void setPrice(double price) {
 		this.price = price;
@@ -148,24 +150,40 @@ public class NonDirectFlight implements IFlight {
 
 	/**
 	 * set stop number
-	 * @param stops
+	 * @param stops stop number
 	 */
 	public void setStops(int stops) {
 		this.stops = stops;
 	}
 
+	/**
+	 * get the flight segments
+	 * @return list of flight segments
+	 */
 	public ArrayList<String> getRouting() {
 		return routing;
 	}
 
+	/**
+	 * set flight segments
+	 * @param routing flight segments
+	 */
 	public void setRouting(ArrayList<String> routing) {
 		this.routing = routing;
 	}
 
+	/**
+	 * get the flight duration string
+	 * @return flight duration string
+	 */
 	public String getFlightDuration() {
 		return flightDuration;
 	}
 
+	/**
+	 * set the flight duration string
+	 * @param flightDuration flight duration string
+	 */
 	public void setFlightDuration(String flightDuration) {
 		this.flightDuration = flightDuration;
 	}
@@ -180,7 +198,7 @@ public class NonDirectFlight implements IFlight {
 
 	/**
 	 * set departure time
-	 * @param startTime
+	 * @param startTime departure time
 	 */
 	public void setStartTime(String startTime) {
 		this.startTime = startTime;
@@ -196,7 +214,7 @@ public class NonDirectFlight implements IFlight {
 
 	/**
 	 * set arrival time
-	 * @param endTime
+	 * @param endTime arrival time
 	 */
 	public void setEndTime(String endTime) {
 		this.endTime = endTime;
@@ -212,7 +230,7 @@ public class NonDirectFlight implements IFlight {
 
 	/**
 	 * set flight duration
-	 * @param duration
+	 * @param duration flight duration
 	 */
 	public void setDuration(int duration) {
 		this.duration = duration;
@@ -228,7 +246,7 @@ public class NonDirectFlight implements IFlight {
 
 	/**
 	 * set rank
-	 * @param rank
+	 * @param rank flight rank
 	 */
 	public void setRank(int rank) {
 		this.rank = rank;
@@ -239,6 +257,12 @@ public class NonDirectFlight implements IFlight {
 	 * @param flight flight that compares to
 	 * @return true if they do not overlap, false otherwise
 	 */
+
+	/**
+	 * check whether two tickets are valid together
+	 * @param flight flight that compares to
+	 * @return valid or not
+	 */
 	@Override
 	public boolean checkValid(IFlight flight) {
 		return false;
@@ -246,7 +270,7 @@ public class NonDirectFlight implements IFlight {
 	/**
 	 * Get the rank of the ticket
 	 * @param priceWeight how much price contribute to rank
-	 * @return
+	 * @return flight rank
 	 */
 	@Override
 	public int getFlightRank(double priceWeight) {
@@ -258,7 +282,9 @@ public class NonDirectFlight implements IFlight {
 	 * Check if this is a direct flight with no stops
 	 * @return true if direct, false if not
 	 */
-
+	public boolean isDirect() {
+		return false;
+	}
 //	@Override
 //	public boolean equals(Object o) {
 //		NonDirectFlight a = (NonDirectFlight) o;
@@ -269,13 +295,11 @@ public class NonDirectFlight implements IFlight {
 //				&& this.price == a.price
 //				&& this.airline.equals(a.airline);
 //	}
-	public boolean isDirect() {
-		return false;
-	}
+
 
 	/**
 	 * set if is direct
-	 * @param isDirect
+	 * @param isDirect whether is direct
 	 */
 	public void setDirect(boolean isDirect) {
 		this.isDirect = isDirect;
@@ -291,7 +315,7 @@ public class NonDirectFlight implements IFlight {
 
 	/**
 	 * set airline name
-	 * @param airline
+	 * @param airline name of airline
 	 */
 	public void setAirline(String airline) {
 		this.airline = airline;
@@ -299,7 +323,7 @@ public class NonDirectFlight implements IFlight {
 
 	/**
 	 * get plane type
-	 * @return
+	 * @return plane type
 	 */
 	public String getPlane() {
 		return plane;
@@ -307,7 +331,7 @@ public class NonDirectFlight implements IFlight {
 
 	/**
 	 * set plane type
-	 * @param plane
+	 * @param plane plane type
 	 */
 	public void setPlane(String plane) {
 		this.plane = plane;
