@@ -15,7 +15,7 @@ public class FlightFreqParser {
      * @return
      * @throws FileNotFoundException 
      */
-    public FlightFreqTable fileReader(String inputFile) throws FileNotFoundException {
+    public TreeMap fileReader(String inputFile) throws FileNotFoundException {
         
     	/* Create DS to hold fileRead results */
     	TreeMap<String, TreeMap<String, AirportPair>> startMap = new TreeMap<>();
@@ -34,7 +34,7 @@ public class FlightFreqParser {
     	
     	scan.useDelimiter(",|\n");
     	
-    	while (scan.hasNextLine() && counter > -1) {
+    	while (scan.hasNextLine() && counter < 20) {
     		
     		String id = scan.next();
     		String startAirport = scan.next();
@@ -86,12 +86,12 @@ public class FlightFreqParser {
 //    	System.out.println(startMap);
 //    	System.out.println(startMap.get("LAX"));
     	//Test get all flights from PHL to LAX
-    	System.out.println(startMap.get("PHL").get("LAX"));
+    	//System.out.println(startMap.get("PHL").get("LAX"));
     	
     	
     	//NOTE, will need to save this result in a freq table locally!
     	
-    	
-    	return null;
+    	return startMap;
+    	//return null;
     }
 }
