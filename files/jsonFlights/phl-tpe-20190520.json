@@ -1,0 +1,1046 @@
+[
+    {
+        "stops": "2 Stop",
+        "ticket price": "1296.18",
+        "airline": "Air Canada",
+        "plane": "Embraer 175",
+        "departure": ", Philadelphia",
+        "plane code": "E75",
+        "timings": [
+            {
+                "departure_time": "6:40pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_time": "8:11pm"
+            },
+            {
+                "departure_time": "10:25pm",
+                "departure_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
+                "arrival_time": "12:32am"
+            },
+            {
+                "departure_time": "11:00am",
+                "departure_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "2:15pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 31 hours 35 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1296.18",
+        "airline": "Air Canada",
+        "plane": "Embraer 175",
+        "departure": ", Philadelphia",
+        "plane code": "E75",
+        "timings": [
+            {
+                "departure_time": "2:40pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_time": "4:15pm"
+            },
+            {
+                "departure_time": "8:15pm",
+                "departure_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
+                "arrival_time": "10:13pm"
+            },
+            {
+                "departure_time": "11:00am",
+                "departure_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "2:15pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 35 hours 35 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1368.40",
+        "airline": "United",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:00am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_time": "11:20am",
+                "departure_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "1:09pm"
+            },
+            {
+                "departure_time": "2:05pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "6:45pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 24 hours 45 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1368.40",
+        "airline": "United",
+        "plane": "Airbus A319",
+        "departure": ", Philadelphia",
+        "plane code": "319",
+        "timings": [
+            {
+                "departure_time": "6:00am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Houston, TX (IAH-George Bush Intercontinental)",
+                "arrival_time": "8:45am"
+            },
+            {
+                "departure_time": "9:40am",
+                "departure_airport": "Houston, TX (IAH-George Bush Intercontinental)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "12:05pm"
+            },
+            {
+                "departure_time": "2:05pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "6:45pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 24 hours 45 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1368.40",
+        "airline": "United",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "7:30am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "8:58am"
+            },
+            {
+                "departure_time": "10:00am",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "12:44pm"
+            },
+            {
+                "departure_time": "2:05pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "6:45pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "0 days 23 hours 15 minutes"
+    },
+    {
+        "stops": "1 Stop",
+        "ticket price": "1368.40",
+        "airline": "United",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:40am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "9:38am"
+            },
+            {
+                "departure_time": "2:05pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "6:45pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 24 hours 5 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1368.40",
+        "airline": "United",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:00am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_time": "8:05am"
+            },
+            {
+                "departure_time": "9:42am",
+                "departure_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:22am"
+            },
+            {
+                "departure_time": "2:05pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "6:45pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 24 hours 45 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1385.60",
+        "airline": "Delta",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "plane code": "M90",
+        "timings": [
+            {
+                "departure_time": "8:10am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "10:25am"
+            },
+            {
+                "departure_time": "12:30pm",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:20pm"
+            },
+            {
+                "departure_time": "8:45pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:25pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 26 hours 15 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1385.60",
+        "airline": "Delta",
+        "plane": "Airbus A319",
+        "departure": ", Philadelphia",
+        "plane code": "319",
+        "timings": [
+            {
+                "departure_time": "9:45am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "11:26am"
+            },
+            {
+                "departure_time": "1:50pm",
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:30pm"
+            },
+            {
+                "departure_time": "8:45pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:25pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 24 hours 40 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1385.60",
+        "airline": "Delta",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "plane code": "M90",
+        "timings": [
+            {
+                "departure_time": "7:05am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "9:13am"
+            },
+            {
+                "departure_time": "12:30pm",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:20pm"
+            },
+            {
+                "departure_time": "8:45pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:25pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 27 hours 20 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1385.60",
+        "airline": "Delta",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:05am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "8:10am"
+            },
+            {
+                "departure_time": "12:30pm",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:20pm"
+            },
+            {
+                "departure_time": "8:45pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:25pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 28 hours 20 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1385.60",
+        "airline": "Delta",
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "timings": [
+            {
+                "departure_time": "6:00am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "7:45am"
+            },
+            {
+                "departure_time": "1:50pm",
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:30pm"
+            },
+            {
+                "departure_time": "8:45pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:25pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 28 hours 25 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "United",
+        "plane": "Airbus A320",
+        "departure": ", Philadelphia",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "9:08am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "10:29am"
+            },
+            {
+                "departure_time": "12:45pm",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "3:55pm"
+            },
+            {
+                "departure_time": "5:40pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:15pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "0 days 23 hours 7 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "Delta",
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "timings": [
+            {
+                "departure_time": "6:00am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "7:45am"
+            },
+            {
+                "departure_time": "12:15pm",
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:15pm"
+            },
+            {
+                "departure_time": "6:20pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "9:10pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 27 hours 10 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "Delta",
+        "plane": "Airbus A319",
+        "departure": ", Philadelphia",
+        "plane code": "319",
+        "timings": [
+            {
+                "departure_time": "9:45am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "11:26am"
+            },
+            {
+                "departure_time": "12:15pm",
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:15pm"
+            },
+            {
+                "departure_time": "6:20pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "9:10pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "0 days 23 hours 25 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "United",
+        "plane": "Airbus A320",
+        "departure": ", Philadelphia",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "10:20am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "11:49am"
+            },
+            {
+                "departure_time": "12:45pm",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "3:55pm"
+            },
+            {
+                "departure_time": "5:40pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:15pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "0 days 21 hours 55 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "Delta",
+        "plane": "Airbus A319",
+        "departure": ", Philadelphia",
+        "plane code": "319",
+        "timings": [
+            {
+                "departure_time": "9:45am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "11:26am"
+            },
+            {
+                "departure_time": "12:15pm",
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:15pm"
+            },
+            {
+                "departure_time": "8:05pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:45pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 25 hours 0 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "Delta",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "plane code": "M90",
+        "timings": [
+            {
+                "departure_time": "7:05am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "9:13am"
+            },
+            {
+                "departure_time": "11:29am",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:35pm"
+            },
+            {
+                "departure_time": "8:05pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:45pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 27 hours 40 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "Delta",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:05am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "8:10am"
+            },
+            {
+                "departure_time": "11:29am",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:35pm"
+            },
+            {
+                "departure_time": "8:05pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:45pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 28 hours 40 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "United",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:40am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "9:38am"
+            },
+            {
+                "departure_time": "11:30am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:35pm"
+            },
+            {
+                "departure_time": "5:40pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:15pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 25 hours 35 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "Delta",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:05am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "8:10am"
+            },
+            {
+                "departure_time": "11:29am",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:35pm"
+            },
+            {
+                "departure_time": "6:20pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "9:10pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 27 hours 5 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "Delta",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "plane code": "M90",
+        "timings": [
+            {
+                "departure_time": "8:10am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "10:25am"
+            },
+            {
+                "departure_time": "11:29am",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:35pm"
+            },
+            {
+                "departure_time": "6:20pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "9:10pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 25 hours 0 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "United",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "7:30am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "8:58am"
+            },
+            {
+                "departure_time": "12:45pm",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "3:55pm"
+            },
+            {
+                "departure_time": "5:40pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:15pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 24 hours 45 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "Delta",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "plane code": "M90",
+        "timings": [
+            {
+                "departure_time": "8:10am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "10:25am"
+            },
+            {
+                "departure_time": "11:29am",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:35pm"
+            },
+            {
+                "departure_time": "8:05pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:45pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 26 hours 35 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "Delta",
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "timings": [
+            {
+                "departure_time": "6:00am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "7:45am"
+            },
+            {
+                "departure_time": "12:15pm",
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:15pm"
+            },
+            {
+                "departure_time": "8:05pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "10:45pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 28 hours 45 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1396.60",
+        "airline": "Delta",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "plane code": "M90",
+        "timings": [
+            {
+                "departure_time": "7:05am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "9:13am"
+            },
+            {
+                "departure_time": "11:29am",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:35pm"
+            },
+            {
+                "departure_time": "6:20pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "9:10pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 26 hours 5 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1397.38",
+        "airline": "Air Canada",
+        "plane": "Embraer 175",
+        "departure": ", Philadelphia",
+        "plane code": "E75",
+        "timings": [
+            {
+                "departure_time": "6:00am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_time": "7:31am"
+            },
+            {
+                "departure_time": "1:35pm",
+                "departure_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:20pm"
+            },
+            {
+                "departure_time": "7:45pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "9:25pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 27 hours 25 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1397.38",
+        "airline": "Air Canada",
+        "plane": "Embraer 175",
+        "departure": ", Philadelphia",
+        "plane code": "E75",
+        "timings": [
+            {
+                "departure_time": "9:35am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_time": "11:06am"
+            },
+            {
+                "departure_time": "1:35pm",
+                "departure_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:20pm"
+            },
+            {
+                "departure_time": "7:45pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "9:25pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "0 days 23 hours 50 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1400.60",
+        "airline": "All Nippon Airways",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:40am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "9:38am"
+            },
+            {
+                "departure_time": "12:15pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "3:25pm"
+            },
+            {
+                "departure_time": "5:40pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:15pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 25 hours 35 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1400.60",
+        "airline": "All Nippon Airways",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:40am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "9:38am"
+            },
+            {
+                "departure_time": "11:30am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:35pm"
+            },
+            {
+                "departure_time": "5:40pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:15pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 25 hours 35 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1409.40",
+        "airline": "Japan Airlines",
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "timings": [
+            {
+                "departure_time": "8:25am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "10:01am"
+            },
+            {
+                "departure_time": "12:25pm",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "3:35pm"
+            },
+            {
+                "departure_time": "6:00pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:55pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 24 hours 30 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1409.40",
+        "airline": "Japan Airlines",
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "timings": [
+            {
+                "departure_time": "7:00am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_time": "9:33am"
+            },
+            {
+                "departure_time": "1:05pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "4:45pm"
+            },
+            {
+                "departure_time": "6:00pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:55pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 25 hours 55 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1409.40",
+        "airline": "Japan Airlines",
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "timings": [
+            {
+                "departure_time": "7:00am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_time": "9:33am"
+            },
+            {
+                "departure_time": "10:40am",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "2:10pm"
+            },
+            {
+                "departure_time": "6:00pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "8:55pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 25 hours 55 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1425.60",
+        "airline": "Air Canada",
+        "plane": "Canadair RJ",
+        "departure": ", Philadelphia",
+        "plane code": "CRJ",
+        "timings": [
+            {
+                "departure_time": "8:30am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Montreal, QC, Canada (YUL-Pierre Elliott Trudeau Intl.)",
+                "arrival_time": "10:08am"
+            },
+            {
+                "departure_time": "1:10pm",
+                "departure_airport": "Montreal, QC, Canada (YUL-Pierre Elliott Trudeau Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "3:15pm"
+            },
+            {
+                "departure_time": "8:40pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "11:20pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 26 hours 50 minutes"
+    },
+    {
+        "stops": "2 Stop",
+        "ticket price": "1433.00",
+        "airline": "Korean Air",
+        "plane": "Boeing 737-800",
+        "departure": ", Philadelphia",
+        "plane code": "738",
+        "timings": [
+            {
+                "departure_time": "7:15pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "9:31pm"
+            },
+            {
+                "departure_time": "12:20am",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:00am"
+            },
+            {
+                "departure_time": "10:35am",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "12:05pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "flight duration": "1 days 28 hours 50 minutes"
+    }
+]

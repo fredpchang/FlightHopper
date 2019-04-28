@@ -1,0 +1,830 @@
+[
+    {
+        "flight duration": "0 days 6 hours 5 minutes",
+        "plane": "AIRBUS INDUSTRIE A320 SHARKLETS",
+        "stops": "Nonstop",
+        "ticket price": "159.29",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "32A",
+        "airline": "Spirit Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "10:05am",
+                "departure_time": "7:00am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 6 hours 10 minutes",
+        "plane": "Airbus A321",
+        "stops": "Nonstop",
+        "ticket price": "230.30",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "9:47am",
+                "departure_time": "6:37am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 13 hours 36 minutes",
+        "plane": "Airbus A319",
+        "stops": "2 Stop",
+        "ticket price": "233.17",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "319",
+        "airline": "Spirit Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "9:11am",
+                "departure_time": "6:50am"
+            },
+            {
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_time": "1:58pm",
+                "departure_time": "12:35pm"
+            },
+            {
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "5:26pm",
+                "departure_time": "4:04pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 8 hours 16 minutes",
+        "plane": "Airbus A320",
+        "stops": "1 Stop",
+        "ticket price": "237.50",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "320",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "6:40am",
+                "departure_time": "5:00am"
+            },
+            {
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "10:16am",
+                "departure_time": "7:50am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 10 hours 32 minutes",
+        "plane": "Airbus A320",
+        "stops": "1 Stop",
+        "ticket price": "237.50",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "320",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "6:40am",
+                "departure_time": "5:00am"
+            },
+            {
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "12:32pm",
+                "departure_time": "10:05am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 10 hours 19 minutes",
+        "plane": "MDC MD90",
+        "stops": "1 Stop",
+        "ticket price": "257.00",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "M90",
+        "airline": "Delta",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "8:57am",
+                "departure_time": "7:15am"
+            },
+            {
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "2:34pm",
+                "departure_time": "12:40pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 6 hours 13 minutes",
+        "plane": "Airbus A321",
+        "stops": "Nonstop",
+        "ticket price": "268.30",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "2:13pm",
+                "departure_time": "11:00am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 8 hours 52 minutes",
+        "plane": "Airbus A321",
+        "stops": "1 Stop",
+        "ticket price": "275.50",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "8:26am",
+                "departure_time": "6:40am"
+            },
+            {
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "12:32pm",
+                "departure_time": "10:05am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 10 hours 2 minutes",
+        "plane": "Embraer RJ145",
+        "stops": "1 Stop",
+        "ticket price": "277.00",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "ER4",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Indianapolis, IN (IND-Indianapolis Intl.)",
+                "arrival_time": "12:47pm",
+                "departure_time": "10:35am"
+            },
+            {
+                "departure_airport": "Indianapolis, IN (IND-Indianapolis Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "5:37pm",
+                "departure_time": "4:09pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 8 hours 58 minutes",
+        "plane": "Embraer 190",
+        "stops": "1 Stop",
+        "ticket price": "277.01",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "E90",
+        "airline": "JetBlue Airways",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "arrival_time": "7:07am",
+                "departure_time": "5:50am"
+            },
+            {
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "11:48am",
+                "departure_time": "8:23am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 13 hours 40 minutes",
+        "plane": "Boeing 737-800",
+        "stops": "1 Stop",
+        "ticket price": "286.60",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "738",
+        "airline": "Sun Country Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)",
+                "arrival_time": "1:55pm",
+                "departure_time": "12:00pm"
+            },
+            {
+                "departure_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "10:40pm",
+                "departure_time": "8:50pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 8 hours 11 minutes",
+        "plane": "Boeing 737-800",
+        "stops": "1 Stop",
+        "ticket price": "293.00",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "738",
+        "airline": "Sun Country Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)",
+                "arrival_time": "1:55pm",
+                "departure_time": "12:00pm"
+            },
+            {
+                "departure_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "5:11pm",
+                "departure_time": "3:20pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 10 hours 17 minutes",
+        "plane": "Boeing 737-900",
+        "stops": "1 Stop",
+        "ticket price": "295.00",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "airline": "United",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "8:29am",
+                "departure_time": "5:30am"
+            },
+            {
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "12:47pm",
+                "departure_time": "11:00am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 8 hours 49 minutes",
+        "plane": "Boeing 737-900",
+        "stops": "1 Stop",
+        "ticket price": "295.00",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "739",
+        "airline": "United",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "8:29am",
+                "departure_time": "5:30am"
+            },
+            {
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "11:19am",
+                "departure_time": "9:30am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 6 hours 5 minutes",
+        "plane": "Airbus A320",
+        "stops": "Nonstop",
+        "ticket price": "297.31",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "320",
+        "airline": "Alaska Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "9:20am",
+                "departure_time": "6:15am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 7 hours 10 minutes",
+        "plane": "Airbus A320",
+        "stops": "1 Stop",
+        "ticket price": "306.01",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "320",
+        "airline": "Delta",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "7:39am",
+                "departure_time": "6:00am"
+            },
+            {
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "10:10am",
+                "departure_time": "8:20am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 9 hours 5 minutes",
+        "plane": "Airbus A320",
+        "stops": "1 Stop",
+        "ticket price": "306.01",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "320",
+        "airline": "Delta",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "7:39am",
+                "departure_time": "6:00am"
+            },
+            {
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "12:05pm",
+                "departure_time": "10:12am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 7 hours 50 minutes",
+        "plane": "MDC MD90",
+        "stops": "1 Stop",
+        "ticket price": "306.01",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "M90",
+        "airline": "Delta",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "8:57am",
+                "departure_time": "7:15am"
+            },
+            {
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "12:05pm",
+                "departure_time": "10:12am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 9 hours 30 minutes",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "stops": "1 Stop",
+        "ticket price": "310.70",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "TRN",
+        "airline": "United",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)",
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_time": "6:14am",
+                "departure_time": "5:09am"
+            },
+            {
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "11:39am",
+                "departure_time": "8:45am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 14 hours 5 minutes",
+        "plane": "Airbus A319",
+        "stops": "1 Stop",
+        "ticket price": "311.57",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "319",
+        "airline": "Spirit Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "1:24pm",
+                "departure_time": "11:33am"
+            },
+            {
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "10:38pm",
+                "departure_time": "8:46pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 9 hours 18 minutes",
+        "plane": "Airbus A319",
+        "stops": "2 Stop",
+        "ticket price": "317.19",
+        "arrival": ", Ontario",
+        "departure": ", Philadelphia",
+        "plane code": "319",
+        "airline": "Frontier Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Kansas City, MO (MCI-Kansas City Intl.)",
+                "arrival_time": "5:56pm",
+                "departure_time": "3:51pm"
+            },
+            {
+                "departure_airport": "Kansas City, MO (MCI-Kansas City Intl.)",
+                "arrival_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_time": "7:32pm",
+                "departure_time": "6:36pm"
+            },
+            {
+                "departure_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_airport": "Ontario, CA (ONT-Los Angeles - Ontario Intl.)",
+                "arrival_time": "10:09pm",
+                "departure_time": "8:49pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 10 hours 55 minutes",
+        "plane": "Airbus A320",
+        "stops": "1 Stop",
+        "ticket price": "321.01",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "320",
+        "airline": "Alaska Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:20am",
+                "departure_time": "8:00am"
+            },
+            {
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "3:55pm",
+                "departure_time": "2:20pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 12 hours 9 minutes",
+        "plane": "Airbus A319",
+        "stops": "3 Stop",
+        "ticket price": "323.37",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "319",
+        "airline": "Spirit Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_time": "3:41pm",
+                "departure_time": "1:00pm"
+            },
+            {
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_time": "6:16pm",
+                "departure_time": "5:05pm"
+            },
+            {
+                "departure_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_airport": "Las Vegas, NV (LAS-McCarran Intl.)",
+                "arrival_time": "7:59pm",
+                "departure_time": "7:01pm"
+            },
+            {
+                "departure_airport": "Las Vegas, NV (LAS-McCarran Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "10:09pm",
+                "departure_time": "8:49pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 10 hours 40 minutes",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "stops": "1 Stop",
+        "ticket price": "324.70",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "TRN",
+        "airline": "United",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)",
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_time": "9:37am",
+                "departure_time": "8:30am"
+            },
+            {
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "4:10pm",
+                "departure_time": "1:00pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 9 hours 50 minutes",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "stops": "1 Stop",
+        "ticket price": "324.70",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "TRN",
+        "airline": "United",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)",
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_time": "10:20am",
+                "departure_time": "9:20am"
+            },
+            {
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "4:10pm",
+                "departure_time": "1:00pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 9 hours 1 minutes",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "stops": "1 Stop",
+        "ticket price": "324.70",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "TRN",
+        "airline": "United",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)",
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_time": "1:09pm",
+                "departure_time": "12:05pm"
+            },
+            {
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "6:06pm",
+                "departure_time": "3:00pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 14 hours 35 minutes",
+        "plane": "Airbus A320",
+        "stops": "1 Stop",
+        "ticket price": "326.61",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "320",
+        "airline": "Alaska Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:20am",
+                "departure_time": "8:00am"
+            },
+            {
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "7:35pm",
+                "departure_time": "6:00pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 12 hours 35 minutes",
+        "plane": "Airbus A320",
+        "stops": "1 Stop",
+        "ticket price": "326.61",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "320",
+        "airline": "Alaska Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:20am",
+                "departure_time": "8:00am"
+            },
+            {
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "5:35pm",
+                "departure_time": "4:00pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 8 hours 16 minutes",
+        "plane": "Airbus A321",
+        "stops": "1 Stop",
+        "ticket price": "329.00",
+        "arrival": ", Ontario",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Phoenix, AZ (PHX-Sky Harbor Intl.)",
+                "arrival_time": "12:40pm",
+                "departure_time": "10:30am"
+            },
+            {
+                "departure_airport": "Phoenix, AZ (PHX-Sky Harbor Intl.)",
+                "arrival_airport": "Ontario, CA (ONT-Los Angeles - Ontario Intl.)",
+                "arrival_time": "3:46pm",
+                "departure_time": "2:35pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 7 hours 9 minutes",
+        "plane": "Airbus A320",
+        "stops": "1 Stop",
+        "ticket price": "329.00",
+        "arrival": ", Ontario",
+        "departure": ", Philadelphia",
+        "plane code": "320",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Phoenix, AZ (PHX-Sky Harbor Intl.)",
+                "arrival_time": "9:21am",
+                "departure_time": "7:05am"
+            },
+            {
+                "departure_airport": "Phoenix, AZ (PHX-Sky Harbor Intl.)",
+                "arrival_airport": "Ontario, CA (ONT-Los Angeles - Ontario Intl.)",
+                "arrival_time": "11:14am",
+                "departure_time": "9:58am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 13 hours 52 minutes",
+        "plane": "Airbus A319",
+        "stops": "1 Stop",
+        "ticket price": "330.57",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "319",
+        "airline": "Spirit Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_time": "3:41pm",
+                "departure_time": "1:00pm"
+            },
+            {
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "11:52pm",
+                "departure_time": "10:29pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 10 hours 48 minutes",
+        "plane": "Airbus A319",
+        "stops": "2 Stop",
+        "ticket price": "337.19",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "319",
+        "airline": "Frontier Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Kansas City, MO (MCI-Kansas City Intl.)",
+                "arrival_time": "5:56pm",
+                "departure_time": "3:51pm"
+            },
+            {
+                "departure_airport": "Kansas City, MO (MCI-Kansas City Intl.)",
+                "arrival_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_time": "7:32pm",
+                "departure_time": "6:36pm"
+            },
+            {
+                "departure_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "11:39pm",
+                "departure_time": "10:15pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 6 hours 9 minutes",
+        "plane": "Airbus A321",
+        "stops": "Nonstop",
+        "ticket price": "348.30",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "11:54pm",
+                "departure_time": "8:45pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 6 hours 8 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-200",
+        "stops": "Nonstop",
+        "ticket price": "348.30",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "332",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "7:03pm",
+                "departure_time": "3:55pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 6 hours 4 minutes",
+        "plane": "Airbus A321",
+        "stops": "Nonstop",
+        "ticket price": "348.30",
+        "arrival": ", Los Angeles",
+        "departure": ", Philadelphia",
+        "plane code": "321",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "3:44pm",
+                "departure_time": "12:40pm"
+            }
+        ]
+    }
+]

@@ -1,0 +1,902 @@
+[
+    {
+        "flight duration": "1 days 25 hours 15 minutes",
+        "ticket price": "1005.80",
+        "plane code": "32S",
+        "arrival": ", Beijing",
+        "stops": "2 Stop",
+        "plane": "Airbus A319-321",
+        "departure": ", Philadelphia",
+        "airline": "",
+        "timings": [
+            {
+                "arrival_time": "9:20am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "departure_time": "6:15am"
+            },
+            {
+                "arrival_time": "2:34pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "departure_time": "11:33am"
+            },
+            {
+                "arrival_time": "7:30pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "4:50pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 33 hours 20 minutes",
+        "ticket price": "1038.10",
+        "plane code": "E75",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Embraer 175",
+        "departure": ", Philadelphia",
+        "airline": "Air Canada",
+        "timings": [
+            {
+                "arrival_time": "8:14pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "departure_time": "6:40pm"
+            },
+            {
+                "arrival_time": "4:00pm",
+                "departure_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "2:35pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 37 hours 20 minutes",
+        "ticket price": "1038.10",
+        "plane code": "E75",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Embraer 175",
+        "departure": ", Philadelphia",
+        "airline": "Air Canada",
+        "timings": [
+            {
+                "arrival_time": "4:14pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "departure_time": "2:40pm"
+            },
+            {
+                "arrival_time": "4:00pm",
+                "departure_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "2:35pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 17 hours 6 minutes",
+        "ticket price": "1046.20",
+        "plane code": "E90",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "",
+        "timings": [
+            {
+                "arrival_time": "3:22pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "1:54pm"
+            },
+            {
+                "arrival_time": "7:00pm",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "5:10pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 20 hours 26 minutes",
+        "ticket price": "1046.20",
+        "plane code": "E90",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "",
+        "timings": [
+            {
+                "arrival_time": "11:54am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "10:34am"
+            },
+            {
+                "arrival_time": "7:00pm",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "5:10pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 26 hours 30 minutes",
+        "ticket price": "1048.64",
+        "plane code": "738",
+        "arrival": ", Beijing",
+        "stops": "2 Stop",
+        "plane": "Boeing 737-800",
+        "departure": ", Philadelphia",
+        "airline": "Japan Airlines",
+        "timings": [
+            {
+                "arrival_time": "9:19am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "departure_time": "6:45am"
+            },
+            {
+                "arrival_time": "3:30pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "departure_time": "12:20pm"
+            },
+            {
+                "arrival_time": "9:15pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "6:10pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 18 hours 25 minutes",
+        "ticket price": "1053.44",
+        "plane code": "E75",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Embraer 175",
+        "departure": ", Philadelphia",
+        "airline": "Air Canada",
+        "timings": [
+            {
+                "arrival_time": "11:09am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "departure_time": "9:35am"
+            },
+            {
+                "arrival_time": "4:00pm",
+                "departure_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "2:35pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 22 hours 0 minutes",
+        "ticket price": "1053.44",
+        "plane code": "E75",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Embraer 175",
+        "departure": ", Philadelphia",
+        "airline": "Air Canada",
+        "timings": [
+            {
+                "arrival_time": "7:34am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "departure_time": "6:00am"
+            },
+            {
+                "arrival_time": "4:00pm",
+                "departure_airport": "Toronto, ON, Canada (YYZ-Pearson Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "2:35pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 27 hours 11 minutes",
+        "ticket price": "1241.24",
+        "plane code": "739",
+        "arrival": ", Beijing",
+        "stops": "2 Stop",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "airline": "All Nippon Airways",
+        "timings": [
+            {
+                "arrival_time": "9:16am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "6:09am"
+            },
+            {
+                "arrival_time": "3:25pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "departure_time": "12:20pm"
+            },
+            {
+                "arrival_time": "9:20pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "6:20pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 27 hours 19 minutes",
+        "ticket price": "1281.21",
+        "plane code": "320",
+        "arrival": ", Beijing",
+        "stops": "2 Stop",
+        "plane": "Airbus A320",
+        "departure": ", Philadelphia",
+        "airline": "Cathay Pacific",
+        "timings": [
+            {
+                "arrival_time": "12:29pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "departure_time": "10:56am"
+            },
+            {
+                "arrival_time": "8:20pm",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "3:20pm"
+            },
+            {
+                "arrival_time": "2:15am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "11:00pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 23 hours 46 minutes",
+        "ticket price": "1292.20",
+        "plane code": "739",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "airline": "Air China",
+        "timings": [
+            {
+                "arrival_time": "9:16am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "6:09am"
+            },
+            {
+                "arrival_time": "5:55pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "2:50pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 29 hours 55 minutes",
+        "ticket price": "784.81",
+        "plane code": "77W",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "departure": ", Philadelphia",
+        "airline": "Qatar Airways",
+        "timings": [
+            {
+                "arrival_time": "4:40pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Doha, Qatar (DOH-Hamad Intl.)",
+                "departure_time": "9:00pm"
+            },
+            {
+                "arrival_time": "2:55pm",
+                "departure_airport": "Doha, Qatar (DOH-Hamad Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "1:55am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 22 hours 51 minutes",
+        "ticket price": "908.57",
+        "plane code": "M90",
+        "arrival": ", Beijing",
+        "stops": "2 Stop",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "airline": "KLM",
+        "timings": [
+            {
+                "arrival_time": "9:45pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_time": "7:24pm"
+            },
+            {
+                "arrival_time": "12:55pm",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "departure_time": "10:40pm"
+            },
+            {
+                "arrival_time": "6:15am",
+                "departure_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "2:40pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 25 hours 39 minutes",
+        "ticket price": "908.57",
+        "plane code": "M90",
+        "arrival": ", Beijing",
+        "stops": "2 Stop",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "airline": "KLM",
+        "timings": [
+            {
+                "arrival_time": "6:54pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_time": "4:36pm"
+            },
+            {
+                "arrival_time": "12:55pm",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "departure_time": "10:40pm"
+            },
+            {
+                "arrival_time": "6:15am",
+                "departure_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "2:40pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 29 hours 16 minutes",
+        "ticket price": "908.57",
+        "plane code": "M90",
+        "arrival": ", Beijing",
+        "stops": "2 Stop",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "airline": "KLM",
+        "timings": [
+            {
+                "arrival_time": "3:09pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_time": "12:59pm"
+            },
+            {
+                "arrival_time": "12:55pm",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "departure_time": "10:40pm"
+            },
+            {
+                "arrival_time": "6:15am",
+                "departure_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "2:40pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 30 hours 28 minutes",
+        "ticket price": "908.57",
+        "plane code": "M90",
+        "arrival": ", Beijing",
+        "stops": "2 Stop",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "airline": "KLM",
+        "timings": [
+            {
+                "arrival_time": "2:02pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_time": "11:47am"
+            },
+            {
+                "arrival_time": "12:55pm",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "departure_time": "10:40pm"
+            },
+            {
+                "arrival_time": "6:15am",
+                "departure_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "2:40pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 30 hours 8 minutes",
+        "ticket price": "920.96",
+        "plane code": "M90",
+        "arrival": ", Beijing",
+        "stops": "2 Stop",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "airline": "Air France",
+        "timings": [
+            {
+                "arrival_time": "2:02pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_time": "11:47am"
+            },
+            {
+                "arrival_time": "10:25am",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Paris, France (CDG-Roissy-Charles de Gaulle)",
+                "departure_time": "8:01pm"
+            },
+            {
+                "arrival_time": "5:55am",
+                "departure_airport": "Paris, France (CDG-Roissy-Charles de Gaulle)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "1:50pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 30 hours 8 minutes",
+        "ticket price": "920.96",
+        "plane code": "M90",
+        "arrival": ", Beijing",
+        "stops": "2 Stop",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "airline": "Air France",
+        "timings": [
+            {
+                "arrival_time": "2:02pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_time": "11:47am"
+            },
+            {
+                "arrival_time": "7:05am",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_airport": "Paris, France (CDG-Roissy-Charles de Gaulle)",
+                "departure_time": "4:35pm"
+            },
+            {
+                "arrival_time": "5:55am",
+                "departure_airport": "Paris, France (CDG-Roissy-Charles de Gaulle)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "1:50pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 20 hours 26 minutes",
+        "ticket price": "942.70",
+        "plane code": "TRN",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_time": "6:14am",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)",
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "5:09am"
+            },
+            {
+                "arrival_time": "1:35pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "11:50am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 17 hours 5 minutes",
+        "ticket price": "942.70",
+        "plane code": "TRN",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_time": "9:37am",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)",
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_time": "8:30am"
+            },
+            {
+                "arrival_time": "1:35pm",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "11:50am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 22 hours 5 minutes",
+        "ticket price": "945.20",
+        "plane code": "E90",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "",
+        "timings": [
+            {
+                "arrival_time": "10:35am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "8:55am"
+            },
+            {
+                "arrival_time": "7:00pm",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "5:10pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 25 hours 33 minutes",
+        "ticket price": "945.20",
+        "plane code": "E90",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia",
+        "airline": "",
+        "timings": [
+            {
+                "arrival_time": "6:43am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_time": "5:27am"
+            },
+            {
+                "arrival_time": "7:00pm",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "5:10pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 21 hours 5 minutes",
+        "ticket price": "947.20",
+        "plane code": "757",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Boeing 757",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_time": "7:36am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "departure_time": "5:05am"
+            },
+            {
+                "arrival_time": "2:10pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "11:10am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 19 hours 25 minutes",
+        "ticket price": "947.20",
+        "plane code": "738",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Boeing 737-800",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_time": "9:19am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "departure_time": "6:45am"
+            },
+            {
+                "arrival_time": "2:10pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "11:10am"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 29 hours 12 minutes",
+        "ticket price": "947.20",
+        "plane code": "321",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_time": "11:38pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "departure_time": "8:58pm"
+            },
+            {
+                "arrival_time": "2:10pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "11:05am"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 29 hours 25 minutes",
+        "ticket price": "947.20",
+        "plane code": "321",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_time": "11:54pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "departure_time": "8:45pm"
+            },
+            {
+                "arrival_time": "2:10pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "10:10am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 20 hours 11 minutes",
+        "ticket price": "947.20",
+        "plane code": "739",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_time": "9:16am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "departure_time": "6:09am"
+            },
+            {
+                "arrival_time": "2:20pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "10:55am"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 21 hours 15 minutes",
+        "ticket price": "947.20",
+        "plane code": "320",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Airbus A320",
+        "departure": ", Philadelphia",
+        "airline": "Delta",
+        "timings": [
+            {
+                "arrival_time": "7:39am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "departure_time": "6:00am"
+            },
+            {
+                "arrival_time": "3:15pm",
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "2:02pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "0 days 20 hours 0 minutes",
+        "ticket price": "947.20",
+        "plane code": "M90",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia",
+        "airline": "Delta",
+        "timings": [
+            {
+                "arrival_time": "8:57am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "departure_time": "7:15am"
+            },
+            {
+                "arrival_time": "3:15pm",
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "2:02pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 33 hours 11 minutes",
+        "ticket price": "960.85",
+        "plane code": "320",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Airbus A320",
+        "departure": ", Philadelphia",
+        "airline": "Delta",
+        "timings": [
+            {
+                "arrival_time": "7:19pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "departure_time": "5:34pm"
+            },
+            {
+                "arrival_time": "2:45pm",
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "1:36pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 37 hours 50 minutes",
+        "ticket price": "960.85",
+        "plane code": "",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "",
+        "departure": ", Philadelphia",
+        "airline": "Delta",
+        "timings": [
+            {
+                "arrival_time": "2:42pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "departure_time": "12:55pm"
+            },
+            {
+                "arrival_time": "2:45pm",
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "1:36pm"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 32 hours 10 minutes",
+        "ticket price": "966.55",
+        "plane code": "757",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Boeing 757",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_time": "8:49pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "departure_time": "6:00pm"
+            },
+            {
+                "arrival_time": "2:10pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "11:05am"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 31 hours 10 minutes",
+        "ticket price": "966.55",
+        "plane code": "319",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Airbus A319",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_time": "9:55pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "departure_time": "7:00pm"
+            },
+            {
+                "arrival_time": "2:10pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "11:05am"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 33 hours 46 minutes",
+        "ticket price": "966.55",
+        "plane code": "757",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Boeing 757",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_time": "7:06pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "departure_time": "4:24pm"
+            },
+            {
+                "arrival_time": "2:10pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "11:05am"
+            }
+        ]
+    },
+    {
+        "flight duration": "1 days 32 hours 24 minutes",
+        "ticket price": "973.73",
+        "plane code": "321",
+        "arrival": ", Beijing",
+        "stops": "1 Stop",
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_time": "9:01pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "departure_time": "5:46pm"
+            },
+            {
+                "arrival_time": "2:10pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "departure_time": "10:10am"
+            }
+        ]
+    }
+]

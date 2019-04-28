@@ -1,0 +1,794 @@
+[
+    {
+        "flight duration": "0 days 6 hours 16 minutes",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "9:46pm",
+                "departure_time": "6:30pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            }
+        ],
+        "plane": "Airbus A320",
+        "arrival": ", San Francisco",
+        "ticket price": "148.30",
+        "plane code": "320",
+        "stops": "Nonstop"
+    },
+    {
+        "flight duration": "0 days 6 hours 18 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "10:08pm",
+                "departure_time": "6:50pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            }
+        ],
+        "plane": "Airbus A321",
+        "arrival": ", San Francisco",
+        "ticket price": "148.30",
+        "plane code": "321",
+        "stops": "Nonstop"
+    },
+    {
+        "flight duration": "0 days 6 hours 6 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "6:56pm",
+                "departure_time": "3:50pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            }
+        ],
+        "plane": "AIRBUS INDUSTRIE A330-200",
+        "arrival": ", San Francisco",
+        "ticket price": "148.30",
+        "plane code": "332",
+        "stops": "Nonstop"
+    },
+    {
+        "flight duration": "0 days 6 hours 5 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:56pm",
+                "departure_time": "8:51pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            }
+        ],
+        "plane": "Airbus A321",
+        "arrival": ", San Francisco",
+        "ticket price": "148.30",
+        "plane code": "321",
+        "stops": "Nonstop"
+    },
+    {
+        "flight duration": "0 days 5 hours 55 minutes",
+        "departure": ", Philadelphia",
+        "airline": "Alaska Airlines",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "10:55am",
+                "departure_time": "8:00am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            }
+        ],
+        "plane": "Airbus A320",
+        "arrival": ", San Francisco",
+        "ticket price": "148.30",
+        "plane code": "320",
+        "stops": "Nonstop"
+    },
+    {
+        "flight duration": "0 days 9 hours 29 minutes",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "6:25pm",
+                "departure_time": "4:35pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:04pm",
+                "departure_time": "8:25pm",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)"
+            }
+        ],
+        "plane": "Boeing 737-800",
+        "arrival": ", San Francisco",
+        "ticket price": "157.00",
+        "plane code": "738",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 31 minutes",
+        "departure": ", Philadelphia",
+        "airline": "Delta",
+        "timings": [
+            {
+                "arrival_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)",
+                "arrival_time": "7:59am",
+                "departure_time": "6:10am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:41am",
+                "departure_time": "9:25am",
+                "departure_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)"
+            }
+        ],
+        "plane": "Boeing 737-900",
+        "arrival": ", San Francisco",
+        "ticket price": "157.00",
+        "plane code": "739",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 9 hours 50 minutes",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "8:43am",
+                "departure_time": "7:30am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "2:20pm",
+                "departure_time": "11:43am",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)"
+            }
+        ],
+        "plane": "Airbus A320",
+        "arrival": ", San Francisco",
+        "ticket price": "157.00",
+        "plane code": "320",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 33 minutes",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_time": "8:40pm",
+                "departure_time": "6:19pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:52pm",
+                "departure_time": "10:14pm",
+                "departure_airport": "Denver, CO (DEN-Denver Intl.)"
+            }
+        ],
+        "plane": "Airbus A319",
+        "arrival": ", San Francisco",
+        "ticket price": "157.00",
+        "plane code": "319",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 10 hours 24 minutes",
+        "departure": ", Philadelphia",
+        "airline": "Delta",
+        "timings": [
+            {
+                "arrival_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)",
+                "arrival_time": "4:37pm",
+                "departure_time": "2:50pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "10:14pm",
+                "departure_time": "7:59pm",
+                "departure_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)"
+            }
+        ],
+        "plane": "Boeing 717",
+        "arrival": ", San Francisco",
+        "ticket price": "157.00",
+        "plane code": "717",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 40 minutes",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "6:25pm",
+                "departure_time": "4:35pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "10:15pm",
+                "departure_time": "7:39pm",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)"
+            }
+        ],
+        "plane": "Boeing 737-800",
+        "arrival": ", San Francisco",
+        "ticket price": "157.00",
+        "plane code": "738",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 15 hours 15 minutes",
+        "departure": ", Philadelphia",
+        "airline": "Alaska Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_time": "10:35pm",
+                "departure_time": "7:45pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "8:00am",
+                "departure_time": "6:30am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "plane": "AIRBUS INDUSTRIE A320 SHARKLETS",
+        "arrival": ", San Francisco",
+        "ticket price": "163.60",
+        "plane code": "32A",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 19 minutes",
+        "departure": ", Philadelphia",
+        "airline": "Sun Country Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)",
+                "arrival_time": "1:50pm",
+                "departure_time": "12:00pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "5:19pm",
+                "departure_time": "3:15pm",
+                "departure_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)"
+            }
+        ],
+        "plane": "Boeing 737-800",
+        "arrival": ", San Francisco",
+        "ticket price": "171.00",
+        "plane code": "738",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 5 hours 53 minutes",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "9:48am",
+                "departure_time": "6:55am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            }
+        ],
+        "plane": "Airbus A319",
+        "arrival": ", San Francisco",
+        "ticket price": "183.30",
+        "plane code": "319",
+        "stops": "Nonstop"
+    },
+    {
+        "flight duration": "0 days 8 hours 37 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "3:19pm",
+                "departure_time": "1:30pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "7:07pm",
+                "departure_time": "4:33pm",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)"
+            }
+        ],
+        "plane": "Airbus A319",
+        "arrival": ", San Francisco",
+        "ticket price": "185.50",
+        "plane code": "319",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 7 hours 47 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "6:38am",
+                "departure_time": "5:00am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "9:47am",
+                "departure_time": "7:26am",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)"
+            }
+        ],
+        "plane": "Airbus A320",
+        "arrival": ", San Francisco",
+        "ticket price": "185.50",
+        "plane code": "320",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 10 hours 14 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "3:19pm",
+                "departure_time": "1:30pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "8:44pm",
+                "departure_time": "6:16pm",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)"
+            }
+        ],
+        "plane": "Airbus A319",
+        "arrival": ", San Francisco",
+        "ticket price": "185.50",
+        "plane code": "319",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 41 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "1:48pm",
+                "departure_time": "12:05pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "5:46pm",
+                "departure_time": "3:24pm",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)"
+            }
+        ],
+        "plane": "Airbus A319",
+        "arrival": ", San Francisco",
+        "ticket price": "185.50",
+        "plane code": "319",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 10 hours 21 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "12:16pm",
+                "departure_time": "10:25am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "5:46pm",
+                "departure_time": "3:24pm",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)"
+            }
+        ],
+        "plane": "Airbus A319",
+        "arrival": ", San Francisco",
+        "ticket price": "185.50",
+        "plane code": "319",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 10 hours 2 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "1:48pm",
+                "departure_time": "12:05pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "7:07pm",
+                "departure_time": "4:33pm",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)"
+            }
+        ],
+        "plane": "Airbus A319",
+        "arrival": ", San Francisco",
+        "ticket price": "185.50",
+        "plane code": "319",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 14 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "5:28pm",
+                "departure_time": "3:30pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "8:44pm",
+                "departure_time": "6:16pm",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)"
+            }
+        ],
+        "plane": "Airbus A321",
+        "arrival": ", San Francisco",
+        "ticket price": "185.50",
+        "plane code": "321",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 10 hours 10 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "5:26pm",
+                "departure_time": "3:51pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:01pm",
+                "departure_time": "8:19pm",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)"
+            }
+        ],
+        "plane": "Boeing 737-800",
+        "arrival": ", San Francisco",
+        "ticket price": "187.00",
+        "plane code": "738",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 9 minutes",
+        "departure": ", Philadelphia",
+        "airline": "Delta",
+        "timings": [
+            {
+                "arrival_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)",
+                "arrival_time": "7:00pm",
+                "departure_time": "5:05pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "10:14pm",
+                "departure_time": "7:59pm",
+                "departure_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)"
+            }
+        ],
+        "plane": "Boeing 717",
+        "arrival": ", San Francisco",
+        "ticket price": "187.00",
+        "plane code": "717",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 7 minutes",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_airport": "Denver, CO (DEN-Denver Intl.)",
+                "arrival_time": "8:29am",
+                "departure_time": "6:25am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:32am",
+                "departure_time": "9:40am",
+                "departure_airport": "Denver, CO (DEN-Denver Intl.)"
+            }
+        ],
+        "plane": "Boeing 737-800",
+        "arrival": ", San Francisco",
+        "ticket price": "192.00",
+        "plane code": "738",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 10 hours 29 minutes",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "10:26am",
+                "departure_time": "9:10am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "4:39pm",
+                "departure_time": "2:00pm",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)"
+            }
+        ],
+        "plane": "Airbus A319",
+        "arrival": ", San Francisco",
+        "ticket price": "192.00",
+        "plane code": "319",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 9 hours 34 minutes",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_airport": "Houston, TX (IAH-George Bush Intercontinental)",
+                "arrival_time": "10:32am",
+                "departure_time": "8:14am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "2:48pm",
+                "departure_time": "12:45pm",
+                "departure_airport": "Houston, TX (IAH-George Bush Intercontinental)"
+            }
+        ],
+        "plane": "Boeing 737-900",
+        "arrival": ", San Francisco",
+        "ticket price": "192.00",
+        "plane code": "739",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 24 minutes",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "8:43am",
+                "departure_time": "7:30am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "12:54pm",
+                "departure_time": "10:10am",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)"
+            }
+        ],
+        "plane": "Airbus A320",
+        "arrival": ", San Francisco",
+        "ticket price": "192.00",
+        "plane code": "320",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 9 hours 24 minutes",
+        "departure": ", Philadelphia",
+        "airline": "United",
+        "timings": [
+            {
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "10:26am",
+                "departure_time": "9:10am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "3:34pm",
+                "departure_time": "12:52pm",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)"
+            }
+        ],
+        "plane": "Airbus A319",
+        "arrival": ", San Francisco",
+        "ticket price": "192.00",
+        "plane code": "319",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 6 hours 0 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:10am",
+                "departure_time": "8:10am",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            }
+        ],
+        "plane": "Airbus A321",
+        "arrival": ", San Francisco",
+        "ticket price": "203.30",
+        "plane code": "321",
+        "stops": "Nonstop"
+    },
+    {
+        "flight duration": "0 days 5 hours 51 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "3:01pm",
+                "departure_time": "12:10pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            }
+        ],
+        "plane": "Airbus A321",
+        "arrival": ", San Francisco",
+        "ticket price": "203.30",
+        "plane code": "321",
+        "stops": "Nonstop"
+    },
+    {
+        "flight duration": "0 days 7 hours 35 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Phoenix, AZ (PHX-Sky Harbor Intl.)",
+                "arrival_time": "2:18pm",
+                "departure_time": "12:20pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "4:55pm",
+                "departure_time": "2:55pm",
+                "departure_airport": "Phoenix, AZ (PHX-Sky Harbor Intl.)"
+            }
+        ],
+        "plane": "Airbus A321",
+        "arrival": ", San Francisco",
+        "ticket price": "212.00",
+        "plane code": "321",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 10 minutes",
+        "departure": ", Philadelphia",
+        "airline": "Delta",
+        "timings": [
+            {
+                "arrival_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)",
+                "arrival_time": "4:37pm",
+                "departure_time": "2:50pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "8:00pm",
+                "departure_time": "5:50pm",
+                "departure_airport": "Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)"
+            }
+        ],
+        "plane": "Boeing 717",
+        "arrival": ", San Francisco",
+        "ticket price": "212.00",
+        "plane code": "717",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 53 minutes",
+        "departure": ", Philadelphia",
+        "airline": "Delta",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "arrival_time": "8:22pm",
+                "departure_time": "6:06pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "11:59pm",
+                "departure_time": "9:48pm",
+                "departure_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)"
+            }
+        ],
+        "plane": "MDC MD90",
+        "arrival": ", San Francisco",
+        "ticket price": "212.00",
+        "plane code": "M90",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 8 hours 3 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "1:49pm",
+                "departure_time": "12:25pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "5:28pm",
+                "departure_time": "2:49pm",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)"
+            }
+        ],
+        "plane": "Boeing 737-800",
+        "arrival": ", San Francisco",
+        "ticket price": "212.00",
+        "plane code": "738",
+        "stops": "1 Stop"
+    },
+    {
+        "flight duration": "0 days 9 hours 42 minutes",
+        "departure": ", Philadelphia",
+        "airline": "American Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Phoenix, AZ (PHX-Sky Harbor Intl.)",
+                "arrival_time": "5:48pm",
+                "departure_time": "3:40pm",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)"
+            },
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "10:22pm",
+                "departure_time": "8:20pm",
+                "departure_airport": "Phoenix, AZ (PHX-Sky Harbor Intl.)"
+            }
+        ],
+        "plane": "Airbus A321",
+        "arrival": ", San Francisco",
+        "ticket price": "212.00",
+        "plane code": "321",
+        "stops": "1 Stop"
+    }
+]

@@ -1,5 +1,5 @@
 package FlightHopper;
-
+import java.util.*;
 
 public class DirectFlight implements IFlight {
 
@@ -13,28 +13,37 @@ public class DirectFlight implements IFlight {
 	boolean isDirect;
 	String airline;
 	String plane;
-	
+	ArrayList<String> routing; //string of routing for printing
+	String flightDuration; //string form for printing
+
+
 	public DirectFlight() {
 		
 	}
-	
+
 	public DirectFlight(String startAirport,
 						String endAirport,
 						double price,
+						ArrayList<String> routing,
 						String startTime,
 						String endTime,
+						String flightDuration,
 						int duration,
+						int rank,
 						boolean isDirect,
 						String airline,
 						String plane
-						) {
-		
+	) {
+
 		this.startAirport = startAirport;
 		this.endAirport = endAirport;
 		this.price = price;
+		this.routing = routing;
 		this.startTime = startTime;
 		this.endTime = endTime;
+		this.flightDuration = flightDuration;
 		this.duration = duration;
+		this.rank = rank;
 		this.isDirect = isDirect;
 		this.airline = airline;
 		this.plane = plane;
@@ -80,7 +89,9 @@ public class DirectFlight implements IFlight {
 					&& this.price == a.price
 					&& this.airline.equals(a.airline)
 					&& this.plane.equals(a.plane)
-					&& this.duration == a.duration;
+					&& this.duration == a.duration
+					&& this.startTime.equals(a.startTime)
+					&& this.endTime.equals(a.endTime);
 		}
 		else {
 			NonDirectFlight a = (NonDirectFlight) o;
@@ -89,7 +100,9 @@ public class DirectFlight implements IFlight {
 					&& this.startTime.equals(a.startTime)
 					&& this.endTime.equals(a.endTime)
 					&& this.price == a.price
-					&& this.airline.equals(a.airline);
+					&& this.airline.equals(a.airline)
+					&& this.startTime.equals(a.startTime)
+					&& this.endTime.equals(a.endTime);
 		}
 	}
 
@@ -252,5 +265,29 @@ public class DirectFlight implements IFlight {
 				", airline='" + airline + '\'' +
 				", plane='" + plane + '\'' +
 				'}' + "\n";
+	}
+
+	public ArrayList<String> getRouting() {
+		return routing;
+	}
+
+	public void setRouting(ArrayList<String> routing) {
+		this.routing = routing;
+	}
+	@Override
+	public void printFlight(){
+
+
+		System.out.printf("[%s] ---> [%s] \n", this.getStartAirport(), this.getEndAirport());
+		System.out.println("Stops: Nonstop");
+		System.out.println("Price: $" + this.price);
+		System.out.println("Duration: " + this.getDuration());
+		System.out.println(this.getAirline() + " " + this.getPlane());
+		for (String i : this.getRouting()) {
+			System.out.println(i);
+		}
+
+
+		return;
 	}
 }

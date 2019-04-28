@@ -1,0 +1,470 @@
+[
+    {
+        "stops": "Nonstop",
+        "airline": "Cathay Pacific",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "5:45pm",
+                "arrival_time": "7:40pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 55 minutes",
+        "plane": "BOEING 777-300 PASSENGER",
+        "plane code": "773",
+        "ticket price": "150.97",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Cathay Pacific",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "10:00am",
+                "arrival_time": "12:00pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 2 hours 0 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333",
+        "ticket price": "150.97",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Hong Kong Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "10:20am",
+                "arrival_time": "12:10pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 50 minutes",
+        "plane": "BOEING 777-300ER",
+        "plane code": "77W",
+        "ticket price": "184.07",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "EVA Airways",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "4:40pm",
+                "arrival_time": "6:30pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 50 minutes",
+        "plane": "BOEING 787-9",
+        "plane code": "789",
+        "ticket price": "198.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "EVA Airways",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "2:05pm",
+                "arrival_time": "4:00pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 55 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-200",
+        "plane code": "332",
+        "ticket price": "198.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "EVA Airways",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "12:40pm",
+                "arrival_time": "2:25pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 45 minutes",
+        "plane": "BOEING 777-300ER",
+        "plane code": "77W",
+        "ticket price": "198.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "EVA Airways",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "10:20am",
+                "arrival_time": "12:10pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 50 minutes",
+        "plane": "BOEING 777-300ER",
+        "plane code": "77W",
+        "ticket price": "198.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "EVA Airways",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "6:10pm",
+                "arrival_time": "7:55pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 45 minutes",
+        "plane": "BOEING 787-9",
+        "plane code": "789",
+        "ticket price": "219.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "EVA Airways",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "7:00pm",
+                "arrival_time": "8:45pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 45 minutes",
+        "plane": "Airbus A321",
+        "plane code": "321",
+        "ticket price": "219.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "China Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "4:55pm",
+                "arrival_time": "6:50pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 55 minutes",
+        "plane": "Boeing 737-800",
+        "plane code": "738",
+        "ticket price": "219.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "China Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "11:00am",
+                "arrival_time": "12:55pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 55 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333",
+        "ticket price": "219.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "China Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "2:35pm",
+                "arrival_time": "4:30pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 55 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333",
+        "ticket price": "219.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Hong Kong Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "12:40pm",
+                "arrival_time": "2:25pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 45 minutes",
+        "plane": "BOEING 777-300ER",
+        "plane code": "77W",
+        "ticket price": "225.07",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Hong Kong Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "2:05pm",
+                "arrival_time": "4:00pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 55 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-200",
+        "plane code": "332",
+        "ticket price": "243.07",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Hong Kong Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "9:50pm",
+                "arrival_time": "11:45pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 55 minutes",
+        "plane": "Airbus A321",
+        "plane code": "321",
+        "ticket price": "282.07",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Hong Kong Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "4:40pm",
+                "arrival_time": "6:30pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 50 minutes",
+        "plane": "BOEING 787-9",
+        "plane code": "789",
+        "ticket price": "282.07",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Hong Kong Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "6:10pm",
+                "arrival_time": "7:55pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 45 minutes",
+        "plane": "BOEING 787-9",
+        "plane code": "789",
+        "ticket price": "282.07",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Hong Kong Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "8:50pm",
+                "arrival_time": "10:55pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 2 hours 5 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333",
+        "ticket price": "287.07",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Hong Kong Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "6:00pm",
+                "arrival_time": "7:55pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 55 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-200",
+        "plane code": "332",
+        "ticket price": "287.07",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Hong Kong Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "12:25pm",
+                "arrival_time": "2:15pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 50 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333",
+        "ticket price": "287.07",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Cathay Pacific",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "10:50am",
+                "arrival_time": "12:50pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 2 hours 0 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333",
+        "ticket price": "288.97",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "Cathay Pacific",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "9:05am",
+                "arrival_time": "11:05am",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 2 hours 0 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333",
+        "ticket price": "288.97",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "China Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "6:10pm",
+                "arrival_time": "8:05pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 55 minutes",
+        "plane": "Boeing 737-800",
+        "plane code": "738",
+        "ticket price": "308.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "EVA Airways",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "9:50pm",
+                "arrival_time": "11:45pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 55 minutes",
+        "plane": "Airbus A321",
+        "plane code": "321",
+        "ticket price": "308.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "China Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "7:30pm",
+                "arrival_time": "9:25pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 55 minutes",
+        "plane": "Boeing 737-800",
+        "plane code": "738",
+        "ticket price": "308.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    },
+    {
+        "stops": "Nonstop",
+        "airline": "China Airlines",
+        "timings": [
+            {
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "10:05pm",
+                "arrival_time": "11:50pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "flight duration": "0 days 1 hours 45 minutes",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333",
+        "ticket price": "312.17",
+        "arrival": ", Hong Kong",
+        "departure": ", Taipei"
+    }
+]

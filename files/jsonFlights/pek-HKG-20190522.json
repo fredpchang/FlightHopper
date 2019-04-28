@@ -1,0 +1,656 @@
+[
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 35 minutes",
+        "ticket price": "157.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "7:45pm",
+                "arrival_time": "11:20pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 50 minutes",
+        "ticket price": "157.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "12:05pm",
+                "arrival_time": "3:55pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 35 minutes",
+        "ticket price": "157.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "9:30am",
+                "arrival_time": "1:05pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 50 minutes",
+        "ticket price": "157.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "6:35pm",
+                "arrival_time": "10:25pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "321",
+        "plane": "Airbus A321",
+        "flight duration": "0 days 3 hours 40 minutes",
+        "ticket price": "157.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "8:30pm",
+                "arrival_time": "12:10am"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 40 minutes",
+        "ticket price": "157.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "7:25am",
+                "arrival_time": "11:05am"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 25 minutes",
+        "ticket price": "157.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "1:00pm",
+                "arrival_time": "4:25pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 40 minutes",
+        "ticket price": "157.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "8:00am",
+                "arrival_time": "11:40am"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "320",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 3 hours 30 minutes",
+        "ticket price": "157.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "3:30am",
+                "arrival_time": "7:00am"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "321",
+        "plane": "Airbus A321",
+        "flight duration": "0 days 3 hours 45 minutes",
+        "ticket price": "157.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "6:15pm",
+                "arrival_time": "10:00pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 40 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "7:25am",
+                "arrival_time": "11:05am"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "320",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 3 hours 30 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "3:30am",
+                "arrival_time": "7:00am"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 25 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "1:00pm",
+                "arrival_time": "4:25pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "321",
+        "plane": "Airbus A321",
+        "flight duration": "0 days 3 hours 45 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "6:15pm",
+                "arrival_time": "10:00pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 35 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "9:30am",
+                "arrival_time": "1:05pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 50 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "6:35pm",
+                "arrival_time": "10:25pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 35 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "7:45pm",
+                "arrival_time": "11:20pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 30 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "3:30pm",
+                "arrival_time": "7:00pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "321",
+        "plane": "Airbus A321",
+        "flight duration": "0 days 3 hours 40 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "8:30pm",
+                "arrival_time": "12:10am"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 40 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "8:00am",
+                "arrival_time": "11:40am"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 50 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "12:05pm",
+                "arrival_time": "3:55pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 30 minutes",
+        "ticket price": "158.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "8:05am",
+                "arrival_time": "11:35am"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 20 minutes",
+        "ticket price": "175.30",
+        "airline": "Hong Kong Airlines",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "9:30am",
+                "arrival_time": "12:50pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "320",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 3 hours 35 minutes",
+        "ticket price": "175.30",
+        "airline": "Hong Kong Airlines",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "5:50am",
+                "arrival_time": "9:25am"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "359",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "flight duration": "0 days 3 hours 35 minutes",
+        "ticket price": "175.30",
+        "airline": "Hong Kong Airlines",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "8:15pm",
+                "arrival_time": "11:50pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "359",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "flight duration": "0 days 3 hours 45 minutes",
+        "ticket price": "175.30",
+        "airline": "Hong Kong Airlines",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "12:10pm",
+                "arrival_time": "3:55pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "738",
+        "plane": "Boeing 737-800",
+        "flight duration": "0 days 3 hours 35 minutes",
+        "ticket price": "179.00",
+        "airline": "Air China",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "5:30pm",
+                "arrival_time": "9:05pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "321",
+        "plane": "Airbus A321",
+        "flight duration": "0 days 3 hours 45 minutes",
+        "ticket price": "207.40",
+        "airline": "China Southern Airlines",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "8:25am",
+                "arrival_time": "12:10pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "788",
+        "plane": "Boeing 787-8",
+        "flight duration": "0 days 16 hours 25 minutes",
+        "ticket price": "227.20",
+        "airline": "Xiamen Airlines",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Xiamen, China (XMN-Xiamen Intl.)",
+                "departure_time": "6:55pm",
+                "arrival_time": "10:10pm"
+            },
+            {
+                "departure_airport": "Xiamen, China (XMN-Xiamen Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "10:00am",
+                "arrival_time": "11:20am"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "738",
+        "plane": "Boeing 737-800",
+        "flight duration": "0 days 3 hours 35 minutes",
+        "ticket price": "228.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "5:30pm",
+                "arrival_time": "9:05pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 30 minutes",
+        "ticket price": "228.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "8:05am",
+                "arrival_time": "11:35am"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 3 hours 30 minutes",
+        "ticket price": "228.80",
+        "airline": "Cathay Pacific",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "3:30pm",
+                "arrival_time": "7:00pm"
+            }
+        ],
+        "stops": "Nonstop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "321",
+        "plane": "Airbus A321",
+        "flight duration": "0 days 6 hours 30 minutes",
+        "ticket price": "273.20",
+        "airline": "China Eastern Airlines",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "departure_time": "7:35am",
+                "arrival_time": "9:50am"
+            },
+            {
+                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "11:30am",
+                "arrival_time": "2:05pm"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "321",
+        "plane": "Airbus A321",
+        "flight duration": "0 days 7 hours 20 minutes",
+        "ticket price": "273.20",
+        "airline": "China Eastern Airlines",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "departure_time": "7:35am",
+                "arrival_time": "9:50am"
+            },
+            {
+                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "12:15pm",
+                "arrival_time": "2:55pm"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "departure": ", Beijing",
+        "plane code": "333",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "flight duration": "0 days 7 hours 40 minutes",
+        "ticket price": "273.20",
+        "airline": "China Eastern Airlines",
+        "arrival": ", Hong Kong",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "departure_time": "10:00am",
+                "arrival_time": "12:15pm"
+            },
+            {
+                "departure_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "3:15pm",
+                "arrival_time": "5:40pm"
+            }
+        ],
+        "stops": "1 Stop"
+    }
+]

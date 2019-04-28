@@ -1,0 +1,806 @@
+[
+    {
+        "airline": "China Airlines",
+        "ticket price": "279.40",
+        "stops": "Nonstop",
+        "flight duration": "0 days 3 hours 15 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "8:20pm",
+                "arrival_time": "11:35pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Boeing 747-400",
+        "plane code": "744"
+    },
+    {
+        "airline": "China Southern Airlines",
+        "ticket price": "280.50",
+        "stops": "1 Stop",
+        "flight duration": "0 days 16 hours 0 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Guangzhou, China (CAN-Baiyun Intl.)",
+                "departure_time": "9:30pm",
+                "arrival_time": "12:40am"
+            },
+            {
+                "departure_airport": "Guangzhou, China (CAN-Baiyun Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "11:30am",
+                "arrival_time": "1:30pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Boeing 787-8",
+        "plane code": "788"
+    },
+    {
+        "airline": "China Southern Airlines",
+        "ticket price": "280.50",
+        "stops": "1 Stop",
+        "flight duration": "0 days 18 hours 0 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Guangzhou, China (CAN-Baiyun Intl.)",
+                "departure_time": "7:30pm",
+                "arrival_time": "10:50pm"
+            },
+            {
+                "departure_airport": "Guangzhou, China (CAN-Baiyun Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "11:30am",
+                "arrival_time": "1:30pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A380-800 PASSENGER",
+        "plane code": "380"
+    },
+    {
+        "airline": "China Southern Airlines",
+        "ticket price": "280.50",
+        "stops": "1 Stop",
+        "flight duration": "0 days 18 hours 15 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
+                "departure_time": "5:00pm",
+                "arrival_time": "8:35pm"
+            },
+            {
+                "departure_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "9:35am",
+                "arrival_time": "11:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Airbus A321",
+        "plane code": "321"
+    },
+    {
+        "airline": "China Southern Airlines",
+        "ticket price": "280.50",
+        "stops": "1 Stop",
+        "flight duration": "0 days 14 hours 15 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
+                "departure_time": "9:00pm",
+                "arrival_time": "12:20am"
+            },
+            {
+                "departure_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "9:35am",
+                "arrival_time": "11:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Airbus A321",
+        "plane code": "321"
+    },
+    {
+        "airline": "China Southern Airlines",
+        "ticket price": "280.50",
+        "stops": "1 Stop",
+        "flight duration": "0 days 15 hours 15 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
+                "departure_time": "8:00pm",
+                "arrival_time": "11:30pm"
+            },
+            {
+                "departure_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "9:35am",
+                "arrival_time": "11:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "China Southern Airlines",
+        "ticket price": "280.50",
+        "stops": "1 Stop",
+        "flight duration": "0 days 17 hours 15 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
+                "departure_time": "6:00pm",
+                "arrival_time": "9:30pm"
+            },
+            {
+                "departure_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "9:35am",
+                "arrival_time": "11:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "China Southern Airlines",
+        "ticket price": "280.50",
+        "stops": "1 Stop",
+        "flight duration": "0 days 9 hours 45 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Nanning, China (NNG-Wuxu)",
+                "departure_time": "7:45am",
+                "arrival_time": "11:40am"
+            },
+            {
+                "departure_airport": "Nanning, China (NNG-Wuxu)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "3:00pm",
+                "arrival_time": "5:30pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Boeing 737-800",
+        "plane code": "738"
+    },
+    {
+        "airline": "Air China",
+        "ticket price": "280.90",
+        "stops": "Nonstop",
+        "flight duration": "0 days 3 hours 5 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "2:05pm",
+                "arrival_time": "5:10pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "Hong Kong Airlines",
+        "ticket price": "284.20",
+        "stops": "1 Stop",
+        "flight duration": "0 days 15 hours 0 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "8:15pm",
+                "arrival_time": "11:50pm"
+            },
+            {
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "9:10am",
+                "arrival_time": "11:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "Hong Kong Airlines",
+        "ticket price": "284.20",
+        "stops": "1 Stop",
+        "flight duration": "0 days 17 hours 40 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "8:15pm",
+                "arrival_time": "11:50pm"
+            },
+            {
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "11:45am",
+                "arrival_time": "1:55pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "China Southern Airlines",
+        "ticket price": "295.50",
+        "stops": "1 Stop",
+        "flight duration": "0 days 7 hours 0 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Guangzhou, China (CAN-Baiyun Intl.)",
+                "departure_time": "6:30am",
+                "arrival_time": "9:50am"
+            },
+            {
+                "departure_airport": "Guangzhou, China (CAN-Baiyun Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "11:30am",
+                "arrival_time": "1:30pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Airbus A321",
+        "plane code": "321"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 7 hours 15 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "departure_time": "9:00am",
+                "arrival_time": "11:15am"
+            },
+            {
+                "departure_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_time": "2:20pm",
+                "arrival_time": "4:15pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 10 hours 5 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "departure_time": "7:35am",
+                "arrival_time": "9:50am"
+            },
+            {
+                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "3:55pm",
+                "arrival_time": "5:40pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Airbus A321",
+        "plane code": "321"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 15 hours 45 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "departure_time": "6:30pm",
+                "arrival_time": "8:50pm"
+            },
+            {
+                "departure_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_time": "8:20am",
+                "arrival_time": "10:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Boeing 737",
+        "plane code": "737"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 12 hours 50 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Taiyuan, China (TYN-Wusu)",
+                "departure_time": "10:35pm",
+                "arrival_time": "11:55pm"
+            },
+            {
+                "departure_airport": "Taiyuan, China (TYN-Wusu)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "8:30am",
+                "arrival_time": "11:25am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Boeing 737-300",
+        "plane code": "733"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 13 hours 55 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "departure_time": "8:20pm",
+                "arrival_time": "10:50pm"
+            },
+            {
+                "departure_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_time": "8:20am",
+                "arrival_time": "10:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Boeing 737-800",
+        "plane code": "738"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 7 hours 45 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "departure_time": "8:30am",
+                "arrival_time": "10:40am"
+            },
+            {
+                "departure_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_time": "2:20pm",
+                "arrival_time": "4:15pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 14 hours 15 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hefei, China (HFE-Xinqiao Intl.)",
+                "departure_time": "8:55pm",
+                "arrival_time": "11:05pm"
+            },
+            {
+                "departure_airport": "Hefei, China (HFE-Xinqiao Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "8:45am",
+                "arrival_time": "11:10am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Airbus A320",
+        "plane code": "320"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 14 hours 15 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "departure_time": "8:00pm",
+                "arrival_time": "10:15pm"
+            },
+            {
+                "departure_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_time": "8:20am",
+                "arrival_time": "10:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 8 hours 15 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "departure_time": "8:00am",
+                "arrival_time": "10:15am"
+            },
+            {
+                "departure_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_time": "2:20pm",
+                "arrival_time": "4:15pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 12 hours 25 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "departure_time": "9:50pm",
+                "arrival_time": "11:55pm"
+            },
+            {
+                "departure_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_time": "8:20am",
+                "arrival_time": "10:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 12 hours 45 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "departure_time": "9:30pm",
+                "arrival_time": "11:45pm"
+            },
+            {
+                "departure_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_time": "8:20am",
+                "arrival_time": "10:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-200",
+        "plane code": "332"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 15 hours 15 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "departure_time": "7:00pm",
+                "arrival_time": "9:15pm"
+            },
+            {
+                "departure_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_time": "8:20am",
+                "arrival_time": "10:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 6 hours 50 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "departure_time": "7:35am",
+                "arrival_time": "9:50am"
+            },
+            {
+                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "12:25pm",
+                "arrival_time": "2:25pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Airbus A321",
+        "plane code": "321"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 7 hours 30 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Nanjing, China (NKG-Lukou Intl.)",
+                "departure_time": "8:55am",
+                "arrival_time": "10:55am"
+            },
+            {
+                "departure_airport": "Nanjing, China (NKG-Lukou Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "2:30pm",
+                "arrival_time": "4:25pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Airbus A320",
+        "plane code": "320"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 13 hours 10 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "departure_time": "9:05pm",
+                "arrival_time": "11:20pm"
+            },
+            {
+                "departure_airport": "Shanghai, China (SHA-Hongqiao Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TSA-Songshan)",
+                "departure_time": "8:20am",
+                "arrival_time": "10:15am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "BOEING 777-300 PASSENGER",
+        "plane code": "773"
+    },
+    {
+        "airline": "China Eastern Airlines",
+        "ticket price": "319.30",
+        "stops": "1 Stop",
+        "flight duration": "0 days 11 hours 40 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Ningbo, China (NGB-Lishe Intl.)",
+                "departure_time": "10:40pm",
+                "arrival_time": "1:05am"
+            },
+            {
+                "departure_airport": "Ningbo, China (NGB-Lishe Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "8:40am",
+                "arrival_time": "10:20am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Airbus A321",
+        "plane code": "321"
+    },
+    {
+        "airline": "Hong Kong Airlines",
+        "ticket price": "325.90",
+        "stops": "1 Stop",
+        "flight duration": "0 days 7 hours 40 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "departure_time": "12:10pm",
+                "arrival_time": "3:55pm"
+            },
+            {
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "5:50pm",
+                "arrival_time": "7:50pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "Xiamen Airlines",
+        "ticket price": "340.40",
+        "stops": "1 Stop",
+        "flight duration": "0 days 14 hours 5 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Fuzhou, China (FOC-Changle Intl.)",
+                "departure_time": "8:20pm",
+                "arrival_time": "11:10pm"
+            },
+            {
+                "departure_airport": "Fuzhou, China (FOC-Changle Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "8:50am",
+                "arrival_time": "10:25am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Boeing 757",
+        "plane code": "757"
+    },
+    {
+        "airline": "EVA Airways",
+        "ticket price": "341.40",
+        "stops": "Nonstop",
+        "flight duration": "0 days 3 hours 5 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "2:05pm",
+                "arrival_time": "5:10pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "EVA Airways",
+        "ticket price": "341.40",
+        "stops": "Nonstop",
+        "flight duration": "0 days 3 hours 10 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "8:35am",
+                "arrival_time": "11:45am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "Air China",
+        "ticket price": "354.90",
+        "stops": "Nonstop",
+        "flight duration": "0 days 3 hours 10 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "8:35am",
+                "arrival_time": "11:45am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "plane code": "333"
+    },
+    {
+        "airline": "Xiamen Airlines",
+        "ticket price": "370.40",
+        "stops": "1 Stop",
+        "flight duration": "0 days 15 hours 30 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Fuzhou, China (FOC-Changle Intl.)",
+                "departure_time": "6:55pm",
+                "arrival_time": "9:45pm"
+            },
+            {
+                "departure_airport": "Fuzhou, China (FOC-Changle Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "8:50am",
+                "arrival_time": "10:25am"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "Boeing 737-800",
+        "plane code": "738"
+    },
+    {
+        "airline": "EVA Airways",
+        "ticket price": "386.40",
+        "stops": "Nonstop",
+        "flight duration": "0 days 3 hours 10 minutes",
+        "timings": [
+            {
+                "departure_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "departure_time": "1:55pm",
+                "arrival_time": "5:05pm"
+            }
+        ],
+        "arrival": ", Taipei",
+        "departure": ", Beijing",
+        "plane": "BOEING 777-300ER",
+        "plane code": "77W"
+    }
+]

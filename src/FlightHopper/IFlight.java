@@ -25,7 +25,12 @@ public interface IFlight {
 
 	@Override
 	public boolean equals(Object o);
-	
+
+	/**
+	 *  Prints formatted flight info to console
+	 * @return void
+	 */
+	public void printFlight();
 	
 
 }

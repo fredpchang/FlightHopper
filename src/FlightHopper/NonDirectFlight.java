@@ -1,5 +1,6 @@
 package FlightHopper;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class NonDirectFlight implements IFlight {
@@ -8,11 +9,10 @@ public class NonDirectFlight implements IFlight {
 	String endAirport;
 	double price;
 	int stops;
-	List<Airport> stopAirport;
-	List<String> arriveTimeList;
-	List<String> endTimeList;
+	ArrayList<String> routing; //formatted form for printing
 	String startTime; //format: yyyymmddhhmm
 	String endTime; //format: yyyymmddhhmm
+	String flightDuration; //string form for printing
 	int duration;
 	int rank;
 	boolean isDirect;
@@ -20,23 +20,54 @@ public class NonDirectFlight implements IFlight {
 	String plane;
 
 	public NonDirectFlight() {
-    }
 
-    public NonDirectFlight(String startAirport, String endAirport, double price, int stops, String startTime,
-                           String endTime, int duration, boolean isDirect, String airline, String plane) {
-        this.startAirport = startAirport;
-        this.endAirport = endAirport;
-        this.price = price;
-        this.stops = stops;
-        this.startTime = startTime;
-        this.endTime = endTime;
-        this.duration = duration;
-        this.isDirect = isDirect;
-        this.airline = airline;
-        this.plane = plane;
-    }
+	}
 
-    /**
+	public NonDirectFlight(String startAirport,
+						   String endAirport,
+						   double price,
+						   int stops,
+						   ArrayList<String> routing,
+						   String startTime,
+						   String endTime,
+						   String flightDuration,
+						   int duration,
+						   int rank,
+						   boolean isDirect,
+						   String airline,
+						   String plane
+	) {
+
+		this.startAirport = startAirport;
+		this.endAirport = endAirport;
+		this.price = price;
+		this.stops = stops;
+		this.routing = routing;
+		this.startTime = startTime;
+		this.endTime = endTime;
+		this.flightDuration = flightDuration;
+		this.duration = duration;
+		this.rank = rank;
+		this.isDirect = isDirect;
+		this.airline = airline;
+		this.plane = plane;
+	}
+
+
+	@Override
+	public void printFlight(){
+
+		System.out.printf("[%s] ---> [%s] \n", this.getStartAirport(), this.getEndAirport());
+		System.out.println("Stops: " + this.stops);
+		System.out.println("Price: $" + this.price);
+		System.out.println("Duration (hrs): " + this.getDuration());
+		System.out.println(this.getAirline() + " " + this.getPlane());
+		for (String i : this.getRouting()){
+			System.out.println(i);
+		}
+	}
+
+	/**
 	 * get the start airport
 	 * @return start airport
 	 */
@@ -100,52 +131,20 @@ public class NonDirectFlight implements IFlight {
 		this.stops = stops;
 	}
 
-	/**
-	 * get list of stop airport
-	 * @return list of stop airport
-	 */
-	public List<Airport> getStopAirport() {
-		return stopAirport;
+	public ArrayList<String> getRouting() {
+		return routing;
 	}
 
-	/**
-	 * set stop airport
-	 * @param stopAirport
-	 */
-	public void setStopAirport(List<Airport> stopAirport) {
-		this.stopAirport = stopAirport;
+	public void setRouting(ArrayList<String> routing) {
+		this.routing = routing;
 	}
 
-	/**
-	 * get the arrival times of stops
-	 * @return arrival times of stops
-	 */
-	public List<String> getArriveTimeList() {
-		return arriveTimeList;
+	public String getFlightDuration() {
+		return flightDuration;
 	}
 
-	/**
-	 * set arrival times of stops
-	 * @param arriveTimeList
-	 */
-	public void setArriveTimeList(List<String> arriveTimeList) {
-		this.arriveTimeList = arriveTimeList;
-	}
-
-	/**
-	 * get list of when take off from stops
-	 * @return list of take off time
-	 */
-	public List<String> getEndTimeList() {
-		return endTimeList;
-	}
-
-	/**
-	 * set list of take off times for stops
-	 * @param endTimeList
-	 */
-	public void setEndTimeList(List<String> endTimeList) {
-		this.endTimeList = endTimeList;
+	public void setFlightDuration(String flightDuration) {
+		this.flightDuration = flightDuration;
 	}
 
 	/**
@@ -237,29 +236,16 @@ public class NonDirectFlight implements IFlight {
 	 * @return true if direct, false if not
 	 */
 
-	@Override
-	public boolean equals(Object o) {
-        if(o instanceof DirectFlight) {
-            DirectFlight a = (DirectFlight) o;
-            return this.startAirport.equals(a.startAirport)
-                    && this.endAirport.equals(a.endAirport)
-                    && this.startTime.equals(a.startTime)
-                    && this.endTime.equals(a.endTime)
-                    && this.price == a.price
-                    && this.airline.equals(a.airline)
-                    && this.plane.equals(a.plane)
-                    && this.duration == a.duration;
-        }
-        else {
-            NonDirectFlight a = (NonDirectFlight) o;
-            return this.startAirport.equals(a.startAirport)
-                    && this.endAirport.equals(a.endAirport)
-                    && this.startTime.equals(a.startTime)
-                    && this.endTime.equals(a.endTime)
-                    && this.price == a.price
-                    && this.airline.equals(a.airline);
-        }
-	}
+//	@Override
+//	public boolean equals(Object o) {
+//		NonDirectFlight a = (NonDirectFlight) o;
+//		return this.startAirport.getName().equals(a.startAirport.getName())
+//				&& this.endAirport.getName().equals(a.endAirport.getName())
+//				&& this.startTime.equals(a.startTime)
+//				&& this.endTime.equals(a.endTime)
+//				&& this.price == a.price
+//				&& this.airline.equals(a.airline);
+//	}
 	public boolean isDirect() {
 		return false;
 	}
@@ -305,17 +291,52 @@ public class NonDirectFlight implements IFlight {
 	}
 
 
-    @Override
-    public String toString() {
-        return "NonDirectFlight{" +
-                "startAirport='" + startAirport + '\'' +
-                ", endAirport='" + endAirport + '\'' +
-                ", price=" + price +
-                ", stops=" + stops +
-                ", duration=" + duration +
-                ", isDirect=" + isDirect +
-                ", airline='" + airline + '\'' +
-                ", plane='" + plane + '\'' +
-                '}' + "\n";
-    }
+
+	/**
+	 * Check if this is a direct flight with no stops
+	 * @return true if direct, false if not
+	 */
+	@Override
+	public boolean equals(Object o) {
+		if(o instanceof DirectFlight) {
+			DirectFlight a = (DirectFlight) o;
+			return this.startAirport.equals(a.startAirport)
+					&& this.endAirport.equals(a.endAirport)
+					&& this.startTime.equals(a.startTime)
+					&& this.endTime.equals(a.endTime)
+					&& this.price == a.price
+					&& this.airline.equals(a.airline)
+					&& this.plane.equals(a.plane)
+					&& this.duration == a.duration
+					&& this.startTime.equals(a.startTime)
+					&& this.endTime.equals(a.endTime);
+		}
+		else {
+			NonDirectFlight a = (NonDirectFlight) o;
+			return this.startAirport.equals(a.startAirport)
+					&& this.endAirport.equals(a.endAirport)
+					&& this.startTime.equals(a.startTime)
+					&& this.endTime.equals(a.endTime)
+					&& this.price == a.price
+					&& this.airline.equals(a.airline)
+					&& this.startTime.equals(a.startTime)
+					&& this.endTime.equals(a.endTime);
+		}
+
+	}
+
+
+	@Override
+	public String toString() {
+		return "NonDirectFlight{" +
+				"startAirport='" + startAirport + '\'' +
+				", endAirport='" + endAirport + '\'' +
+				", price=" + price +
+				", stops=" + stops +
+				", duration=" + duration +
+				", isDirect=" + isDirect +
+				", airline='" + airline + '\'' +
+				", plane='" + plane + '\'' +
+				'}' + "\n";
+	}
 }
