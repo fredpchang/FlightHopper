@@ -15,24 +15,6 @@ public class FlightHopper {
     public static void main(String[] args) {
     	FlightScraper fs = new FlightScraper();
 
-//    	try {
-//			fs.jsonParser("files/jsonFlights/phl-sfo-flight-results.json");
-//		} catch (IOException | ParseException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		List<IFlight> ls = new ArrayList<>();
-//    	FlightScraper tst = new FlightScraper();
-////		String[] dates = {"04/30/2019", "04/31/2019"};
-//		try {
-//			ls = tst.runScraper("phl", "lax", "05/16/2019", 3);
-//		} catch (Exception e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		System.out.println("test end");
-
-
         System.out.println("Welcome to Flight Hopper!");
         Scanner scanner = new Scanner(System.in);
         FlightHopper flightHopper = new FlightHopper();

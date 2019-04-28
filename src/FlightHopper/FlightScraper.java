@@ -65,9 +65,9 @@ public class FlightScraper {
 
 		Runtime rt = Runtime.getRuntime();
     	try {
-//    		String command = pythonPath + " expedia.py " + startAirport + " " +  endAirport + " " + date;
-			String command = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3 files/jsonFlights/expedia.py " +
-					startAirport + " " + endAirport + " " + date;
+    		String pythonpath = "/Users/fredchang/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Fred's
+//    		String pythonpath = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Kevin's
+    		String command =  pythonpath + "files/jsonFlights/expedia.py " + startAirport + " " +  endAirport + " " + date;
 			System.out.println(command);
     		Process p = rt.exec(command);
     		p.waitFor();
