@@ -1,5 +1,10 @@
 package FlightHopper;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+import java.util.TreeMap;
+
 public class FlightFreqParser {
     private String inputFile;
 
@@ -9,7 +14,7 @@ public class FlightFreqParser {
      * @param inputFile
      * @return
      */
-    public FlightFreqTable fileReader(String inputFile) {
+    public TreeMap fileReader(String inputFile) throws FileNotFoundException {
         return null;
     }
 }

@@ -1,7 +1,8 @@
 package FlightHopper;
 import java.util.*;
 public class FlightFreqTable {
-    private Map<String, PriorityQueue<AirportPair>> freqTable;
+    private Map<String, PriorityQueue<AirportPair>> freqTable
+    = new HashMap<>();
 
 
     /**
@@ -35,7 +36,7 @@ public class FlightFreqTable {
      * set freq table
      * @param freqTable
      */
-    public void setFreqTable(Map<String, PriorityQueue<AirportPair>> freqTable) {
+    private void setFreqTable(Map<String, PriorityQueue<AirportPair>> freqTable) {
         this.freqTable = freqTable;
     }
 }
