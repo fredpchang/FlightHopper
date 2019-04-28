@@ -1,0 +1,842 @@
+[
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 24 hours 22 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "11:42pm",
+                "departure_time": "10:15pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1029.28",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 19 hours 35 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "6:55pm",
+                "departure_time": "5:30pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1029.28",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "738",
+        "airline": "Xiamen Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 21 hours 40 minutes",
+        "timings": [
+            {
+                "arrival_time": "1:45pm",
+                "departure_time": "12:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Xiamen, China (XMN-Xiamen Intl.)"
+            },
+            {
+                "arrival_time": "8:15pm",
+                "departure_time": "5:50pm",
+                "departure_airport": "Xiamen, China (XMN-Xiamen Intl.)",
+                "arrival_airport": "Qingdao, China (TAO-Liuting Intl.)"
+            },
+            {
+                "arrival_time": "7:00pm",
+                "departure_time": "10:25pm",
+                "departure_airport": "Qingdao, China (TAO-Liuting Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "2 Stop",
+        "plane": "Boeing 737-800",
+        "ticket price": "1361.64",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "United",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 22 hours 26 minutes",
+        "timings": [
+            {
+                "arrival_time": "8:40am",
+                "departure_time": "11:15am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "arrival_time": "6:41pm",
+                "departure_time": "5:00pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1873.28",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "United",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 16 hours 32 minutes",
+        "timings": [
+            {
+                "arrival_time": "8:40am",
+                "departure_time": "11:15am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "arrival_time": "12:47pm",
+                "departure_time": "11:00am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1873.28",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "United",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 18 hours 20 minutes",
+        "timings": [
+            {
+                "arrival_time": "8:40am",
+                "departure_time": "11:15am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "arrival_time": "2:35pm",
+                "departure_time": "1:00pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1873.28",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "United",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 23 hours 59 minutes",
+        "timings": [
+            {
+                "arrival_time": "8:40am",
+                "departure_time": "11:15am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "arrival_time": "8:14pm",
+                "departure_time": "6:29pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1873.28",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "United",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 19 hours 20 minutes",
+        "timings": [
+            {
+                "arrival_time": "8:40am",
+                "departure_time": "11:15am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "arrival_time": "3:35pm",
+                "departure_time": "2:00pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1873.28",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "United",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 20 hours 57 minutes",
+        "timings": [
+            {
+                "arrival_time": "8:40am",
+                "departure_time": "11:15am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "arrival_time": "5:12pm",
+                "departure_time": "3:30pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1873.28",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "United",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 25 hours 36 minutes",
+        "timings": [
+            {
+                "arrival_time": "8:40am",
+                "departure_time": "11:15am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "arrival_time": "9:51pm",
+                "departure_time": "8:00pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1873.28",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "United",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 27 hours 4 minutes",
+        "timings": [
+            {
+                "arrival_time": "8:40am",
+                "departure_time": "11:15am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "arrival_time": "11:19pm",
+                "departure_time": "9:30pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1887.32",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "United",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 28 hours 5 minutes",
+        "timings": [
+            {
+                "arrival_time": "8:40am",
+                "departure_time": "11:15am",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "arrival_time": "12:20am",
+                "departure_time": "10:45pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1887.32",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 21 hours 20 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "8:40pm",
+                "departure_time": "7:15pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "1999.28",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "321",
+        "airline": "Philippine Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 26 hours 35 minutes",
+        "timings": [
+            {
+                "arrival_time": "12:25am",
+                "departure_time": "10:25pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)"
+            },
+            {
+                "arrival_time": "10:00am",
+                "departure_time": "11:25am",
+                "departure_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "Airbus A321",
+        "ticket price": "2025.96",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "772",
+        "airline": "Delta",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 15 hours 45 minutes",
+        "timings": [
+            {
+                "arrival_time": "6:45pm",
+                "departure_time": "2:05pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            },
+            {
+                "arrival_time": "2:50pm",
+                "departure_time": "7:40pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "772 - BOEING 777/200",
+        "ticket price": "2169.14",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "789",
+        "airline": "Delta",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 17 hours 35 minutes",
+        "timings": [
+            {
+                "arrival_time": "5:00pm",
+                "departure_time": "12:15pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            },
+            {
+                "arrival_time": "2:50pm",
+                "departure_time": "7:40pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 787-9",
+        "ticket price": "2169.14",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "789",
+        "airline": "Korean Air",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 17 hours 35 minutes",
+        "timings": [
+            {
+                "arrival_time": "5:00pm",
+                "departure_time": "12:15pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            },
+            {
+                "arrival_time": "2:50pm",
+                "departure_time": "7:40pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 787-9",
+        "ticket price": "2170.94",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "Korean Air",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 15 hours 45 minutes",
+        "timings": [
+            {
+                "arrival_time": "6:45pm",
+                "departure_time": "2:05pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            },
+            {
+                "arrival_time": "2:50pm",
+                "departure_time": "7:40pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "2170.94",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "359",
+        "airline": "",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 19 hours 20 minutes",
+        "timings": [
+            {
+                "arrival_time": "10:40am",
+                "departure_time": "1:10pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "arrival_time": "5:30pm",
+                "departure_time": "4:00pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "2210.22",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "359",
+        "airline": "",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 17 hours 40 minutes",
+        "timings": [
+            {
+                "arrival_time": "10:40am",
+                "departure_time": "1:10pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            },
+            {
+                "arrival_time": "3:50pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "2210.22",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "321",
+        "airline": "Philippine Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 36 hours 5 minutes",
+        "timings": [
+            {
+                "arrival_time": "12:25am",
+                "departure_time": "10:25pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)"
+            },
+            {
+                "arrival_time": "7:30pm",
+                "departure_time": "9:05pm",
+                "departure_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "Airbus A321",
+        "ticket price": "2219.96",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "Air Canada",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 17 hours 58 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:35pm",
+                "departure_time": "7:40pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)"
+            },
+            {
+                "arrival_time": "10:38pm",
+                "departure_time": "7:50pm",
+                "departure_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "2325.06",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "738",
+        "airline": "China Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 15 hours 40 minutes",
+        "timings": [
+            {
+                "arrival_time": "10:05pm",
+                "departure_time": "8:10pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            },
+            {
+                "arrival_time": "8:50pm",
+                "departure_time": "11:50pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "Boeing 737-800",
+        "ticket price": "2397.90",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "359",
+        "airline": "Hong Kong Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 13 hours 5 minutes",
+        "timings": [
+            {
+                "arrival_time": "10:05am",
+                "departure_time": "12:00pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "Nonstop",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "2631.02",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "332",
+        "airline": "China Eastern Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 17 hours 15 minutes",
+        "timings": [
+            {
+                "arrival_time": "3:25pm",
+                "departure_time": "12:50pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)"
+            },
+            {
+                "arrival_time": "3:05pm",
+                "departure_time": "6:25pm",
+                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "AIRBUS INDUSTRIE A330-200",
+        "ticket price": "2647.46",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "332",
+        "airline": "",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 17 hours 15 minutes",
+        "timings": [
+            {
+                "arrival_time": "3:25pm",
+                "departure_time": "12:50pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)"
+            },
+            {
+                "arrival_time": "3:05pm",
+                "departure_time": "6:25pm",
+                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "AIRBUS INDUSTRIE A330-200",
+        "ticket price": "2647.46",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "0 days 23 hours 29 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "10:49pm",
+                "departure_time": "9:25pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "647.28",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 37 hours 38 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "12:58pm",
+                "departure_time": "11:30am",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "658.92",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 33 hours 21 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "8:41am",
+                "departure_time": "7:05am",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "658.92",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 39 hours 8 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "2:28pm",
+                "departure_time": "1:05pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "658.92",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 32 hours 7 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "7:27am",
+                "departure_time": "6:00am",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "658.92",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 35 hours 5 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "10:25am",
+                "departure_time": "8:46am",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "658.92",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 36 hours 27 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "11:47am",
+                "departure_time": "10:18am",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "658.92",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 40 hours 28 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "3:48pm",
+                "departure_time": "2:25pm",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "658.92",
+        "departure": ", Hong Kong"
+    },
+    {
+        "plane code": "77W",
+        "airline": "American Airlines",
+        "arrival": ", Los Angeles",
+        "flight duration": "1 days 35 hours 58 minutes",
+        "timings": [
+            {
+                "arrival_time": "4:05pm",
+                "departure_time": "2:20pm",
+                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
+                "arrival_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)"
+            },
+            {
+                "arrival_time": "11:18am",
+                "departure_time": "9:40am",
+                "departure_airport": "Dallas, TX (DFW-Dallas-Fort Worth Intl.)",
+                "arrival_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            }
+        ],
+        "stops": "1 Stop",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "658.92",
+        "departure": ", Hong Kong"
+    }
+]

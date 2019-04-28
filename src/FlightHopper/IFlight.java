@@ -13,7 +13,7 @@ public interface IFlight {
 	/**
 	 * Get the rank of the ticket
 	 * @param priceWeight how much price contribute to rank
-	 * @return
+	 * @return flight rank
 	 */
 	public int getFlightRank(double priceWeight);
 
@@ -23,12 +23,16 @@ public interface IFlight {
 	 */
 	public boolean isDirect();
 
+	/**
+	 * equal method to compare tickets
+	 * @param o the other ticket
+	 * @return their relationship
+	 */
 	@Override
 	public boolean equals(Object o);
 
 	/**
-	 *  Prints formatted flight info to console
-	 * @return void
+	 * Prints formatted flight info to console
 	 */
 	public void printFlight();
 	

@@ -32,7 +32,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
 
     /**
      * take in user input and set that to be userInput field
-     * @param userInput
+     * @param userInput user input
      */
     public MulticityAnalyzer(List<String> userInput) {
         tripLinkedList = generateList(userInput);
@@ -49,7 +49,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
     public List<List<IFlight>> getOptimalRoutesOfMultiCities(List<String> userInput) {
         generateList(userInput);
         double weight = 1;
-        for(int i = 0 ; i <4; i++) {
+        for(int i = 0 ; i <=4; i++) {
             List<IFlight> temp = this.getRoute(userInput, weight);
 //            List<IFlight> shows = new ArrayList<>();
 //            int j = 0;
@@ -70,8 +70,8 @@ public class MulticityAnalyzer implements IFlightTicketService {
      * to visit and how long they stay, return the tripLinkedList.
      * TripLinkedList is like a graph to store the source
      * data.
-     * @param userInput
-     * @return
+     * @param userInput user input list
+     * @return generated trip linked list
      */
     @Override
     public TripLinkedList generateList(List<String> userInput) {
@@ -132,7 +132,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
      * measure the rank
      * @param userInput include list of cities user want to go and how long they stay
      * @param priceWeight how much price would contribute to rank of the ticket
-     * @return
+     * @return list of tickets
      */
     @Override
     public List<IFlight> getRoute(List<String> userInput, double priceWeight) {
@@ -161,7 +161,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
      * @param startAirport start airport
      * @param endAirport end airport
      * @param date the date on these flight
-     * @return
+     * @return list of tickets
      */
     @Override
     public List<IFlight> getTickets(String startAirport, String endAirport, String date) {

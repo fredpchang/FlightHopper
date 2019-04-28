@@ -10,13 +10,18 @@ public class Airport {
 	Airport destination;
 	
 	/**
-	 *  Constructor
+	 *  Constructor: initialize fields
 	 */
 	public Airport() {
 		tickets = new ArrayList<IFlight>();
 		this.destination = null;
 	
 	}
+
+	/**
+	 * Constructor: initialize airport with a name
+	 * @param name airport name
+	 */
 	public Airport(String name) {
 		this.name = name;
 		this.tickets = new ArrayList<>();
@@ -34,7 +39,7 @@ public class Airport {
 
 	/**
 	 * set name to a value
-	 * @param name
+	 * @param name airport name
 	 */
 	public void setName(String name) {
 		this.name = name;
@@ -52,7 +57,7 @@ public class Airport {
 
 	/**
 	 * set tickets to be a new list
-	 * @param tickets
+	 * @param tickets list of tickets from this airport to its destination
 	 */
 	public void setTickets(List<IFlight> tickets) {
 		this.tickets = tickets;
@@ -69,7 +74,7 @@ public class Airport {
 
 	/**
 	 * set destination to be a new node
-	 * @param destination
+	 * @param destination the destination from this airport
 	 */
 	public void setDestination(Airport destination) {
 		this.destination = destination;
@@ -77,8 +82,8 @@ public class Airport {
 
 	/**
 	 * override equal method
-	 * @param o
-	 * @return
+	 * @param o the object we compare
+	 * @return the relationship between those two objects
 	 */
 	public boolean equals(Object o) {
 		Airport a = (Airport) o;

@@ -6,8 +6,8 @@ public class FlightFreqTable {
 
     /**
      * get top several destinations from start airport
-     * @param startAirport
-     * @return
+     * @param startAirport name of start aiport
+     * @return top destinations
      */
     public List<AirportPair> getTop(String startAirport) {
         return null;
@@ -16,8 +16,8 @@ public class FlightFreqTable {
 
     /**
      * Given the input file, read it and generate the freq table
-     * @param inputFile
-     * @return
+     * @param inputFile name of input file
+     * @return the map of start airport and all its destinations with freq
      */
     private Map<String, PriorityQueue<AirportPair>> generateMap(String inputFile) {
         return null;
@@ -33,7 +33,7 @@ public class FlightFreqTable {
 
     /**
      * set freq table
-     * @param freqTable
+     * @param freqTable freq table
      */
     public void setFreqTable(Map<String, PriorityQueue<AirportPair>> freqTable) {
         this.freqTable = freqTable;

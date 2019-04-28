@@ -16,11 +16,28 @@ public class DirectFlight implements IFlight {
 	ArrayList<String> routing; //string of routing for printing
 	String flightDuration; //string form for printing
 
-
+	/**
+	 * default constructor
+	 */
 	public DirectFlight() {
 		
 	}
 
+	/**
+	 * build a DirectFlight object with some fields
+	 * @param startAirport name of start airport
+	 * @param endAirport name of end airport
+	 * @param price ticket price
+	 * @param routing array of string that include the ticket route
+	 * @param startTime departure time
+	 * @param endTime arrival time
+	 * @param flightDuration total flight duration of this ticket in string format
+	 * @param duration total flight duration of this ticket in integer
+	 * @param rank the rank of this ticket, used for ticket comparing
+	 * @param isDirect indicate whether this is a direct flight
+	 * @param airline the name of flight
+	 * @param plane plane type
+	 */
 	public DirectFlight(String startAirport,
 						String endAirport,
 						double price,
@@ -61,7 +78,7 @@ public class DirectFlight implements IFlight {
 	/**
 	 * Get the rank of the ticket
 	 * @param priceWeight how much price contribute to rank
-	 * @return
+	 * @return the flight rank with this price weight
 	 */
 	@Override
     public int getFlightRank(double priceWeight) {
@@ -78,6 +95,11 @@ public class DirectFlight implements IFlight {
 	}
 
 
+	/**
+	 * compare whether two tickets are the same
+	 * @param o the ticket we compare to
+	 * @return their relationship
+	 */
 	@Override
 	public boolean equals(Object o) {
 		if(o instanceof DirectFlight) {
@@ -117,7 +139,7 @@ public class DirectFlight implements IFlight {
 
 	/**
 	 * set start airport to some value
-	 * @param startAirport
+	 * @param startAirport name of start airport
 	 */
 	public void setStartAirport(String startAirport) {
 		this.startAirport = startAirport;
@@ -133,7 +155,7 @@ public class DirectFlight implements IFlight {
 
 	/**
 	 * set end airport
-	 * @param endAirport
+	 * @param endAirport name of end airport
 	 */
 	public void setEndAirport(String endAirport) {
 		this.endAirport = endAirport;
@@ -149,7 +171,7 @@ public class DirectFlight implements IFlight {
 
 	/**
 	 * set ticket price
-	 * @param price
+	 * @param price ticket price
 	 */
 	public void setPrice(double price) {
 		this.price = price;
@@ -165,7 +187,7 @@ public class DirectFlight implements IFlight {
 
 	/**
 	 * set departure time to something
-	 * @param startTime
+	 * @param startTime start time string
 	 */
 	public void setStartTime(String startTime) {
 		this.startTime = startTime;
@@ -181,7 +203,7 @@ public class DirectFlight implements IFlight {
 
 	/**
 	 * set arrival time
-	 * @param endTime
+	 * @param endTime end time string
 	 */
 	public void setEndTime(String endTime) {
 		this.endTime = endTime;
@@ -197,7 +219,7 @@ public class DirectFlight implements IFlight {
 
 	/**
 	 * set flight duration
-	 * @param duration
+	 * @param duration flight duration
 	 */
 	public void setDuration(int duration) {
 		this.duration = duration;
@@ -216,7 +238,7 @@ public class DirectFlight implements IFlight {
 	}
 	/**
 	 * set rank to something
-	 * @param rank
+	 * @param rank ticket rank
 	 */
 	public void setRank(int rank) {
 		this.rank = rank;
@@ -232,7 +254,7 @@ public class DirectFlight implements IFlight {
 
 	/**
 	 * set airline name
-	 * @param airline
+	 * @param airline airline name
 	 */
 	public void setAirline(String airline) {
 		this.airline = airline;
@@ -248,12 +270,16 @@ public class DirectFlight implements IFlight {
 
 	/**
 	 * set plane type
-	 * @param plane
+	 * @param plane plane type
 	 */
 	public void setPlane(String plane) {
 		this.plane = plane;
 	}
 
+	/**
+	 * to string method
+	 * @return the string to represent this flight
+	 */
 	@Override
 	public String toString() {
 		return "DirectFlight{" +
@@ -267,13 +293,25 @@ public class DirectFlight implements IFlight {
 				'}' + "\n";
 	}
 
+	/**
+	 * get the routing
+	 * @return routes array
+	 */
 	public ArrayList<String> getRouting() {
 		return routing;
 	}
 
+	/**
+	 * set the routing array
+	 * @param routing routing array
+	 */
 	public void setRouting(ArrayList<String> routing) {
 		this.routing = routing;
 	}
+
+	/**
+	 * Print Flight method for flight tickets
+	 */
 	@Override
 	public void printFlight(){
 
@@ -283,9 +321,11 @@ public class DirectFlight implements IFlight {
 		System.out.println("Price: $" + this.price);
 		System.out.println("Duration: " + this.getDuration());
 		System.out.println(this.getAirline() + " " + this.getPlane());
-		for (String i : this.getRouting()) {
-			System.out.println(i);
-		}
+		String year = this.getStartTime().substring(0, 4);
+		String month = this.getStartTime().substring(4, 6);
+		String day = this.getStartTime().substring(6, 8);
+		System.out.println(year + "/" + month + "/" + day);
+		System.out.println(routing.get(0));
 
 
 		return;

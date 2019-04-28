@@ -27,7 +27,7 @@ public class FlightScraper {
      * Run the python scraper at run time using parameters
      * @param startAirport start airport
      * @param endAirport end airport
-     * @param date the date
+     * @param date1 the date
      * @param flex flexibility
      * @return the list of tickets
      * @throws ParseException
@@ -52,10 +52,10 @@ public class FlightScraper {
 
     /**
      * Run the scraper on one single day
-     * @param startAirport
-     * @param endAirport
-     * @param date
-     * @return List<IFlight>
+     * @param startAirport name of start airport
+     * @param endAirport name of end airport
+     * @param date the date of flight
+     * @return List<IFlight> list of flight tickets
      * @throws ParseException
      * @throws IOException
      * @throws FileNotFoundException
@@ -95,19 +95,25 @@ public class FlightScraper {
     /**
      * Given the filename, parse the json file into
      * a list of flights
-     * @param fileName
-     * @return
+     * @param fileName name of the file
+     * @return list of tickets
      * @throws ParseException
      * @throws IOException
      * @throws FileNotFoundException
      */
-    List <IFlight> jsonParser(String fileName) throws FileNotFoundException, IOException, ParseException {
-    //NOTE: removed "private" word above in order to test from FlightHopper.java class!!!
+	private List <IFlight> jsonParser(String fileName) throws FileNotFoundException, IOException, ParseException {
+		//NOTE: remove "private" word above in order to test from FlightHopper.java class!!!
 
+		/* ArrayList to return */
 		List<IFlight> list = new ArrayList<>();
 
 		/* Get full filepath of JSON file */
 		String filePath = "files/jsonFlights/" + fileName;
+
+		/* Get start date */
+		String[] tempDate = fileName.split("-",3);
+		String startDate = tempDate[2];
+		startDate = startDate.substring(0, 8);
 
 		/* Set up Parser */
 		//Note: need to import ison-simple jar
@@ -176,11 +182,6 @@ public class FlightScraper {
 
 //    			System.out.printf("%s (%s) --> %s (%s) \n", departureAirport, departureTime, arrivalAirport, arrivalTime);
 
-				//save start time
-				if (j == 1) {
-					startTime = departureTime;
-				}
-
 				//save end time
 				endTime = arrivalTime;
 
@@ -196,7 +197,7 @@ public class FlightScraper {
 			String startAirport = departure;
 			String endAirport = arrival;
 			int price = (int) Math.round(Double.parseDouble(ticketPrice));
-//    		startTime = startTime; //startTime is as-is
+			startTime = startDate; //startTime date format
 //    		endTime = endTime; //endTime is as-is
 //    		flightDuration = flightDuration //flightDuration string as-is
 //    		duration = duration; //duration is as-is
@@ -260,10 +261,9 @@ public class FlightScraper {
 		}
 
 		// Note: Enable to test print output
-//		for (IFlight f : list) {
-//			f.printFlight();
-//			System.out.println("");
-//		}
+//    	for (IFlight f : list) {
+//    		f.printFlight();
+//    		System.out.println("");
 
 		return list;
     }
@@ -271,9 +271,9 @@ public class FlightScraper {
     /**
      * given the list of tickets, filter with max price and max duration,
      * and return the result list
-     * @param maxPrice
-     * @param maxDuration
-     * @param rawData
+     * @param maxPrice max price
+     * @param maxDuration max duration
+     * @param rawData un-filtered data
      * @return
      */
     public List <IFlight> paramFilter(int maxPrice, int maxDuration, List<IFlight> rawData) {
@@ -304,7 +304,7 @@ public class FlightScraper {
 
     /**
      * set cache map
-     * @param cache
+     * @param cache cache map
      */
     public void setCache(Map<IFlight, List<IFlight>> cache) {
         this.cache = cache;
@@ -320,7 +320,7 @@ public class FlightScraper {
 
     /**
      * set max price
-     * @param maxPrice
+     * @param maxPrice max price
      */
     public void setMaxPrice(int maxPrice) {
         this.maxPrice = maxPrice;
@@ -336,7 +336,7 @@ public class FlightScraper {
 
     /**
      * set max duration of flight
-     * @param maxDuration
+     * @param maxDuration max duration
      */
     public void setMaxDuration(int maxDuration) {
         this.maxDuration = maxDuration;

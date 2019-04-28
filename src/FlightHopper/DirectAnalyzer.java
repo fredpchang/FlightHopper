@@ -74,8 +74,8 @@ public class DirectAnalyzer implements IFlightTicketService {
      * to visit and how long they stay, return the tripLinkedList.
      * TripLinkedList is like a graph to store the source
      * data.
-     * @param userInput
-     * @return
+     * @param userInput the user input from main method which conclude the query condition
+     * @return the trip linked list for this flight route
      */
     @Override
     public TripLinkedList generateList(List<String> userInput) {
@@ -103,7 +103,7 @@ public class DirectAnalyzer implements IFlightTicketService {
      * measure the rank
      * @param userInput include list of cities user want to go and how long they stay
      * @param priceWeight how much price would contribute to rank of the ticket
-     * @return
+     * @return the list of tickets for this route
      */
     @Override
     public List<IFlight> getRoute(List<String> userInput, double priceWeight) {
@@ -132,7 +132,7 @@ public class DirectAnalyzer implements IFlightTicketService {
      * @param startAirport start airport
      * @param endAirport end airport
      * @param date the date on these flight
-     * @return
+     * @return the list of ticket from this start to end on that particular date
      */
     @Override
     public List<IFlight> getTickets(String startAirport, String endAirport, String date) {
@@ -149,13 +149,13 @@ public class DirectAnalyzer implements IFlightTicketService {
 
     /***
      * get list of tickets, but allow some filter condition
-     * @param startAirport
-     * @param endAirport
-     * @param date
+     * @param startAirport name of start airport
+     * @param endAirport name of end airport
+     * @param date the date of flights
      * @param flexibility how many flexibility day does user allow
      * @param maxPrice the max price user could allow
      * @param maxFlightTime the max flight time user want to take
-     * @return
+     * @return the list of flights that satisfies all these conditions takes in
      */
     private List<IFlight> getTickets(String startAirport, String endAirport, String date,
                                      String flexibility, int maxPrice, int maxFlightTime) {
@@ -173,7 +173,7 @@ public class DirectAnalyzer implements IFlightTicketService {
 
     /***
      * check if a ticket satisfy the filter condition
-     * @param f
+     * @param f the ticket to compare with
      * @param maxFlightTime max flight time
      * @param price max price
      * @return return true if satisfy both, return false otherwise
@@ -189,10 +189,18 @@ public class DirectAnalyzer implements IFlightTicketService {
         }
     }
 
+    /**
+     * get the user input
+     * @return user input list
+     */
     public List<String> getUserInput() {
         return userInput;
     }
 
+    /**
+     * set the user input
+     * @param userInput user input
+     */
     public void setUserInput(List<String> userInput) {
         this.userInput = userInput;
     }

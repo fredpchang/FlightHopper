@@ -19,10 +19,29 @@ public class NonDirectFlight implements IFlight {
 	String airline;
 	String plane;
 
+	/**
+	 * default constructor
+	 */
 	public NonDirectFlight() {
 
 	}
 
+	/**
+	 * constructor: initialized with some of these fields
+	 * @param startAirport name of start airport
+	 * @param endAirport name of end airport
+	 * @param price ticket price
+	 * @param stops number of stops
+	 * @param routing list of routes string
+	 * @param startTime start time string
+	 * @param endTime end time string
+	 * @param flightDuration flight duration string
+	 * @param duration flight duration in integer
+	 * @param rank flight rank
+	 * @param isDirect whether this is direct flight
+	 * @param airline
+	 * @param plane
+	 */
 	public NonDirectFlight(String startAirport,
 						   String endAirport,
 						   double price,
@@ -62,7 +81,11 @@ public class NonDirectFlight implements IFlight {
 		System.out.println("Price: $" + this.price);
 		System.out.println("Duration (hrs): " + this.getDuration());
 		System.out.println(this.getAirline() + " " + this.getPlane());
-		for (String i : this.getRouting()){
+		String year = this.getStartTime().substring(0, 4);
+		String month = this.getStartTime().substring(4, 6);
+		String day = this.getStartTime().substring(6, 8);
+		System.out.println(year + "/" + month + "/" + day);
+		for (String i : this.getRouting()) {
 			System.out.println(i);
 		}
 	}
