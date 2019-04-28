@@ -1,6 +1,7 @@
 package Tests;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -17,9 +18,9 @@ public class AirportTest {
 	public void testName() {
 		
 		Airport a = new Airport();
-		a.setName("Los Angeles");
+		a.setName("LAX");
 		
-		assertEquals("Los Angeles", a.getName());
+		assertEquals("LAX", a.getName());
 		
 	}
 	
@@ -42,11 +43,23 @@ public class AirportTest {
 	@Test
 	public void testDestination() {
 		Airport a1 = new Airport();
+		a1.setName("a1");
 		Airport a2 = new Airport();
+		a2.setName("a2");
 		a1.setDestination(a2);
 		
 		assertEquals(a2, a1.getDestination());
 		
+	}
+	
+	@Test
+	public void testEquals() {
+		Airport a1 = new Airport();
+		a1.setName("a1");
+		Airport a2 = new Airport();
+		a2.setName("a1");
+		
+		assertTrue(a1.equals(a2));
 	}
 	
 	
