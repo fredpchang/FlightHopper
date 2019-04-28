@@ -79,6 +79,7 @@ public class DirectAnalyzer implements IFlightTicketService {
      */
     @Override
     public TripLinkedList generateList(List<String> userInput) {
+        if(userInput.size()==0 || userInput.size() != 6) return null;
         String startAirport = userInput.get(0), endAirport = userInput.get(1),
                 date = userInput.get(2), flexibility = userInput.get(3);
         int maxPrice = Integer.valueOf(userInput.get(4))
@@ -107,6 +108,7 @@ public class DirectAnalyzer implements IFlightTicketService {
      */
     @Override
     public List<IFlight> getRoute(List<String> userInput, double priceWeight) {
+        if(priceWeight<0 || priceWeight>1) return null;
         String startAirport = userInput.get(0), endAirport = userInput.get(1),
                 date = userInput.get(2), flexibility = userInput.get(3);
         int maxPrice = Integer.valueOf(userInput.get(4))
@@ -139,9 +141,7 @@ public class DirectAnalyzer implements IFlightTicketService {
 
         try {
             return this.scraper.runScraper(startAirport, endAirport, date, 0);
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return null;

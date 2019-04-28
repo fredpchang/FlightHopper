@@ -1,0 +1,632 @@
+[
+    {
+        "airline": "American Airlines",
+        "ticket price": "104.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A319",
+        "flight duration": "0 days 1 hours 21 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "319",
+        "timings": [
+            {
+                "departure_time": "7:00am",
+                "arrival_time": "8:21am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "American Airlines",
+        "ticket price": "104.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A319",
+        "flight duration": "0 days 1 hours 23 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "319",
+        "timings": [
+            {
+                "departure_time": "12:15pm",
+                "arrival_time": "1:38pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "117.30",
+        "departure": ", Ontario",
+        "plane": "Canadair RJ",
+        "flight duration": "0 days 1 hours 31 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "CRJ",
+        "timings": [
+            {
+                "departure_time": "12:20pm",
+                "arrival_time": "1:51pm",
+                "departure_airport": "Ontario, CA (ONT-Los Angeles - Ontario Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "118.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-800",
+        "flight duration": "0 days 1 hours 29 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "738",
+        "timings": [
+            {
+                "departure_time": "2:00pm",
+                "arrival_time": "3:29pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "118.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-900",
+        "flight duration": "0 days 1 hours 26 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:30am",
+                "arrival_time": "7:56am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "118.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "5:00pm",
+                "arrival_time": "6:30pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "118.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-900",
+        "flight duration": "0 days 1 hours 29 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "7:45pm",
+                "arrival_time": "9:14pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "118.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-800",
+        "flight duration": "0 days 1 hours 43 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "738",
+        "timings": [
+            {
+                "departure_time": "8:00am",
+                "arrival_time": "9:43am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "137.30",
+        "departure": ", Ontario",
+        "plane": "Embraer 175 (Enhanced Winglets)",
+        "flight duration": "0 days 1 hours 28 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "E7W",
+        "timings": [
+            {
+                "departure_time": "10:48am",
+                "arrival_time": "12:16pm",
+                "departure_airport": "Ontario, CA (ONT-Los Angeles - Ontario Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "137.30",
+        "departure": ", Ontario",
+        "plane": "Canadair RJ",
+        "flight duration": "0 days 1 hours 31 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "CRJ",
+        "timings": [
+            {
+                "departure_time": "9:37am",
+                "arrival_time": "11:08am",
+                "departure_airport": "Ontario, CA (ONT-Los Angeles - Ontario Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "137.30",
+        "departure": ", Ontario",
+        "plane": "Boeing 737-800",
+        "flight duration": "0 days 1 hours 28 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "738",
+        "timings": [
+            {
+                "departure_time": "6:00am",
+                "arrival_time": "7:28am",
+                "departure_airport": "Ontario, CA (ONT-Los Angeles - Ontario Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Delta",
+        "ticket price": "48.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-800",
+        "flight duration": "0 days 1 hours 31 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "738",
+        "timings": [
+            {
+                "departure_time": "9:00pm",
+                "arrival_time": "10:31pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "48.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-800",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "738",
+        "timings": [
+            {
+                "departure_time": "10:45pm",
+                "arrival_time": "12:10am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Alaska Airlines",
+        "ticket price": "48.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "11:00pm",
+                "arrival_time": "12:25am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Alaska Airlines",
+        "ticket price": "48.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "5:30pm",
+                "arrival_time": "7:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Delta",
+        "ticket price": "48.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-800",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "738",
+        "timings": [
+            {
+                "departure_time": "5:00pm",
+                "arrival_time": "6:25pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Alaska Airlines",
+        "ticket price": "48.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "8:30pm",
+                "arrival_time": "10:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Alaska Airlines",
+        "ticket price": "48.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "7:30pm",
+                "arrival_time": "9:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Delta",
+        "ticket price": "48.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-800",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "738",
+        "timings": [
+            {
+                "departure_time": "7:00pm",
+                "arrival_time": "8:25pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Delta",
+        "ticket price": "48.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 717",
+        "flight duration": "0 days 1 hours 28 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "717",
+        "timings": [
+            {
+                "departure_time": "3:20pm",
+                "arrival_time": "4:48pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Delta",
+        "ticket price": "48.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-900",
+        "flight duration": "0 days 1 hours 32 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "10:23am",
+                "arrival_time": "11:55am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "64.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-900",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "12:15pm",
+                "arrival_time": "1:45pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "64.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-800",
+        "flight duration": "0 days 1 hours 33 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "738",
+        "timings": [
+            {
+                "departure_time": "10:48am",
+                "arrival_time": "12:21pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Alaska Airlines",
+        "ticket price": "64.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "8:30am",
+                "arrival_time": "10:00am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Alaska Airlines",
+        "ticket price": "64.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "6:30am",
+                "arrival_time": "8:00am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "64.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 39 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "9:15pm",
+                "arrival_time": "10:54pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "64.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-800",
+        "flight duration": "0 days 1 hours 43 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "738",
+        "timings": [
+            {
+                "departure_time": "9:20am",
+                "arrival_time": "11:03am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Alaska Airlines",
+        "ticket price": "64.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "9:30am",
+                "arrival_time": "11:00am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Alaska Airlines",
+        "ticket price": "74.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "6:30pm",
+                "arrival_time": "8:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Alaska Airlines",
+        "ticket price": "74.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "3:30pm",
+                "arrival_time": "5:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Delta",
+        "ticket price": "78.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-900",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:30am",
+                "arrival_time": "8:00am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "American Airlines",
+        "ticket price": "78.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A321",
+        "flight duration": "0 days 1 hours 21 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "321",
+        "timings": [
+            {
+                "departure_time": "4:00pm",
+                "arrival_time": "5:21pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Alaska Airlines",
+        "ticket price": "88.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "11:30am",
+                "arrival_time": "1:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "Alaska Airlines",
+        "ticket price": "88.30",
+        "departure": ", Los Angeles",
+        "plane": "Airbus A320",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "320",
+        "timings": [
+            {
+                "departure_time": "1:30pm",
+                "arrival_time": "3:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    },
+    {
+        "airline": "United",
+        "ticket price": "93.30",
+        "departure": ", Los Angeles",
+        "plane": "Boeing 737-900",
+        "flight duration": "0 days 1 hours 29 minutes",
+        "arrival": ", San Francisco",
+        "stops": "Nonstop",
+        "plane code": "739",
+        "timings": [
+            {
+                "departure_time": "6:30pm",
+                "arrival_time": "7:59pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ]
+    }
+]
