@@ -53,7 +53,7 @@ public class FlightFreqTable {
      * @return
      */
     @SuppressWarnings("unchecked")
-	private Map<String, PriorityQueue<AirportPair>> generateMap(String inputFile) {
+	public Map<String, PriorityQueue<AirportPair>> generateMap(String inputFile) {
 
     	FlightFreqParser parserOp = new FlightFreqParser();
     	//String inputFile= "files/flightFreqTable/out.csv";
@@ -67,7 +67,7 @@ public class FlightFreqTable {
 		}
     	
     	//System.out.println("freq map key set " +freqMap.keySet());
-    	
+    	//System.out.println("tree map size "+freqMap.keySet().size());
     	/*
     	 * for each key in the tree map add the destination in
     	 * priority queue order in freqTable Map<air, pq>
@@ -89,14 +89,9 @@ public class FlightFreqTable {
     	}
     	// done generating the freq table map
     	
-//    	System.out.println("map keys "+freqTable.keySet());
-    	for(String mapkey : freqTable.keySet()) {
-//    	for(int i=0 ; i< freqTable.size(); i++) {
-    		System.out.println("key "+mapkey+ " freq value " +freqTable.get(mapkey).peek().getFrequency());
-    		System.out.print("top airport destination "+freqTable.get(mapkey).peek().getEndAirport());
-    		System.out.println("pq size is "+freqTable.get(mapkey).size());
-    	}
-    	System.out.println("generated start map size "+freqMap.size());
+    	//System.out.println("map keys "+freqTable.keySet());
+    	//System.out.println("map keys size "+freqTable.keySet().size());
+    	//System.out.println("generated start map size "+freqMap.size());
         return freqTable;
         	
     }
@@ -118,7 +113,7 @@ public class FlightFreqTable {
      * set freq table
      * @param freqTable
      */
-    private void setFreqTable(Map<String, PriorityQueue<AirportPair>> freqTable) {
+    public void setFreqTable(Map<String, PriorityQueue<AirportPair>> freqTable) {
         this.freqTable = freqTable;
     }
 }

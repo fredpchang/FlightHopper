@@ -34,12 +34,13 @@ public class FlightFreqParser {
     	
     	scan.useDelimiter(",|\n");
     	
-    	while (scan.hasNextLine() && counter < 20) {
+    	while (scan.hasNextLine() && counter > -1) {
     		
     		String id = scan.next();
     		String startAirport = scan.next();
     		String endAirport = scan.next();
-    		System.out.println(startAirport + " ---> " + endAirport);
+    		//endAirport = endAirport.replaceAll("\n", "");
+    		//System.out.println(startAirport + " ---> " + endAirport);
     		
     		//create airport object
     		AirportPair a = new AirportPair();
@@ -81,14 +82,6 @@ public class FlightFreqParser {
     	
     	
     	scan.close();
-    	
-    	//Test print map
-//    	System.out.println(startMap);
-//    	System.out.println(startMap.get("LAX"));
-    	//Test get all flights from PHL to LAX
-    	//System.out.println(startMap.get("PHL").get("LAX"));
-    	
-    	
     	//NOTE, will need to save this result in a freq table locally!
     	
     	return startMap;
