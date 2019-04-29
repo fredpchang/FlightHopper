@@ -5,7 +5,13 @@ import java.util.*;
 public class FlightFreqTable {
     private Map<String, PriorityQueue<AirportPair>> freqTable 
     = new HashMap<>();
-    
+
+    FlightFreqTable() {
+		String inputFile= "files/flightFreqTable/out.csv";
+
+		freqTable = generateMap(inputFile);
+		setFreqTable(freqTable);
+	}
     private static int TOP_DEST =5;
 
     /**
@@ -101,10 +107,7 @@ public class FlightFreqTable {
      * @return freq table
      */
     public Map<String, PriorityQueue<AirportPair>> getFreqTable() {
-    	String inputFile= "files/flightFreqTable/out.csv";
-    	
-    	freqTable = generateMap(inputFile);
-    	setFreqTable(freqTable);
+
     	return freqTable;
     	//return null;
     }
