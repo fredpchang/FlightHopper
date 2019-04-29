@@ -29,9 +29,9 @@ public class TripLinkedListTest {
         TripLinkedList list1 = new TripLinkedList();
         assertNull(list1.getRoot());
         list1.add(l);
-        assertEquals(l, list1.getRoot().getName());
-//        list1.add(l);
-//        assertEquals(lax.getName(), list1.getRoot().getName());
+        assertEquals(lax.getName(), list1.getRoot().getName());
+        list1.add(l);
+        assertEquals(lax.getName(), list1.getRoot().getName());
     }
 
     @Test
@@ -39,9 +39,9 @@ public class TripLinkedListTest {
         TripLinkedList list1 = new TripLinkedList();
         assertEquals(0, list1.size());
         list1.add(l);
-        assertEquals(l, list1.getRoot().getName());
+        assertEquals(lax.getName(), list1.getRoot().getName());
         list1.add(s);
-        assertEquals(list1.getRoot().getDestination().getName(), s);
+        assertEquals(list1.getRoot().getDestination().getName(), sfo.getName());
     }
 
     @Test
@@ -49,7 +49,7 @@ public class TripLinkedListTest {
         TripLinkedList list1 = new TripLinkedList();
         assertEquals(0, list1.size());
         list1.add(l);
-        assertEquals(l, list1.getRoot().getName());
+        assertEquals(lax.getName(), list1.getRoot().getName());
         list1.add(s);
         list1.add(a);
         assertEquals(true, list1.remove(s));
@@ -86,8 +86,8 @@ public class TripLinkedListTest {
         list1.add(s);
         assertEquals(null, list1.get(100));
         assertNull(list1.get(-1));
-        assertEquals(l, list1.get(0).getName());
-        assertEquals(s, list1.get(2).getName());
+        assertEquals(lax.getName(), list1.get(0).getName());
+        assertEquals(sfo.getName(), list1.get(2).getName());
     }
 
     @Test
@@ -99,8 +99,8 @@ public class TripLinkedListTest {
 //        assertTrue(list1.contains(l));
         list1.add(a);
         list1.add(s);
-        assertEquals(l, list1.get(l).getName());
-        assertEquals(a, list1.get("Seattle").getName());
+        assertEquals(lax.getName(), list1.get("Los Angeles"));
+        assertEquals(sea.getName(), list1.get("Seattle"));
         assertNull(list1.get("HEllo"));
     }
 }
