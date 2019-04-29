@@ -1,6 +1,5 @@
 package FlightHopper;
 
-import com.sun.deploy.util.StringUtils;
 import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
@@ -136,6 +135,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
      */
     @Override
     public List<IFlight> getRoute(List<String> userInput, double priceWeight) {
+        if(priceWeight<0 || priceWeight > 1) return null;
         Airport cur = this.tripLinkedList.getRoot();
         List<IFlight> re = new ArrayList<>();
         while(cur.destination != null) {
@@ -165,15 +165,11 @@ public class MulticityAnalyzer implements IFlightTicketService {
      */
     @Override
     public List<IFlight> getTickets(String startAirport, String endAirport, String date) {
-        try {
 
-            return this.scraper.runScraper(startAirport, endAirport, date, 0);
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        return null;
+
+        return this.scraper.runScraper(startAirport, endAirport, date, 0);
+
+
     }
 
 }

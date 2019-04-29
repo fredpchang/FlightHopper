@@ -137,14 +137,7 @@ public class DirectAnalyzer implements IFlightTicketService {
     @Override
     public List<IFlight> getTickets(String startAirport, String endAirport, String date) {
 
-        try {
             return this.scraper.runScraper(startAirport, endAirport, date, 0);
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        return null;
     }
 
     /***
@@ -159,16 +152,11 @@ public class DirectAnalyzer implements IFlightTicketService {
      */
     private List<IFlight> getTickets(String startAirport, String endAirport, String date,
                                      String flexibility, int maxPrice, int maxFlightTime) {
-        try {
-            int flex = Integer.valueOf(flexibility);
+
+        	int flex = Integer.valueOf(flexibility);
             List<IFlight> rawData = this.scraper.runScraper(startAirport,endAirport, date,flex);
             List<IFlight> filtered = this.scraper.paramFilter(maxPrice, maxFlightTime, rawData);
             return filtered;
-        }
-        catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
     }
 
     /***
