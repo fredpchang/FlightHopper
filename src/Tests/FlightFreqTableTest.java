@@ -101,7 +101,7 @@ public class FlightFreqTableTest {
 		pQueue.add(airportP3);
 		
 		freqMap.put(startAirport, pQueue);
-		System.out.println("freq map size "+freqMap.size());
+		//System.out.println("freq map size "+freqMap.size());
 		
 		flightFreqT.setFreqTable(freqMap);
 		
@@ -204,7 +204,7 @@ public class FlightFreqTableTest {
 
 		flightFreqT.setFreqTable(freqMap);
 		
-		System.out.println(flightFreqT.getFreqTable().size());
+		//System.out.println(flightFreqT.getFreqTable().size());
 		
 		AirportPair a1,a2, a3;
 		a1 = new AirportPair();
