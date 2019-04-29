@@ -20,10 +20,11 @@ public class FlightHopper {
         IFlightTicketService twoCity = new DirectAnalyzer();
         IFlightTicketService mulCity = new MulticityAnalyzer();
         FlightFreqTable freqTable = new FlightFreqTable();
+        System.out.println("Loading...");
+        freqTable.generateMap("files/flightFreqTable/out.csv");
+        System.out.println("Auto-Recommendation System Ready!");
         while(1==1) {
-            System.out.println("1. I want to find flights between two cities!");
-            System.out.println("2. I want to generate an itinerary for multiple cities");
-            System.out.println("Please enter the number of function you want to use");
+            System.out.print("Press (1) for Direct Flight (2) for Multicity \n");
             int query = scanner.nextInt();
             scanner.nextLine();
             if(query != 1 && query != 2) {
@@ -36,27 +37,36 @@ public class FlightHopper {
                 List<String> userInput = new ArrayList<>();
 //                String input;
                 System.out.println("Welcome to direct ticket search engine!");
-                System.out.println("Please enter the start airport");
+                System.out.println("Please enter the start airport (e.g. PHL)");
                 String input = scanner.nextLine();
                 userInput.add(input);
-//                System.out.println(freqTable.getTop(input));
-                System.out.println("Please enter the end airport");
+                
+                //Print out list of top recommendations
+                System.out.printf("Here are some popular destinations from [%s]: \n", userInput);
+                List<AirportPair> top = freqTable.getTop(input);
+                for (AirportPair a : top) {
+                	System.out.println(a.getEndAirport());
+                }
+                
+                System.out.println("Please enter the end airport (e.g. LAX)");
                 userInput.add(scanner.nextLine());
-                System.out.println("Please enter the day you want to travel, format is xx/xx/20xx");
+                System.out.println("Please enter the day you want to travel, format is mm/dd/20yy");
                 userInput.add(scanner.nextLine());
-                System.out.println("Please enter the flexibility of the flight, if none enter 0");
+                System.out.println("Please enter the flexibility of the flight (days), if none enter 0");
                 userInput.add(scanner.nextLine());
-                System.out.println("Please enter max price, if none enter -1");
+                System.out.println("Please enter max price ($), if none enter -1");
                 userInput.add(scanner.nextLine());
-                System.out.println("Please enter max flight duration in int hours, if none enter -1");
+                System.out.println("Please enter max flight duration (hours), if none enter -1");
                 userInput.add(scanner.nextLine());
                 System.out.println(userInput);
                 DirectAnalyzer da = new DirectAnalyzer();
-                System.out.println("Here are the top offers we find for you:");
+                System.out.println("Here are the top offers we found:");
 //                System.out.println(da.getOptimalRoutesOfTwoCities(userInput));
                 List<IFlight> ls = da.getOptimalRoutesOfTwoCities(userInput);
                 for(IFlight f : ls) {
+                	System.out.println("------------------------------");
                 	f.printFlight();
+                	System.out.println();
 				}
 
                 System.out.println("Press q quit program, press any other key to return to main menu");
@@ -108,7 +118,8 @@ public class FlightHopper {
                 }
             }
         }
-        System.out.println("Thanks for using Flight Hopper.");
+        System.out.println("Thanks for using FlightHopper.");
+        scanner.close();
 
 //		MulticityAnalyzer ma = new MulticityAnalyzer();
 //		List<String> userInput = new ArrayList<>();

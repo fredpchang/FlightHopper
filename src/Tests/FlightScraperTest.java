@@ -72,12 +72,21 @@ public class FlightScraperTest {
 	}
 	
 	@Test
-	public void testParamFilter3() throws FileNotFoundException, IOException, ParseException {
+	public void test3() throws FileNotFoundException, IOException, ParseException {
 		FlightScraper tst = new FlightScraper();
-		
-		List <IFlight>  l1 = tst.jsonParser("nyc-mia-20190430.json");
-		List <IFlight>  l2 = tst.paramFilter(600, 24, l1);
-		assertTrue(!l2.isEmpty());
+		DirectFlight df1 = new DirectFlight("lax","nyc",123.4,null,"12","15","3",3,12,true,"AA","boeing");
+		DirectFlight df2 = new DirectFlight("nyc","sfo",43.4,null,"12","15","3",13,12,true,"AA","boeing");
+		NonDirectFlight n1 = new NonDirectFlight("sfo","lax",46.2, 2, null,"12","13", "244", 244,45,false,"AA","boeing");
+		NonDirectFlight n2 = new NonDirectFlight("lax","sfo",67.2, 2, null,"12","13", "244", 12,45,false,"AA","boeing");
+		NonDirectFlight n3 = new NonDirectFlight("sfo","nyc",16.2, 2, null,"12","13", "244", 4,45,false,"AA","boeing");
+		List <IFlight>  l1 = new LinkedList<IFlight>();
+		l1.add(df1);
+		l1.add(df2);
+		l1.add(n1);
+		l1.add(n2);
+		l1.add(n3);
+		List <IFlight>  l2 = tst.paramFilter(134, 24, l1);
+		assertTrue(l2.size() == 5);
 	}
 	
 	
