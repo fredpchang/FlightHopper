@@ -215,7 +215,23 @@ public class NonDirectFlightTest {
 				plane
 			);
 		
+		DirectFlight e3 = new DirectFlight(
+				startAirport,
+				endAirport,
+				price,
+				routing,
+				startTime,
+				endTime,
+				flightDuration,
+				duration,
+				rank,
+				isDirect,
+				airline,
+				plane
+			);
+		
 		assertTrue(e1.equals(e2));
+		assertTrue(e1.equals(e3));
 		
 	}
 

@@ -9,6 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import FlightHopper.DirectFlight;
+import FlightHopper.NonDirectFlight;
 
 public class DirectFlightTest {
 
@@ -181,7 +182,28 @@ public class DirectFlightTest {
 				plane
 			);
 		
+
+
+		int stops = 1;
+
+		NonDirectFlight e3 = new NonDirectFlight(
+												startAirport,
+												endAirport,
+												price,
+												stops,
+												routing,
+												startTime,
+												endTime,
+												flightDuration,
+												duration,
+												rank,
+												isDirect,
+												airline,
+												plane
+											);
+		
 		assertTrue(e1.equals(e2));
+		assertTrue(e1.equals(e3));
 		
 	}
 	

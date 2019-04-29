@@ -62,5 +62,12 @@ public class AirportTest {
 		assertTrue(a1.equals(a2));
 	}
 	
+	@Test
+	public void testConstructor() {
+		Airport a = new Airport("LAX");
+		
+		assertEquals("LAX",a.getName());
+	}
+	
 	
 }
