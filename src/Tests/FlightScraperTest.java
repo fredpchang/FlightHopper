@@ -1,93 +1,95 @@
 package Tests;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
-import java.util.HashMap;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 
-import org.junit.Before;
+import org.json.simple.parser.ParseException;
 import org.junit.Test;
 
-import FlightHopper.Airport;
 import FlightHopper.DirectFlight;
 import FlightHopper.FlightScraper;
 import FlightHopper.IFlight;
+import FlightHopper.NonDirectFlight;
 
 public class FlightScraperTest {
 
-	FlightScraper s;
-	List<IFlight> list;
-	
-	String startAirport = "PHL";
-	String endAirport = "LAX";
-	String date = "201905151800"; //format: yyyymmddhhmm
-	int flex = 1;
-	
-	DirectFlight f1, f2, f3, f4;
-	Airport phl, lax, sfo;
-	
-	@Before
-	public void setUp() throws Exception{
+	//This test is based on retrieving real-time expedia flight information, and cna change at any time
+	@Test
+	public void test() throws FileNotFoundException, IOException, ParseException {
+		FlightScraper tst = new FlightScraper();
+		String date = "04/30/2019";
+		List<IFlight> l1 = tst.runScraper("nyc", "mia", date, 0);
+		List<IFlight> l2 = tst.jsonParser("nyc-mia-20190430.json");
 		
-		s = new FlightScraper();
-		
-		list = new LinkedList<IFlight>();
-		
-		phl = new Airport();
-		phl.setName("PHL");
-		phl.setDestination(sfo);
-		
-		lax = new Airport();
-		lax.setName("lax");
-		lax.setDestination(sfo);
-		
-		
-		sfo = new Airport();
-		sfo.setName("SFO");
-	
+		assertEquals(l1.size() , l2.size());
 	}
 	
 	@Test
-	public void testRunScraper() {
-		List<IFlight> output = s.runScraper(startAirport, endAirport, date, flex);
-		
-		List<IFlight> expected = new LinkedList<IFlight>();
-		//add to expected list below
-		expected.add(f1);
-		expected.add(f2);
-		expected.add(f3);
-		
-		assertTrue(expected.equals(output));
-		
-	}
+	public void testParamFilter() {
+		FlightScraper tst = new FlightScraper();
+		DirectFlight df1 = new DirectFlight("sfo","nyc",123.4,null,"12","15","3",3,12,true,"AA","boeing");
+		DirectFlight df2 = new DirectFlight("sfo","nyc",43.4,null,"12","15","3",13,12,true,"AA","boeing");
+		DirectFlight df3 = new DirectFlight("sfo","nyc",87.4,null,"12","15","3",4,12,true,"AA","boeing");
+		DirectFlight df4 = new DirectFlight("sfo","nyc",423.4,null,"12","15","3",2,12,true,"AA","boeing");
+		DirectFlight df5 = new DirectFlight("sfo","nyc",123.4,null,"12","15","3",344,12,true,"AA","boeing");
+		DirectFlight df6 = new DirectFlight("sfo","nyc",8.4,null,"12","15","3",788,12,true,"AA","boeing");
 
-	@Test
-	public void testCache() {
 		
-		Map <IFlight, List<IFlight>> expected = new HashMap<IFlight, List<IFlight>>();
-		expected.put(f1, list);
-		
-		assertTrue(expected.equals(s.getCache()));
-		
+		NonDirectFlight n1 = new NonDirectFlight("sfo","nyc",46.2, 2, null,"12","13", "244", 244,45,false,"AA","boeing");
+		NonDirectFlight n2 = new NonDirectFlight("sfo","nyc",67.2, 2, null,"12","13", "244", 12,45,false,"AA","boeing");
+		NonDirectFlight n3 = new NonDirectFlight("sfo","nyc",16.2, 2, null,"12","13", "244", 4,45,false,"AA","boeing");
+		NonDirectFlight n4 = new NonDirectFlight("sfo","nyc",646.2, 2, null,"12","13", "244", 9,45,false,"AA","boeing");
+		NonDirectFlight n5 = new NonDirectFlight("sfo","nyc",746.2, 2, null,"12","13", "244", 24,45,false,"AA","boeing");
+
+		List <IFlight>  l1 = new LinkedList<IFlight>();
+		l1.add(df1);
+		l1.add(df2);
+		l1.add(df3);
+		l1.add(df4);
+		l1.add(df5);
+		l1.add(df6);
+		l1.add(n1);
+		l1.add(n2);
+		l1.add(n3);
+		l1.add(n4);
+		l1.add(n5);
+		// System.out.println(l1.size());
+		List <IFlight>  l2 = tst.paramFilter(134, 24, l1);
+		assertTrue(l2.size() == 5);
 	}
 	
 	@Test
-	public void testMaxPrice() {
-		s.setMaxPrice(1000);
+	public void testParamFilter2() throws FileNotFoundException, IOException, ParseException {
+		FlightScraper tst = new FlightScraper();
 		
-		assertEquals(1000, s.getMaxPrice());
-		
+		List <IFlight>  l1 = tst.jsonParser("nyc-mia-20190430.json");
+		List <IFlight>  l2 = tst.paramFilter(134, 24, l1);
+		assertTrue(l2.size() == 0);
 	}
 	
 	@Test
-	public void testMaxDuration() {
-		s.setMaxDuration(5);
-		
-		assertEquals(5, s.getMaxDuration());
+	public void test3() throws FileNotFoundException, IOException, ParseException {
+		FlightScraper tst = new FlightScraper();
+		DirectFlight df1 = new DirectFlight("lax","nyc",123.4,null,"12","15","3",3,12,true,"AA","boeing");
+		DirectFlight df2 = new DirectFlight("nyc","sfo",43.4,null,"12","15","3",13,12,true,"AA","boeing");
+		NonDirectFlight n1 = new NonDirectFlight("sfo","lax",46.2, 2, null,"12","13", "244", 244,45,false,"AA","boeing");
+		NonDirectFlight n2 = new NonDirectFlight("lax","sfo",67.2, 2, null,"12","13", "244", 12,45,false,"AA","boeing");
+		NonDirectFlight n3 = new NonDirectFlight("sfo","nyc",16.2, 2, null,"12","13", "244", 4,45,false,"AA","boeing");
+		List <IFlight>  l1 = new LinkedList<IFlight>();
+		l1.add(df1);
+		l1.add(df2);
+		l1.add(n1);
+		l1.add(n2);
+		l1.add(n3);
+		List <IFlight>  l2 = tst.paramFilter(134, 24, l1);
+		assertTrue(l2.size() == 5);
 	}
 	
 	
+	
+
 }

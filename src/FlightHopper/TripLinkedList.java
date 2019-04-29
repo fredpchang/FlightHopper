@@ -15,7 +15,7 @@ public class TripLinkedList {
 
     /**
      * get list size
-     * @return
+     * @return list size
      */
     public int size() {
         return size;
@@ -23,7 +23,7 @@ public class TripLinkedList {
 
     /**
      * Get root of this list
-     * @return
+     * @return root airport
      */
     public Airport getRoot() {
         return startAirport;
@@ -31,7 +31,7 @@ public class TripLinkedList {
 
     /***
      * add a node into list
-     * @param node
+     * @param node name of node we want to add
      * @return true if add successfully, false otherwise
      */
     public boolean add(String node) {
@@ -54,7 +54,7 @@ public class TripLinkedList {
 
     /**
      * remove a node
-     * @param node
+     * @param node the node we want to delete
      * @return true if remove successfully, false otherwise
      */
     public boolean remove(String node) {
@@ -84,7 +84,7 @@ public class TripLinkedList {
 
     /**
      * see if a node is in the list
-     * @param node
+     * @param node the target node we want to search
      * @return return true if in, else return false
      */
     public boolean contains(String node) {
@@ -100,8 +100,8 @@ public class TripLinkedList {
     /**
      * get the airport on that index
      * if not in size range return null
-     * @param index
-     * @return
+     * @param index index
+     * @return the node on that index
      */
     public Airport get(int index) {
         if(index < 0 || index >= size) return null;
@@ -115,8 +115,8 @@ public class TripLinkedList {
     /**
      * get the airport by their name
      * if not in list, return null
-     * @param node
-     * @return
+     * @param node the node we want to get
+     * @return the node
      */
     public Airport get(String node) {
         if(isEmpty()) return null;
@@ -138,7 +138,7 @@ public class TripLinkedList {
 
     /**
      * set root
-     * @param startAirport
+     * @param startAirport start airport
      */
     public void setStartAirport(Airport startAirport) {
         this.startAirport = startAirport;
@@ -146,7 +146,7 @@ public class TripLinkedList {
 
     /**
      * get size of list
-     * @return
+     * @return size
      */
     public int getSize() {
         return size;
@@ -154,7 +154,7 @@ public class TripLinkedList {
 
     /**
      * set size
-     * @param size
+     * @param size list size
      */
     public void setSize(int size) {
         this.size = size;
@@ -162,8 +162,8 @@ public class TripLinkedList {
 
     /**
      * override equals method
-     * @param o
-     * @return
+     * @param o the list to compare
+     * @return whether they are same
      */
     public boolean equals(Object o) {
 

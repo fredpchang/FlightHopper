@@ -1,7 +1,8 @@
 package FlightHopper;
 
-import com.sun.deploy.util.StringUtils;
+import org.json.simple.parser.ParseException;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -30,7 +31,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
 
     /**
      * take in user input and set that to be userInput field
-     * @param userInput
+     * @param userInput user input
      */
     public MulticityAnalyzer(List<String> userInput) {
         tripLinkedList = generateList(userInput);
@@ -46,11 +47,20 @@ public class MulticityAnalyzer implements IFlightTicketService {
      */
     public List<List<IFlight>> getOptimalRoutesOfMultiCities(List<String> userInput) {
         generateList(userInput);
-        double weight = 0;
-        for(int i = 0 ; i <4; i++) {
+        double weight = 1;
+        for(int i = 0 ; i <=4; i++) {
             List<IFlight> temp = this.getRoute(userInput, weight);
+//            List<IFlight> shows = new ArrayList<>();
+//            int j = 0;
+//            for(IFlight f : temp) {
+//                if(j>=1) break;
+//                if(!shows.contains(f)) {
+//                    j++;
+//                    shows.add(f);
+//                }
+//            }
             routesSelctions.add(new ArrayList<>(temp));
-            weight += 0.25;
+            weight -= 0.25;
         }
         return routesSelctions;
     }
@@ -59,18 +69,19 @@ public class MulticityAnalyzer implements IFlightTicketService {
      * to visit and how long they stay, return the tripLinkedList.
      * TripLinkedList is like a graph to store the source
      * data.
-     * @param userInput
-     * @return
+     * @param userInput user input list
+     * @return generated trip linked list
      */
     @Override
     public TripLinkedList generateList(List<String> userInput) {
-        if(userInput.size() % 2==0) return null;
+        if(userInput.size() % 2!=0) return null;
 
         String[] dateData = userInput.get(0).split("/");
         if(dateData.length != 3) return null;
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-        Calendar date = new GregorianCalendar(Integer.valueOf(dateData[2]),Integer.valueOf(dateData[1])-1,
-                Integer.valueOf(dateData[0]));
+        SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
+        Calendar date = new GregorianCalendar(Integer.valueOf(dateData[2]),Integer.valueOf(dateData[0])-1,
+                Integer.valueOf(dateData[1]));
+//        System.out.println(sdf.format(date.getTime()));
 //        date.setTime(new Date()); // Now use today date.
 //        String startAirport = userInput.get(1);
         int flex = Integer.valueOf(userInput.get(2));
@@ -79,6 +90,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
         List<IFlight> temp = new ArrayList<>();
         for(int i = 0; i <= flex; i++) {
             date.add(Calendar.DATE, i);
+//            System.out.println();
             temp.addAll(this.getTickets(userInput.get(1),
                     userInput.get(3), sdf.format(date.getTime())));
             date.add(Calendar.DATE, -i);
@@ -119,10 +131,11 @@ public class MulticityAnalyzer implements IFlightTicketService {
      * measure the rank
      * @param userInput include list of cities user want to go and how long they stay
      * @param priceWeight how much price would contribute to rank of the ticket
-     * @return
+     * @return list of tickets
      */
     @Override
     public List<IFlight> getRoute(List<String> userInput, double priceWeight) {
+        if(priceWeight<0 || priceWeight > 1) return null;
         Airport cur = this.tripLinkedList.getRoot();
         List<IFlight> re = new ArrayList<>();
         while(cur.destination != null) {
@@ -133,7 +146,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
             // add all ticket into pq and sort
             pq.addAll(cur.getTickets());
             // get the top 5 tickets
-            for(int i = 0; i < pq.size() && i < 5; i++) {
+            for(int i = 0; i < pq.size() && i < 1; i++) {
                 re.add(pq.poll());
             }
             // add those back to pq so that we don't poll tickets out and lose that entirely
@@ -148,11 +161,15 @@ public class MulticityAnalyzer implements IFlightTicketService {
      * @param startAirport start airport
      * @param endAirport end airport
      * @param date the date on these flight
-     * @return
+     * @return list of tickets
      */
     @Override
     public List<IFlight> getTickets(String startAirport, String endAirport, String date) {
+
+
         return this.scraper.runScraper(startAirport, endAirport, date, 0);
+
+
     }
 
 }

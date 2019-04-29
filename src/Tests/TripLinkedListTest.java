@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class TripLinkedListTest {
     TripLinkedList list;
     Airport lax, sfo, sea;
-    String l = "LAX",s = "SFO",a = "SEA";
+    String l = "Los Angeles",s = "San Francisco",a = "Seattle";
     @Before
     public void setUp() throws Exception {
         list = new TripLinkedList();
@@ -20,8 +20,11 @@ public class TripLinkedListTest {
     public void size() {
         TripLinkedList list1 = new TripLinkedList();
         assertEquals(0, list1.size());
+        assertEquals(0, list1.getSize());
         list1.add(l);
         assertEquals(1, list1.size());
+        list1.setSize(10);
+        assertEquals(10,list1.size());
     }
 
     @Test
@@ -29,9 +32,33 @@ public class TripLinkedListTest {
         TripLinkedList list1 = new TripLinkedList();
         assertNull(list1.getRoot());
         list1.add(l);
-        assertEquals(lax.getName(), list1.getRoot().getName());
+        assertEquals(l, list1.getRoot().getName());
+        Airport a = new Airport();
+        a.setName("hi");
+        list1.setStartAirport(a);
+        assertEquals(list1.getStartAirport().getName(),"hi");
+//        list1.add(l);
+//        assertEquals(lax.getName(), list1.getRoot().getName());
+    }
+
+    @Test
+    public void testEqual() {
+        TripLinkedList list1 = new TripLinkedList();
         list1.add(l);
-        assertEquals(lax.getName(), list1.getRoot().getName());
+        Airport a = new Airport();
+        a.setName("hi");
+        Airport b = new Airport();
+        b.setName("hello");
+        list1.add("hello");
+        TripLinkedList list2 = new TripLinkedList();
+        list2.add(l);
+        list2.add("hello");
+        assertTrue(list1.equals(list2));
+        list2.add("hi");
+        assertFalse(list1.equals(list2));
+        list2.remove("hello");
+        assertFalse(list1.equals(list2));
+
     }
 
     @Test
@@ -39,9 +66,9 @@ public class TripLinkedListTest {
         TripLinkedList list1 = new TripLinkedList();
         assertEquals(0, list1.size());
         list1.add(l);
-        assertEquals(lax.getName(), list1.getRoot().getName());
+        assertEquals(l, list1.getRoot().getName());
         list1.add(s);
-        assertEquals(list1.getRoot().getDestination().getName(), sfo.getName());
+        assertEquals(list1.getRoot().getDestination().getName(), s);
     }
 
     @Test
@@ -49,10 +76,13 @@ public class TripLinkedListTest {
         TripLinkedList list1 = new TripLinkedList();
         assertEquals(0, list1.size());
         list1.add(l);
-        assertEquals(lax.getName(), list1.getRoot().getName());
+        assertEquals(l, list1.getRoot().getName());
         list1.add(s);
         list1.add(a);
-        assertEquals(true, list1.remove(s));
+        assertEquals(true, list1.remove(a));
+        assertFalse(list1.remove("sdfs"));
+        assertTrue(list1.remove(s));
+        assertTrue(list1.remove(l));
     }
 
     @Test
@@ -86,8 +116,8 @@ public class TripLinkedListTest {
         list1.add(s);
         assertEquals(null, list1.get(100));
         assertNull(list1.get(-1));
-        assertEquals(lax.getName(), list1.get(0).getName());
-        assertEquals(sfo.getName(), list1.get(2).getName());
+        assertEquals(l, list1.get(0).getName());
+        assertEquals(s, list1.get(2).getName());
     }
 
     @Test
@@ -99,8 +129,8 @@ public class TripLinkedListTest {
 //        assertTrue(list1.contains(l));
         list1.add(a);
         list1.add(s);
-        assertEquals(lax.getName(), list1.get("LAX"));
-        assertEquals(sea.getName(), list1.get("SEA"));
+        assertEquals(l, list1.get(l).getName());
+        assertEquals(a, list1.get("Seattle").getName());
         assertNull(list1.get("HEllo"));
     }
 }
