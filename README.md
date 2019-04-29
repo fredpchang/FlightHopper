@@ -10,3 +10,8 @@
 ## FlightScraper.java (Setup Python3 Environment)
 1. Download Canopy (*https://store.enthought.com/downloads/*)
 2. Setup command string to be: *"/Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3 expedia.py jfk sea 05/16/2019"*
+
+
+
+# Regarding Test Code Coverage
+Due to the nature of our program pulling real-time ticket information from Expedia, it is virtually impossible to test for same results (unless we run the test right after writing it)
