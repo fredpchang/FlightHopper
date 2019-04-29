@@ -18,15 +18,15 @@ public class AirportPairTest {
 		emptyAirport = new AirportPair();
 		
 		emptyAirport.setStartAirport(null);
-		emptyAirport.setEndAirport("Philadelphia");
+		emptyAirport.setEndAirport("PHL");
 		emptyAirport.setFrequency(10);
 		
 	}
 	@Test
 	
 	public void initAirportPairTest() {
-		String startAirport = "Philadelphia";
-		String endAirport = "Los Angeles";
+		String startAirport = "PHL";
+		String endAirport = "LAX";
 		int freq = 100;
 		AirportPair airport1 = new AirportPair();
 		
@@ -38,8 +38,8 @@ public class AirportPairTest {
 		airport1.setEndAirport(endAirport);
 		airport1.setFrequency(freq);
 		
-		assertEquals("Philadelphia",airport1.getStartAirport());
-		assertEquals("Los Angeles", airport1.getEndAirport());
+		assertEquals("PHL",airport1.getStartAirport());
+		assertEquals("LAX", airport1.getEndAirport());
 		assertEquals(100, airport1.getFrequency());
 		
 	}

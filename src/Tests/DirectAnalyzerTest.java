@@ -32,10 +32,10 @@ public class DirectAnalyzerTest {
 		userInputTwo.add("-1");
 
 		f1 = new NonDirectFlight();
-		f1.setDuration(17);
+		f1.setDuration(21);
 		f1.setStartAirport(lax.getName());
 		f1.setEndAirport(pek.getName());
-		f1.setPrice(557.70);
+		f1.setPrice(1923.0);
 		f1.setAirline("");
 		f1.setPlane("");
 		f1.setDirect(false);
@@ -83,7 +83,7 @@ public class DirectAnalyzerTest {
 	@Test
 	public void testCheckValid() {
 		DirectAnalyzer d = new DirectAnalyzer();
-		assertTrue(d.checkValid(f1, 100,1000));
+		assertTrue(d.checkValid(f1, 1000,3000));
 		assertFalse(d.checkValid(f1, 1, 1000));
 		assertFalse(d.checkValid(f1, 1000,1));
 	}
@@ -111,7 +111,7 @@ public class DirectAnalyzerTest {
 		ff1 = re.get(re.size()-1);
 		assertTrue(ff1 instanceof NonDirectFlight);
 		cff1 = (NonDirectFlight) ff1;
-		assertEquals(cff1.getDuration(),22);
+		assertEquals(cff1.getDuration(),20);
 //		assertEquals(cff1.getPrice(), 763.0,10);
 //		// no max price and no max duration, all flights are okay
 //		List<IFlight> l1 = new ArrayList<>();

@@ -13,7 +13,8 @@ import org.junit.Test;
 public class MulticityAnalyzerTest {
 
 	List<String> userInputMul;
-	DirectFlight f1, f2, f3, f4;
+	DirectFlight f1,  f3, f4;
+	NonDirectFlight f2;
 	Airport lax, sfo, sea;
 	@Before
 	public void setUp() throws Exception {
@@ -31,15 +32,15 @@ public class MulticityAnalyzerTest {
 		userInputMul.add("hkg");
 
 		f1 = new DirectFlight();
-		f1.setDuration(17);
+		f1.setDuration(21);
 		f1.setStartAirport(lax.getName());
 		f1.setEndAirport("Beijing");
-		f1.setPrice(557.7);
-		f2 = new DirectFlight();
-		f2.setDuration(4);
+		f1.setPrice(1923.0);
+		f2 = new NonDirectFlight();
+		f2.setDuration(18);
 		f2.setStartAirport("Beijing");
 		f2.setEndAirport("Hong Kong");
-		f2.setPrice(157.8);
+		f2.setPrice(536.20);
 		f3 = new DirectFlight();
 		f3.setDuration(1);
 		f3.setStartAirport(sfo.getName());
@@ -77,8 +78,8 @@ public class MulticityAnalyzerTest {
 		NonDirectFlight flight1 = (NonDirectFlight) r.get(0);
 		assertEquals(flight1.getPrice(), f1.getPrice(),10);
 		assertEquals(flight1.getDuration(), f1.getDuration());
-		assertTrue(r.get(1) instanceof DirectFlight);
-		DirectFlight flight2 = (DirectFlight) r.get(1);
+		assertTrue(r.get(1) instanceof NonDirectFlight);
+		NonDirectFlight flight2 = (NonDirectFlight) r.get(1);
 		assertEquals(flight2.getPrice(), f2.getPrice(),10);
 		assertEquals(flight2.getDuration()*1.0, f2.getDuration()*1.0,1);
 //		assertEquals(l, );
@@ -135,8 +136,8 @@ public class MulticityAnalyzerTest {
 		assertEquals(flight1.getPrice(), f1.getPrice(),10);
 		assertEquals(flight1.getDuration(), f1.getDuration());
 		Airport cur = root.getDestination();
-		assertTrue(cur.getTickets().get(0) instanceof DirectFlight);
-		DirectFlight flight2 = (DirectFlight) cur.getTickets().get(0);
+		assertTrue(cur.getTickets().get(0) instanceof NonDirectFlight);
+		NonDirectFlight flight2 = (NonDirectFlight) cur.getTickets().get(0);
 		assertEquals(flight2.getPrice(), f2.getPrice(),10);
 		System.out.println(flight2);
 		assertEquals(flight2.getDuration()*1.0, f2.getDuration()*1.0,1);
@@ -185,8 +186,8 @@ public class MulticityAnalyzerTest {
 		assertEquals(flight1.getPrice(), f1.getPrice(),10);
 		assertEquals(flight1.getDuration(), f1.getDuration());
 
-		assertTrue(r.get(1) instanceof DirectFlight);
-		DirectFlight flight2 = (DirectFlight) r.get(1);
+		assertTrue(r.get(1) instanceof NonDirectFlight);
+		NonDirectFlight flight2 = (NonDirectFlight) r.get(1);
 		assertEquals(flight2.getPrice(), f2.getPrice(),10);
 		assertEquals(flight2.getDuration()*1.0, f2.getDuration()*1.0,1);
 	}
@@ -219,8 +220,8 @@ public class MulticityAnalyzerTest {
 		assertEquals(flight1.getDuration(), f1.getDuration());
 		r = m.getTickets("pek","hkg","07/17/2019");
 
-		assertTrue(r.get(0) instanceof DirectFlight);
-		DirectFlight flight2 = (DirectFlight) r.get(0);
+		assertTrue(r.get(0) instanceof NonDirectFlight);
+		NonDirectFlight flight2 = (NonDirectFlight) r.get(0);
 		assertEquals(flight2.getPrice(), f2.getPrice(),10);
 		assertEquals(flight2.getDuration()*1.0, f2.getDuration()*1.0,1);
 	}

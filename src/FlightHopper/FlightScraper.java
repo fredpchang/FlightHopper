@@ -55,7 +55,6 @@ public class FlightScraper {
      * @return List<IFlight> list of flight tickets
      */
     private List<IFlight> scraperPyHelper(String startAirport, String endAirport, String date) {
-		String pythonPath = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3";
 
 		Runtime rt = Runtime.getRuntime();
     	try {
@@ -91,11 +90,8 @@ public class FlightScraper {
      * a list of flights
      * @param fileName name of the file
      * @return list of tickets
-     * @throws ParseException
-     * @throws IOException
-     * @throws FileNotFoundException
      */
-	private List <IFlight> jsonParser(String fileName) throws FileNotFoundException, IOException, ParseException {
+	public List <IFlight> jsonParser(String fileName) {
 		//NOTE: remove "private" word above in order to test from FlightHopper.java class!!!
 
 		/* ArrayList to return */
@@ -112,152 +108,163 @@ public class FlightScraper {
 		/* Set up Parser */
 		//Note: need to import ison-simple jar
 		JSONParser parser = new JSONParser();
-		JSONArray jsonArray =  (JSONArray) parser.parse(new FileReader(filePath));
-//    	System.out.println(jsonArray); //Note: enable to test print all content in jsonArray
+		JSONArray jsonArray;
+		try {
+			jsonArray = (JSONArray) parser.parse(new FileReader(filePath));
+//	    	System.out.println(jsonArray); //Note: enable to test print all content in jsonArray
+			/* Read each flight and save as IFlight object */
+			for (int i = 0 ; i < jsonArray.size() ; i++) {
+				JSONObject jo = (JSONObject) jsonArray.get(i);
+
+				//Number of Stops
+				String stopsString = (String) jo.get("stops");
+
+				//Ticket Price
+				String ticketPrice = (String) jo.get("ticket price");
+
+				//Departure City
+				String departure = (String) jo.get("departure");
+				departure = departure.substring(2);
+
+				//Arrival City
+				String arrival= (String) jo.get("arrival");
+				arrival = arrival.substring(2);
+
+				//Flight Duration
+				String flightDuration = (String) jo.get("flight duration");
+				int duration = Integer.valueOf(flightDuration.split("days")[0].trim())*24 + Integer.valueOf(flightDuration.split("( days | hours )")[1].trim());
+				duration += (Integer.valueOf(flightDuration.split("( days | hours | minutes)")[2])/60.0) > 0.5 ? 1 : 0;
+
+				//Airline
+				String airline = (String) jo.get("airline");
+
+				//Plane Type
+				String plane = (String) jo.get("plane");
+
+				//Detailed itinerary for flight
+				Object timings = jo.get("timings"); //need more work
+				JSONArray timingsArray = (JSONArray) timings;
+
+				//Start time and end time variables
+				String startTime = "";
+				String endTime = "";
+
+				//List of routings in String form
+				ArrayList<String> routing = new ArrayList<String>();
+
+				/* Print all info to console */
+//	    		System.out.println("---------------- Option " + i + " ----------------");
+//	    		System.out.printf("[%s] ---> [%s] \n", departure, arrival);
+//	    		System.out.println(stopsString);
+//	    		System.out.println("$" + ticketPrice);
+//	    		System.out.println(flightDuration);
+//	    		System.out.println(airline + " " + plane);
+				for (int j = 0 ; j < timingsArray.size() ; j++) {
+					JSONObject t = (JSONObject) timingsArray.get(j);
+					String departureAirport = (String) t.get("departure_airport");
+					String departureTime = (String) t.get("departure_time");
+					String arrivalAirport = (String) t.get("arrival_airport");
+					String arrivalTime = (String) t.get("arrival_time");
+
+					//save routing
+					String routingTemp = String.format("%s (%s) --> %s (%s)", departureAirport, departureTime, arrivalAirport, arrivalTime);
+					routing.add(routingTemp);
+
+//	    			System.out.printf("%s (%s) --> %s (%s) \n", departureAirport, departureTime, arrivalAirport, arrivalTime);
+
+					//save end time
+					endTime = arrivalTime;
+
+				}
+//	    		System.out.println("\n \n");
 
 
-		/* Read each flight and save as IFlight object */
-		for (int i = 0 ; i < jsonArray.size() ; i++) {
-			JSONObject jo = (JSONObject) jsonArray.get(i);
 
-			//Number of Stops
-			String stopsString = (String) jo.get("stops");
+				/* Populate Flight objects */
 
-			//Ticket Price
-			String ticketPrice = (String) jo.get("ticket price");
 
-			//Departure City
-			String departure = (String) jo.get("departure");
-			departure = departure.substring(2);
+				//Common fields for both flight types
+				String startAirport = departure;
+				String endAirport = arrival;
+				int price = (int) Math.round(Double.parseDouble(ticketPrice));
+				startTime = startDate; //startTime date format
+//	    		endTime = endTime; //endTime is as-is
+//	    		flightDuration = flightDuration //flightDuration string as-is
+//	    		duration = duration; //duration is as-is
+				int rank = Integer.MAX_VALUE;
+//	    		airline = airline; //airline is as-is
+//	    		plane = plane; //plane is as-is
 
-			//Arrival City
-			String arrival= (String) jo.get("arrival");
-			arrival = arrival.substring(2);
+				//Create new IFlight object
+				IFlight f;
 
-			//Flight Duration
-			String flightDuration = (String) jo.get("flight duration");
-			int duration = Integer.valueOf(flightDuration.split("days")[0].trim())*24 + Integer.valueOf(flightDuration.split("( days | hours )")[1].trim());
-			duration += (Integer.valueOf(flightDuration.split("( days | hours | minutes)")[2])/60.0) > 0.5 ? 1 : 0;
+				/* Determine if DirectFlight or NonDirectFlight */
+				if (stopsString.equals("Nonstop")) {
+					//initialize unique fields
+					boolean isDirect = true;
 
-			//Airline
-			String airline = (String) jo.get("airline");
 
-			//Plane Type
-			String plane = (String) jo.get("plane");
+					//Create DirectFlight object
+					f = new DirectFlight(startAirport,
+							endAirport,
+							price,
+							routing,
+							startTime,
+							endTime,
+							flightDuration,
+							duration,
+							rank,
+							isDirect,
+							airline,
+							plane
+					);
 
-			//Detailed itinerary for flight
-			Object timings = jo.get("timings"); //need more work
-			JSONArray timingsArray = (JSONArray) timings;
+				}
+				else {
+					//initialize unique fields
+					boolean isDirect = false;
+					int stops = Integer.parseInt(stopsString.substring(0, 1));
+//	    			routing = routing; //as-is
 
-			//Start time and end time variables
-			String startTime = "";
-			String endTime = "";
 
-			//List of routings in String form
-			ArrayList<String> routing = new ArrayList<String>();
+					//Create NonDirectFlight object
+					f = new NonDirectFlight(startAirport,
+							endAirport,
+							price,
+							stops,
+							routing,
+							startTime,
+							endTime,
+							flightDuration,
+							duration,
+							rank,
+							isDirect,
+							airline,
+							plane
+					);
+				}
 
-			/* Print all info to console */
-//    		System.out.println("---------------- Option " + i + " ----------------");
-//    		System.out.printf("[%s] ---> [%s] \n", departure, arrival);
-//    		System.out.println(stopsString);
-//    		System.out.println("$" + ticketPrice);
-//    		System.out.println(flightDuration);
-//    		System.out.println(airline + " " + plane);
-			for (int j = 0 ; j < timingsArray.size() ; j++) {
-				JSONObject t = (JSONObject) timingsArray.get(j);
-				String departureAirport = (String) t.get("departure_airport");
-				String departureTime = (String) t.get("departure_time");
-				String arrivalAirport = (String) t.get("arrival_airport");
-				String arrivalTime = (String) t.get("arrival_time");
 
-				//save routing
-				String routingTemp = String.format("%s (%s) --> %s (%s)", departureAirport, departureTime, arrivalAirport, arrivalTime);
-				routing.add(routingTemp);
-
-//    			System.out.printf("%s (%s) --> %s (%s) \n", departureAirport, departureTime, arrivalAirport, arrivalTime);
-
-				//save end time
-				endTime = arrivalTime;
+				/* Add IFlight object to IFlight List */
+				list.add(f);
 
 			}
-//    		System.out.println("\n \n");
 
-
-
-			/* Populate Flight objects */
-
-
-			//Common fields for both flight types
-			String startAirport = departure;
-			String endAirport = arrival;
-			int price = (int) Math.round(Double.parseDouble(ticketPrice));
-			startTime = startDate; //startTime date format
-//    		endTime = endTime; //endTime is as-is
-//    		flightDuration = flightDuration //flightDuration string as-is
-//    		duration = duration; //duration is as-is
-			int rank = Integer.MAX_VALUE;
-//    		airline = airline; //airline is as-is
-//    		plane = plane; //plane is as-is
-
-			//Create new IFlight object
-			IFlight f;
-
-			/* Determine if DirectFlight or NonDirectFlight */
-			if (stopsString.equals("Nonstop")) {
-				//initialize unique fields
-				boolean isDirect = true;
-
-
-				//Create DirectFlight object
-				f = new DirectFlight(startAirport,
-						endAirport,
-						price,
-						routing,
-						startTime,
-						endTime,
-						flightDuration,
-						duration,
-						rank,
-						isDirect,
-						airline,
-						plane
-				);
-
-			}
-			else {
-				//initialize unique fields
-				boolean isDirect = false;
-				int stops = Integer.parseInt(stopsString.substring(0, 1));
-//    			routing = routing; //as-is
-
-
-				//Create NonDirectFlight object
-				f = new NonDirectFlight(startAirport,
-						endAirport,
-						price,
-						stops,
-						routing,
-						startTime,
-						endTime,
-						flightDuration,
-						duration,
-						rank,
-						isDirect,
-						airline,
-						plane
-				);
-			}
-
-
-			/* Add IFlight object to IFlight List */
-			list.add(f);
-
+			// Note: Enable to test print output
+//	    	for (IFlight f : list) {
+//	    		f.printFlight();
+//	    		System.out.println("");
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-
-		// Note: Enable to test print output
-//    	for (IFlight f : list) {
-//    		f.printFlight();
-//    		System.out.println("");
 
 		return list;
     }
