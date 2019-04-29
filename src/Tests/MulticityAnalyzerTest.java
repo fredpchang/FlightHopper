@@ -23,23 +23,23 @@ public class MulticityAnalyzerTest {
 		sfo.setName("San Francisco");
 		sea.setName("Seattle");
 
-		userInputMul.add("05/15/2019");
-		userInputMul.add("Los Angeles");
+		userInputMul.add("07/15/2019");
+		userInputMul.add("lax");
 		userInputMul.add("0");
-		userInputMul.add("San Francisco");
+		userInputMul.add("pek");
 		userInputMul.add("2");
-		userInputMul.add("Seattle");
+		userInputMul.add("hkg");
 
 		f1 = new DirectFlight();
-		f1.setDuration(3);
+		f1.setDuration(17);
 		f1.setStartAirport(lax.getName());
-		f1.setEndAirport(sfo.getName());
-		f1.setPrice(100);
+		f1.setEndAirport("Beijing");
+		f1.setPrice(557.7);
 		f2 = new DirectFlight();
-		f2.setDuration(1);
-		f2.setStartAirport(lax.getName());
-		f2.setEndAirport(sfo.getName());
-		f2.setPrice(1000);
+		f2.setDuration(4);
+		f2.setStartAirport("Beijing");
+		f2.setEndAirport("Hong Kong");
+		f2.setPrice(157.8);
 		f3 = new DirectFlight();
 		f3.setDuration(1);
 		f3.setStartAirport(sfo.getName());
@@ -59,7 +59,7 @@ public class MulticityAnalyzerTest {
 		List<IFlight> third = new ArrayList<>();
 		List<IFlight> fourth = new ArrayList<>();
 		first.add(f1);
-		first.add(f3);
+		first.add(f2);
 		second.add(f1);
 		second.add(f4);
 		third.add(f2);
@@ -68,37 +68,49 @@ public class MulticityAnalyzerTest {
 		fourth.add(f4);
 		l.add(fourth);
 		l.add(first);
+//		first.add()
 		MulticityAnalyzer m = new MulticityAnalyzer();
-		assertEquals(l, m.getOptimalRoutesOfMultiCities(userInputMul));
 
-		List<String> userInputMul1 = new ArrayList<>();
-		userInputMul1.add("05/15/2019");
-		userInputMul1.add("Los Angeles");
-		userInputMul1.add("0");
-		userInputMul1.add("San Francisco");
-		userInputMul1.add("2");
-		// no end airport
-		assertNull(m.getOptimalRoutesOfMultiCities(userInputMul1));
+		List<List<IFlight>> re = m.getOptimalRoutesOfMultiCities(userInputMul);
+		List<IFlight> r = re.get(0);
+		assertTrue(r.get(0) instanceof NonDirectFlight);
+		NonDirectFlight flight1 = (NonDirectFlight) r.get(0);
+		assertEquals(flight1.getPrice(), f1.getPrice(),10);
+		assertEquals(flight1.getDuration(), f1.getDuration());
+		assertTrue(r.get(1) instanceof DirectFlight);
+		DirectFlight flight2 = (DirectFlight) r.get(1);
+		assertEquals(flight2.getPrice(), f2.getPrice(),10);
+		assertEquals(flight2.getDuration()*1.0, f2.getDuration()*1.0,1);
+//		assertEquals(l, );
 
-		List<String> userInputMul2 = new ArrayList<>();
-//		userInputMul2.add("05/15/2019");
-		userInputMul2.add("Los Angeles");
-		userInputMul2.add("0");
-		userInputMul2.add("San Francisco");
-		userInputMul2.add("2");
-		userInputMul2.add("Seattle");
-		// no start date
-		assertNull(m.getOptimalRoutesOfMultiCities(userInputMul2));
-
-		List<String> userInputMul3 = new ArrayList<>();
-		userInputMul3.add("05/15/2019");
-		userInputMul3.add("Los Angeles");
-		userInputMul3.add("0");
-		userInputMul3.add("San Francisco");
-//		userInputMul3.add("2");
-		userInputMul3.add("Seattle");
-		// no stay time during for city in the middle
-		assertNull(m.getOptimalRoutesOfMultiCities(userInputMul3));
+//		List<String> userInputMul1 = new ArrayList<>();
+//		userInputMul1.add("05/15/2019");
+//		userInputMul1.add("Los Angeles");
+//		userInputMul1.add("0");
+//		userInputMul1.add("San Francisco");
+//		userInputMul1.add("2");
+//		// no end airport
+//		assertNull(m.getOptimalRoutesOfMultiCities(userInputMul1));
+//
+//		List<String> userInputMul2 = new ArrayList<>();
+////		userInputMul2.add("05/15/2019");
+//		userInputMul2.add("Los Angeles");
+//		userInputMul2.add("0");
+//		userInputMul2.add("San Francisco");
+//		userInputMul2.add("2");
+//		userInputMul2.add("Seattle");
+//		// no start date
+//		assertNull(m.getOptimalRoutesOfMultiCities(userInputMul2));
+//
+//		List<String> userInputMul3 = new ArrayList<>();
+//		userInputMul3.add("05/15/2019");
+//		userInputMul3.add("Los Angeles");
+//		userInputMul3.add("0");
+//		userInputMul3.add("San Francisco");
+////		userInputMul3.add("2");
+//		userInputMul3.add("Seattle");
+//		// no stay time during for city in the middle
+//		assertNull(m.getOptimalRoutesOfMultiCities(userInputMul3));
 
 	}
 
@@ -114,10 +126,20 @@ public class MulticityAnalyzerTest {
 		sfo.setTickets(second);
 		lax.setDestination(sfo);
 		sfo.setDestination(sea);
-		TripLinkedList myTLL = new TripLinkedList();
-		myTLL.setStartAirport(lax);
 		MulticityAnalyzer m = new MulticityAnalyzer();
-		assertEquals(myTLL, m.generateList(userInputMul));
+		TripLinkedList myTLL = m.generateList(userInputMul);
+		assertEquals(myTLL.size(),3);
+		Airport root = myTLL.getRoot();
+		assertTrue(root.getTickets().get(0) instanceof NonDirectFlight);
+		NonDirectFlight flight1 = (NonDirectFlight) root.getTickets().get(0);
+		assertEquals(flight1.getPrice(), f1.getPrice(),10);
+		assertEquals(flight1.getDuration(), f1.getDuration());
+		Airport cur = root.getDestination();
+		assertTrue(cur.getTickets().get(0) instanceof DirectFlight);
+		DirectFlight flight2 = (DirectFlight) cur.getTickets().get(0);
+		assertEquals(flight2.getPrice(), f2.getPrice(),10);
+		System.out.println(flight2);
+		assertEquals(flight2.getDuration()*1.0, f2.getDuration()*1.0,1);
 	}
 
 	@Test
@@ -140,17 +162,33 @@ public class MulticityAnalyzerTest {
 		assertNull(m.getRoute(userInputMul, -1));
 		assertNull(m.getRoute(userInputMul, 12));
 		// weight is 1, get the cheapest possible, fourth route
-		List<IFlight> re = m.getRoute(userInputMul, 1);
-		assertEquals(re.get(0), fourth.get(0));
-		assertEquals(re.get(1), fourth.get(1));
-		// weight is 0, shortest duration possible, first one
-		re = m.getRoute(userInputMul, 0);
-		assertEquals(re.get(0), first.get(0));
-		assertEquals(re.get(1), first.get(1));
-		// half and half, still first route is best
-		re = m.getRoute(userInputMul, 0.5);
-		assertEquals(re.get(0), first.get(0));
-		assertEquals(re.get(1), first.get(1));
+//		List<IFlight> re = m.getRoute(userInputMul, 1);
+//		assertEquals(re.get(0), fourth.get(0));
+//		assertEquals(re.get(1), fourth.get(1));
+//		// weight is 0, shortest duration possible, first one
+//		re = m.getRoute(userInputMul, 0);
+//		assertEquals(re.get(0), first.get(0));
+//		assertEquals(re.get(1), first.get(1));
+//		// half and half, still first route is best
+//		re = m.getRoute(userInputMul, 0.5);
+//		assertEquals(re.get(0), first.get(0));
+//		assertEquals(re.get(1), first.get(1));
+//		MulticityAnalyzer m = new MulticityAnalyzer(userInput);
+//		assertEquals(l, m.getTickets("Los Angeles", "San Francisco", "20190422"));
+//		List<String> input = new ArrayList<>();
+//		input.add()
+		m.generateList(userInputMul);
+		List<IFlight> r = m.getRoute(userInputMul, 1);
+//		List<IFlight> r = re.get(0);
+		assertTrue(r.get(0) instanceof NonDirectFlight);
+		NonDirectFlight flight1 = (NonDirectFlight) r.get(0);
+		assertEquals(flight1.getPrice(), f1.getPrice(),10);
+		assertEquals(flight1.getDuration(), f1.getDuration());
+
+		assertTrue(r.get(1) instanceof DirectFlight);
+		DirectFlight flight2 = (DirectFlight) r.get(1);
+		assertEquals(flight2.getPrice(), f2.getPrice(),10);
+		assertEquals(flight2.getDuration()*1.0, f2.getDuration()*1.0,1);
 	}
 
 
@@ -167,12 +205,24 @@ public class MulticityAnalyzerTest {
 		userInput.add("San Francisco");
 		userInput.add("New York");
 		List<IFlight> l = new LinkedList<IFlight>();
-		IFlight f1 = new DirectFlight();
-		IFlight f2 = new DirectFlight();
-		l.add(f1);
-		l.add(f2);
+//		IFlight f1 = new DirectFlight();
+//		IFlight f2 = new DirectFlight();
+//		l.add(f1);
+//		l.add(f2);
 		MulticityAnalyzer m = new MulticityAnalyzer(userInput);
-		assertEquals(l, m.getTickets("Los Angeles", "San Francisco", "20190422"));
+//		assertEquals(l, m.getTickets("Los Angeles", "San Francisco", "20190422"));
+		List<IFlight> r = m.getTickets("lax","pek","07/15/2019");
+//		List<IFlight> r = re.get(0);
+		assertTrue(r.get(0) instanceof NonDirectFlight);
+		NonDirectFlight flight1 = (NonDirectFlight) r.get(0);
+		assertEquals(flight1.getPrice(), f1.getPrice(),10);
+		assertEquals(flight1.getDuration(), f1.getDuration());
+		r = m.getTickets("pek","hkg","07/17/2019");
+
+		assertTrue(r.get(0) instanceof DirectFlight);
+		DirectFlight flight2 = (DirectFlight) r.get(0);
+		assertEquals(flight2.getPrice(), f2.getPrice(),10);
+		assertEquals(flight2.getDuration()*1.0, f2.getDuration()*1.0,1);
 	}
 
 }

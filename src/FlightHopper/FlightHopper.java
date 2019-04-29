@@ -7,7 +7,7 @@ import java.util.*;
 
 public class FlightHopper {
     public int queryType;
-    List<Airport> airports = new ArrayList<>();
+//    List<Airport> airports = new ArrayList<>();
 
 //    Map<String, Airport> airports = new HashMap<>();
 
