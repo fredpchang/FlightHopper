@@ -139,12 +139,9 @@ public class DirectAnalyzer implements IFlightTicketService {
     @Override
     public List<IFlight> getTickets(String startAirport, String endAirport, String date) {
 
-        try {
-            return this.scraper.runScraper(startAirport, endAirport, date, 0);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
+
+        return this.scraper.runScraper(startAirport, endAirport, date, 0);
+
     }
 
     /***
@@ -159,16 +156,13 @@ public class DirectAnalyzer implements IFlightTicketService {
      */
     private List<IFlight> getTickets(String startAirport, String endAirport, String date,
                                      String flexibility, int maxPrice, int maxFlightTime) {
-        try {
-            int flex = Integer.valueOf(flexibility);
-            List<IFlight> rawData = this.scraper.runScraper(startAirport,endAirport, date,flex);
-            List<IFlight> filtered = this.scraper.paramFilter(maxPrice, maxFlightTime, rawData);
-            return filtered;
-        }
-        catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
+
+        int flex = Integer.valueOf(flexibility);
+        List<IFlight> rawData = this.scraper.runScraper(startAirport,endAirport, date,flex);
+        List<IFlight> filtered = this.scraper.paramFilter(maxPrice, maxFlightTime, rawData);
+        return filtered;
+
+
     }
 
     /***
@@ -178,7 +172,7 @@ public class DirectAnalyzer implements IFlightTicketService {
      * @param price max price
      * @return return true if satisfy both, return false otherwise
      */
-    private boolean checkValid(IFlight f, int maxFlightTime, int price) {
+    public boolean checkValid(IFlight f, int maxFlightTime, int price) {
         if(f.isDirect()) {
             DirectFlight df = (DirectFlight) f;
             return df.getDuration() <= maxFlightTime && df.getPrice() <= price;

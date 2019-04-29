@@ -34,7 +34,7 @@ public class FlightScraper {
      * @throws IOException
      * @throws FileNotFoundException
      */
-    public List<IFlight> runScraper(String startAirport, String endAirport, String date1, int flex) throws FileNotFoundException, IOException, ParseException {
+    public List<IFlight> runScraper(String startAirport, String endAirport, String date1, int flex) {
 		List<IFlight> to_return = new LinkedList<IFlight>();
 		String[] dateData = date1.split("/");
 		if(dateData.length != 3) return null;
@@ -65,8 +65,8 @@ public class FlightScraper {
 
 		Runtime rt = Runtime.getRuntime();
     	try {
-    		String pythonpath = "/Users/fredchang/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Fred's
-//    		String pythonpath = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Kevin's
+//    		String pythonpath = "/Users/fredchang/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Fred's
+    		String pythonpath = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Kevin's
     		String command =  pythonpath + "files/jsonFlights/expedia.py " + startAirport + " " +  endAirport + " " + date;
 			System.out.println(command);
     		Process p = rt.exec(command);

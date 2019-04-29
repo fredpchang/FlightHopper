@@ -1,824 +1,836 @@
 [
     {
-        "ticket price": "535.55",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:30am",
-                "arrival_airport": "Xiamen, China (XMN-Xiamen Intl.)",
-                "departure_time": "12:15am"
-            },
-            {
-                "departure_airport": "Xiamen, China (XMN-Xiamen Intl.)",
-                "arrival_time": "9:45am",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "7:00am"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "0 days 18 hours 30 minutes",
-        "airline": "Xiamen Airlines",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "544.88",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "3:15pm",
-                "arrival_airport": "Zurich, Switzerland (ZRH)",
-                "departure_time": "7:20pm"
-            },
-            {
-                "departure_airport": "Zurich, Switzerland (ZRH)",
-                "arrival_time": "5:15am",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "1:15pm"
-            }
-        ],
-        "plane code": "77W",
-        "plane": "BOEING 777-300ER",
-        "flight duration": "1 days 42 hours 55 minutes",
-        "airline": "Swiss International Air Lines",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "557.70",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "2:10pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "10:05am"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "0 days 13 hours 5 minutes",
-        "airline": "American Airlines",
-        "arrival": ", Beijing",
-        "stops": "Nonstop"
-    },
-    {
-        "ticket price": "568.62",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "4:25pm",
-                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
-                "departure_time": "11:30am"
-            },
-            {
-                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)",
-                "arrival_time": "9:35pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "7:10pm"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "0 days 19 hours 5 minutes",
-        "airline": "",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "582.55",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:30am",
-                "arrival_airport": "Xiamen, China (XMN-Xiamen Intl.)",
-                "departure_time": "12:15am"
-            },
-            {
-                "departure_airport": "Xiamen, China (XMN-Xiamen Intl.)",
-                "arrival_time": "7:10pm",
-                "arrival_airport": "Zhoushan, China (HSN)",
-                "departure_time": "5:30pm"
-            },
-            {
-                "departure_airport": "Zhoushan, China (HSN)",
-                "arrival_time": "10:25pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "7:55pm"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "1 days 31 hours 10 minutes",
-        "airline": "Xiamen Airlines",
-        "arrival": ", Beijing",
-        "stops": "2 Stop"
-    },
-    {
-        "ticket price": "588.55",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:30am",
-                "arrival_airport": "Xiamen, China (XMN-Xiamen Intl.)",
-                "departure_time": "12:15am"
-            },
-            {
-                "departure_airport": "Xiamen, China (XMN-Xiamen Intl.)",
-                "arrival_time": "5:50pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "3:00pm"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "1 days 26 hours 35 minutes",
-        "airline": "Xiamen Airlines",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "588.55",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:30am",
-                "arrival_airport": "Xiamen, China (XMN-Xiamen Intl.)",
-                "departure_time": "12:15am"
-            },
-            {
-                "departure_airport": "Xiamen, China (XMN-Xiamen Intl.)",
-                "arrival_time": "8:05pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "5:00pm"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "1 days 28 hours 50 minutes",
-        "airline": "Xiamen Airlines",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "588.55",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:30am",
-                "arrival_airport": "Xiamen, China (XMN-Xiamen Intl.)",
-                "departure_time": "12:15am"
-            },
-            {
-                "departure_airport": "Xiamen, China (XMN-Xiamen Intl.)",
-                "arrival_time": "1:50pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "11:00am"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "0 days 22 hours 35 minutes",
-        "airline": "Xiamen Airlines",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "629.12",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "6:00am",
-                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
-                "departure_time": "1:05am"
-            },
-            {
-                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)",
-                "arrival_time": "11:15am",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "9:00am"
-            }
-        ],
-        "plane code": "773",
-        "plane": "BOEING 777-300 PASSENGER",
-        "flight duration": "0 days 19 hours 10 minutes",
-        "airline": "China Eastern Airlines",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "640.12",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "6:30am",
-                "arrival_airport": "Chengdu, China (CTU-Shuangliu Intl.)",
-                "departure_time": "12:45am"
-            },
-            {
-                "departure_airport": "Chengdu, China (CTU-Shuangliu Intl.)",
-                "arrival_time": "2:35pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "12:00pm"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "0 days 22 hours 50 minutes",
-        "airline": "Hainan Airlines",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "640.12",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "6:30am",
-                "arrival_airport": "Chengdu, China (CTU-Shuangliu Intl.)",
-                "departure_time": "12:45am"
-            },
-            {
-                "departure_airport": "Chengdu, China (CTU-Shuangliu Intl.)",
-                "arrival_time": "11:25pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "8:30pm"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "1 days 31 hours 40 minutes",
-        "airline": "Hainan Airlines",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "659.20",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "8:01am",
-                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
-                "departure_time": "6:30am"
-            },
-            {
-                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
-                "arrival_time": "2:20pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "10:55am"
-            }
-        ],
-        "plane code": "320",
-        "plane": "Airbus A320",
-        "flight duration": "0 days 16 hours 50 minutes",
-        "airline": "United",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "659.20",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "12:16am",
-                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
-                "departure_time": "10:45pm"
-            },
-            {
-                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
-                "arrival_time": "2:20pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "10:55am"
-            }
-        ],
-        "plane code": "752",
-        "plane": "Boeing 757-200",
-        "flight duration": "1 days 24 hours 35 minutes",
-        "airline": "United",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "659.20",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "9:44am",
-                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
-                "departure_time": "8:00am"
-            },
-            {
-                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
-                "arrival_time": "2:20pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "10:55am"
-            }
-        ],
-        "plane code": "739",
-        "plane": "Boeing 737-900",
-        "flight duration": "0 days 15 hours 20 minutes",
-        "airline": "United",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "670.24",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "6:25pm",
-                "arrival_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)",
-                "departure_time": "12:55pm"
-            },
-            {
-                "departure_airport": "Manila, Philippines (MNL-Ninoy Aquino Intl.)",
-                "arrival_time": "1:25am",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "8:25pm"
-            }
-        ],
-        "plane code": "773",
-        "plane": "BOEING 777-300 PASSENGER",
-        "flight duration": "0 days 21 hours 30 minutes",
-        "airline": "Philippine Airlines",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "670.88",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "10:46pm",
-                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
-                "departure_time": "9:15pm"
-            },
-            {
-                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
-                "arrival_time": "2:20pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "10:55am"
-            }
-        ],
-        "plane code": "739",
-        "plane": "Boeing 737-900",
-        "flight duration": "1 days 26 hours 5 minutes",
-        "airline": "United",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "675.12",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:25am",
-                "arrival_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
-                "departure_time": "11:50pm"
-            },
-            {
-                "departure_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
-                "arrival_time": "1:20pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "10:00am"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "0 days 22 hours 30 minutes",
-        "airline": "Air China",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "675.12",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:25am",
-                "arrival_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
-                "departure_time": "11:50pm"
-            },
-            {
-                "departure_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
-                "arrival_time": "12:55pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "9:55am"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "0 days 22 hours 5 minutes",
-        "airline": "Air China",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "675.12",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:25am",
-                "arrival_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
-                "departure_time": "11:50pm"
-            },
-            {
-                "departure_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
-                "arrival_time": "3:30pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "12:30pm"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "1 days 24 hours 40 minutes",
-        "airline": "Air China",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "675.12",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:25am",
-                "arrival_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
-                "departure_time": "11:50pm"
-            },
-            {
-                "departure_airport": "Shenzhen, China (SZX-Shenzhen Intl.)",
-                "arrival_time": "12:05pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "8:55am"
-            }
-        ],
-        "plane code": "789",
-        "plane": "BOEING 787-9",
-        "flight duration": "0 days 21 hours 15 minutes",
-        "airline": "Air China",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "715.12",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:50pm",
-                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
-                "departure_time": "1:00pm"
-            },
-            {
-                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)",
-                "arrival_time": "11:50pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "9:30pm"
-            }
-        ],
-        "plane code": "359",
-        "plane": "AIRBUS INDUSTRIE A350-900",
-        "flight duration": "0 days 19 hours 50 minutes",
         "airline": "Delta",
+        "plane": "Airbus A321",
+        "ticket price": "557.70",
         "arrival": ", Beijing",
+        "plane code": "321",
+        "flight duration": "0 days 16 hours 57 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_time": "2:34pm",
+                "departure_time": "11:33am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "7:30pm",
+                "departure_time": "4:50pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
+            }
+        ],
         "stops": "1 Stop"
     },
     {
-        "ticket price": "732.70",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "6:10pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "2:20pm"
-            }
-        ],
-        "plane code": "773",
-        "plane": "BOEING 777-300 PASSENGER",
-        "flight duration": "0 days 12 hours 50 minutes",
-        "airline": "Air China",
+        "airline": "Delta",
+        "plane": "Boeing 737-800",
+        "ticket price": "562.20",
         "arrival": ", Beijing",
-        "stops": "Nonstop"
-    },
-    {
-        "ticket price": "732.70",
+        "plane code": "738",
+        "flight duration": "0 days 18 hours 55 minutes",
         "departure": ", Los Angeles",
         "timings": [
             {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:20am",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "1:40am"
-            }
-        ],
-        "plane code": "773",
-        "plane": "BOEING 777-300 PASSENGER",
-        "flight duration": "0 days 12 hours 40 minutes",
-        "airline": "Air China",
-        "arrival": ", Beijing",
-        "stops": "Nonstop"
-    },
-    {
-        "ticket price": "732.70",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "3:10pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "11:30am"
-            }
-        ],
-        "plane code": "773",
-        "plane": "BOEING 777-300 PASSENGER",
-        "flight duration": "0 days 12 hours 40 minutes",
-        "airline": "Air China",
-        "arrival": ", Beijing",
-        "stops": "Nonstop"
-    },
-    {
-        "ticket price": "743.12",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "6:00am",
-                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
-                "departure_time": "1:05am"
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_time": "12:28pm",
+                "departure_time": "9:35am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
             },
             {
-                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)",
-                "arrival_time": "5:35pm",
                 "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "2:55pm"
+                "arrival_time": "7:30pm",
+                "departure_time": "4:50pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
             }
         ],
-        "plane code": "773",
-        "plane": "BOEING 777-300 PASSENGER",
-        "flight duration": "1 days 25 hours 30 minutes",
-        "airline": "China Eastern Airlines",
-        "arrival": ", Beijing",
         "stops": "1 Stop"
     },
     {
-        "ticket price": "743.12",
+        "airline": "Delta",
+        "plane": "Boeing 737-800",
+        "ticket price": "562.20",
+        "arrival": ", Beijing",
+        "plane code": "738",
+        "flight duration": "0 days 20 hours 33 minutes",
         "departure": ", Los Angeles",
         "timings": [
             {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "6:00am",
-                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
-                "departure_time": "1:05am"
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_time": "10:45am",
+                "departure_time": "7:57am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
             },
             {
-                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)",
-                "arrival_time": "3:10pm",
                 "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "12:45pm"
+                "arrival_time": "7:30pm",
+                "departure_time": "4:50pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
             }
         ],
-        "plane code": "773",
-        "plane": "BOEING 777-300 PASSENGER",
-        "flight duration": "0 days 23 hours 5 minutes",
-        "airline": "China Eastern Airlines",
-        "arrival": ", Beijing",
         "stops": "1 Stop"
     },
     {
-        "ticket price": "762.71",
+        "airline": "Delta",
+        "plane": "Boeing 737-900",
+        "ticket price": "562.20",
+        "arrival": ", Beijing",
+        "plane code": "739",
+        "flight duration": "0 days 22 hours 30 minutes",
         "departure": ", Los Angeles",
         "timings": [
             {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "5:45am",
-                "arrival_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
-                "departure_time": "11:30pm"
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_time": "8:52am",
+                "departure_time": "6:00am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
             },
             {
-                "departure_airport": "Hong Kong, Hong Kong SAR (HKG-Hong Kong Intl.)",
-                "arrival_time": "10:50am",
                 "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "7:30am"
+                "arrival_time": "7:30pm",
+                "departure_time": "4:50pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
             }
         ],
-        "plane code": "77W",
-        "plane": "BOEING 777-300ER",
-        "flight duration": "0 days 20 hours 20 minutes",
-        "airline": "Cathay Pacific",
-        "arrival": ", Beijing",
         "stops": "1 Stop"
     },
     {
-        "ticket price": "807.70",
+        "airline": "Delta",
+        "plane": "Boeing 737-800",
+        "ticket price": "575.95",
+        "arrival": ", Beijing",
+        "plane code": "738",
+        "flight duration": "1 days 31 hours 40 minutes",
         "departure": ", Los Angeles",
         "timings": [
             {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "9:19am",
-                "arrival_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
-                "departure_time": "6:30am"
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_time": "11:37pm",
+                "departure_time": "8:50pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
             },
             {
-                "departure_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
-                "arrival_time": "2:05pm",
                 "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "12:00pm"
+                "arrival_time": "7:30pm",
+                "departure_time": "4:50pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
             }
         ],
-        "plane code": "319",
-        "plane": "Airbus A319",
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Delta",
+        "plane": "Airbus A321",
+        "ticket price": "575.95",
+        "arrival": ", Beijing",
+        "plane code": "321",
+        "flight duration": "1 days 33 hours 15 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_time": "10:07pm",
+                "departure_time": "7:15pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "7:30pm",
+                "departure_time": "4:50pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Delta",
+        "plane": "Boeing 737-900",
+        "ticket price": "575.95",
+        "arrival": ", Beijing",
+        "plane code": "739",
+        "flight duration": "1 days 37 hours 10 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_time": "6:09pm",
+                "departure_time": "3:20pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "7:30pm",
+                "departure_time": "4:50pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Delta",
+        "plane": "Boeing 737-800",
+        "ticket price": "575.95",
+        "arrival": ", Beijing",
+        "plane code": "738",
+        "flight duration": "1 days 35 hours 30 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_time": "7:42pm",
+                "departure_time": "5:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "7:30pm",
+                "departure_time": "4:50pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "",
+        "plane": "Airbus A319-321",
+        "ticket price": "616.20",
+        "arrival": ", Beijing",
+        "plane code": "32S",
+        "flight duration": "0 days 18 hours 35 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_time": "12:50pm",
+                "departure_time": "9:55am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "7:30pm",
+                "departure_time": "4:50pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "",
+        "plane": "Boeing 737-900",
+        "ticket price": "616.20",
+        "arrival": ", Beijing",
+        "plane code": "73J",
         "flight duration": "0 days 16 hours 35 minutes",
-        "airline": "Air Canada",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "820.07",
         "departure": ", Los Angeles",
         "timings": [
             {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "9:10am",
-                "arrival_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
-                "departure_time": "1:50pm"
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_time": "2:50pm",
+                "departure_time": "11:55am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
             },
             {
-                "departure_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
-                "arrival_time": "6:15am",
                 "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "2:40pm"
+                "arrival_time": "7:30pm",
+                "departure_time": "4:50pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
             }
         ],
-        "plane code": "772",
-        "plane": "772 - BOEING 777/200",
-        "flight duration": "1 days 25 hours 25 minutes",
-        "airline": "KLM",
-        "arrival": ", Beijing",
         "stops": "1 Stop"
     },
     {
-        "ticket price": "820.07",
+        "airline": "",
+        "plane": "Airbus A319-321",
+        "ticket price": "616.20",
+        "arrival": ", Beijing",
+        "plane code": "32S",
+        "flight duration": "0 days 17 hours 35 minutes",
         "departure": ", Los Angeles",
         "timings": [
             {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "12:20pm",
-                "arrival_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
-                "departure_time": "4:59pm"
+                "arrival_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)",
+                "arrival_time": "1:50pm",
+                "departure_time": "10:55am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
             },
             {
-                "departure_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
-                "arrival_time": "8:55am",
                 "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "5:30pm"
+                "arrival_time": "7:30pm",
+                "departure_time": "4:50pm",
+                "departure_airport": "Seattle, WA (SEA-Seattle - Tacoma Intl.)"
             }
         ],
-        "plane code": "789",
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "American Airlines",
         "plane": "BOEING 787-9",
-        "flight duration": "1 days 24 hours 56 minutes",
-        "airline": "KLM",
+        "ticket price": "654.70",
         "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "820.07",
+        "plane code": "789",
+        "flight duration": "0 days 13 hours 5 minutes",
         "departure": ", Los Angeles",
         "timings": [
             {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "12:20pm",
-                "arrival_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
-                "departure_time": "4:59pm"
-            },
-            {
-                "departure_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
-                "arrival_time": "6:15am",
                 "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "2:40pm"
+                "arrival_time": "2:10pm",
+                "departure_time": "10:05am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
             }
         ],
-        "plane code": "789",
+        "stops": "Nonstop"
+    },
+    {
+        "airline": "United",
+        "plane": "Airbus A320",
+        "ticket price": "659.20",
+        "arrival": ", Beijing",
+        "plane code": "320",
+        "flight duration": "1 days 24 hours 35 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "12:16am",
+                "departure_time": "10:45pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "2:20pm",
+                "departure_time": "10:55am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "United",
+        "plane": "Airbus A320",
+        "ticket price": "670.88",
+        "arrival": ", Beijing",
+        "plane code": "320",
+        "flight duration": "1 days 27 hours 35 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "9:16pm",
+                "departure_time": "7:45pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "2:20pm",
+                "departure_time": "10:55am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "United",
+        "plane": "Boeing 737-900",
+        "ticket price": "670.88",
+        "arrival": ", Beijing",
+        "plane code": "739",
+        "flight duration": "1 days 33 hours 20 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "3:34pm",
+                "departure_time": "2:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "2:20pm",
+                "departure_time": "10:55am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "United",
+        "plane": "Airbus A320",
+        "ticket price": "670.88",
+        "arrival": ", Beijing",
+        "plane code": "320",
+        "flight duration": "1 days 30 hours 20 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "6:31pm",
+                "departure_time": "5:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "2:20pm",
+                "departure_time": "10:55am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "United",
+        "plane": "Boeing 737-800",
+        "ticket price": "670.88",
+        "arrival": ", Beijing",
+        "plane code": "738",
+        "flight duration": "1 days 31 hours 35 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "5:13pm",
+                "departure_time": "3:45pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "2:20pm",
+                "departure_time": "10:55am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "United",
+        "plane": "Boeing 737-900",
+        "ticket price": "670.88",
+        "arrival": ", Beijing",
+        "plane code": "739",
+        "flight duration": "1 days 26 hours 5 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "San Francisco, CA (SFO-San Francisco Intl.)",
+                "arrival_time": "10:46pm",
+                "departure_time": "9:15pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "2:20pm",
+                "departure_time": "10:55am",
+                "departure_airport": "San Francisco, CA (SFO-San Francisco Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Japan Airlines",
         "plane": "BOEING 787-9",
+        "ticket price": "684.09",
+        "arrival": ", Beijing",
+        "plane code": "789",
+        "flight duration": "1 days 34 hours 40 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Tokyo, Japan (HND-Haneda)",
+                "arrival_time": "2:20pm",
+                "departure_time": "10:25am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "12:05pm",
+                "departure_time": "9:05am",
+                "departure_airport": "Tokyo, Japan (HND-Haneda)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Delta",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "715.12",
+        "arrival": ", Beijing",
+        "plane code": "359",
+        "flight duration": "1 days 31 hours 3 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "arrival_time": "5:50pm",
+                "departure_time": "1:12pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "11:15am",
+                "departure_time": "9:00am",
+                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Delta",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "715.12",
+        "arrival": ", Beijing",
+        "plane code": "359",
+        "flight duration": "0 days 19 hours 38 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Shanghai, China (PVG-Pudong Intl.)",
+                "arrival_time": "5:50pm",
+                "departure_time": "1:12pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "11:50pm",
+                "departure_time": "9:30pm",
+                "departure_airport": "Shanghai, China (PVG-Pudong Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "China Airlines",
+        "plane": "BOEING 777-300ER",
+        "ticket price": "774.70",
+        "arrival": ", Beijing",
+        "plane code": "77W",
+        "flight duration": "1 days 27 hours 45 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)",
+                "arrival_time": "5:00am",
+                "departure_time": "12:05am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "6:50pm",
+                "departure_time": "3:20pm",
+                "departure_airport": "Taipei, Taiwan (TPE-Taoyuan Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "",
+        "plane": "Airbus A319-321",
+        "ticket price": "784.61",
+        "arrival": ", Beijing",
+        "plane code": "32S",
+        "flight duration": "0 days 18 hours 0 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "San Jose, CA (SJC-Norman Y. Mineta San Jose Intl.)",
+                "arrival_time": "10:05am",
+                "departure_time": "8:40am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "5:40pm",
+                "departure_time": "2:30pm",
+                "departure_airport": "San Jose, CA (SJC-Norman Y. Mineta San Jose Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Xiamen Airlines",
+        "plane": "BOEING 787-9",
+        "ticket price": "788.55",
+        "arrival": ", Beijing",
+        "plane code": "789",
+        "flight duration": "0 days 22 hours 35 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Xiamen, China (XMN-Xiamen Intl.)",
+                "arrival_time": "5:30am",
+                "departure_time": "12:15am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "1:50pm",
+                "departure_time": "11:00am",
+                "departure_airport": "Xiamen, China (XMN-Xiamen Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Xiamen Airlines",
+        "plane": "BOEING 787-9",
+        "ticket price": "788.55",
+        "arrival": ", Beijing",
+        "plane code": "789",
+        "flight duration": "0 days 18 hours 30 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Xiamen, China (XMN-Xiamen Intl.)",
+                "arrival_time": "5:30am",
+                "departure_time": "12:15am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "9:45am",
+                "departure_time": "7:00am",
+                "departure_airport": "Xiamen, China (XMN-Xiamen Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "KLM",
+        "plane": "BOEING 787-9",
+        "ticket price": "820.07",
+        "arrival": ", Beijing",
+        "plane code": "789",
         "flight duration": "0 days 22 hours 16 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "arrival_time": "12:20pm",
+                "departure_time": "4:59pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "6:15am",
+                "departure_time": "2:40pm",
+                "departure_airport": "Amsterdam, Netherlands (AMS-Schiphol)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
         "airline": "KLM",
+        "plane": "772 - BOEING 777/200",
+        "ticket price": "820.07",
         "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "821.12",
+        "plane code": "772",
+        "flight duration": "1 days 25 hours 25 minutes",
         "departure": ", Los Angeles",
         "timings": [
             {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "4:20am",
-                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
-                "departure_time": "11:00pm"
+                "arrival_airport": "Amsterdam, Netherlands (AMS-Schiphol)",
+                "arrival_time": "9:10am",
+                "departure_time": "1:50pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
             },
             {
-                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
-                "arrival_time": "2:00pm",
                 "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "1:00pm"
+                "arrival_time": "6:15am",
+                "departure_time": "2:40pm",
+                "departure_airport": "Amsterdam, Netherlands (AMS-Schiphol)"
             }
         ],
-        "plane code": "359",
-        "plane": "AIRBUS INDUSTRIE A350-900",
-        "flight duration": "1 days 24 hours 0 minutes",
+        "stops": "1 Stop"
+    },
+    {
         "airline": "Asiana Airlines",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "821.12",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "4:20am",
-                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
-                "departure_time": "11:00pm"
-            },
-            {
-                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
-                "arrival_time": "9:40am",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "8:20am"
-            }
-        ],
-        "plane code": "359",
         "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "821.12",
+        "arrival": ", Beijing",
+        "plane code": "359",
         "flight duration": "0 days 19 hours 40 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:20am",
+                "departure_time": "11:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "9:40am",
+                "departure_time": "8:20am",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
         "airline": "Asiana Airlines",
+        "plane": "AIRBUS INDUSTRIE A350-900",
+        "ticket price": "821.12",
         "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "826.66",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "7:53pm",
-                "arrival_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
-                "departure_time": "5:00pm"
-            },
-            {
-                "departure_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
-                "arrival_time": "2:05pm",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "12:00pm"
-            }
-        ],
-        "plane code": "319",
-        "plane": "Airbus A319",
-        "flight duration": "1 days 30 hours 5 minutes",
-        "airline": "Air Canada",
-        "arrival": ", Beijing",
-        "stops": "1 Stop"
-    },
-    {
-        "ticket price": "832.46",
-        "departure": ", Los Angeles",
-        "timings": [
-            {
-                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)",
-                "arrival_time": "10:40am",
-                "arrival_airport": "Paris, France (CDG-Roissy-Charles de Gaulle)",
-                "departure_time": "2:55pm"
-            },
-            {
-                "departure_airport": "Paris, France (CDG-Roissy-Charles de Gaulle)",
-                "arrival_time": "5:55am",
-                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
-                "departure_time": "1:50pm"
-            }
-        ],
-        "plane code": "388",
-        "plane": "Airbus Industrie A380-800 Passenger",
+        "plane code": "359",
         "flight duration": "1 days 24 hours 0 minutes",
-        "airline": "Air France",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Seoul, South Korea (ICN-Incheon Intl.)",
+                "arrival_time": "4:20am",
+                "departure_time": "11:00pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "2:00pm",
+                "departure_time": "1:00pm",
+                "departure_airport": "Seoul, South Korea (ICN-Incheon Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Japan Airlines",
+        "plane": "BOEING 777-300 PASSENGER",
+        "ticket price": "823.14",
         "arrival": ", Beijing",
+        "plane code": "773",
+        "flight duration": "0 days 17 hours 5 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Tokyo, Japan (NRT-Narita Intl.)",
+                "arrival_time": "4:45pm",
+                "departure_time": "1:10pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "9:15pm",
+                "departure_time": "6:10pm",
+                "departure_airport": "Tokyo, Japan (NRT-Narita Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Air Canada",
+        "plane": "Airbus A320",
+        "ticket price": "830.47",
+        "arrival": ", Beijing",
+        "plane code": "320",
+        "flight duration": "0 days 16 hours 35 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
+                "arrival_time": "9:24am",
+                "departure_time": "6:30am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "2:05pm",
+                "departure_time": "12:00pm",
+                "departure_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Air France",
+        "plane": "Airbus Industrie A380-800 Passenger",
+        "ticket price": "832.46",
+        "arrival": ", Beijing",
+        "plane code": "388",
+        "flight duration": "1 days 24 hours 0 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Paris, France (CDG-Roissy-Charles de Gaulle)",
+                "arrival_time": "10:40am",
+                "departure_time": "2:55pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "5:55am",
+                "departure_time": "1:50pm",
+                "departure_airport": "Paris, France (CDG-Roissy-Charles de Gaulle)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Hainan Airlines",
+        "plane": "BOEING 787-9",
+        "ticket price": "840.12",
+        "arrival": ", Beijing",
+        "plane code": "789",
+        "flight duration": "0 days 22 hours 50 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Chengdu, China (CTU-Shuangliu Intl.)",
+                "arrival_time": "6:30am",
+                "departure_time": "12:45am",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "2:35pm",
+                "departure_time": "12:00pm",
+                "departure_airport": "Chengdu, China (CTU-Shuangliu Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Air Canada",
+        "plane": "Airbus A320",
+        "ticket price": "842.19",
+        "arrival": ", Beijing",
+        "plane code": "320",
+        "flight duration": "1 days 32 hours 10 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
+                "arrival_time": "5:49pm",
+                "departure_time": "2:55pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "2:05pm",
+                "departure_time": "12:00pm",
+                "departure_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)"
+            }
+        ],
+        "stops": "1 Stop"
+    },
+    {
+        "airline": "Air Canada",
+        "plane": "Airbus A320",
+        "ticket price": "842.19",
+        "arrival": ", Beijing",
+        "plane code": "320",
+        "flight duration": "1 days 27 hours 15 minutes",
+        "departure": ", Los Angeles",
+        "timings": [
+            {
+                "arrival_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)",
+                "arrival_time": "10:44pm",
+                "departure_time": "7:50pm",
+                "departure_airport": "Los Angeles, CA (LAX-Los Angeles Intl.)"
+            },
+            {
+                "arrival_airport": "Beijing, China (PEK-Capital Intl.)",
+                "arrival_time": "2:05pm",
+                "departure_time": "12:00pm",
+                "departure_airport": "Vancouver, BC, Canada (YVR-Vancouver Intl.)"
+            }
+        ],
         "stops": "1 Stop"
     }
 ]
