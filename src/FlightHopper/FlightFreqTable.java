@@ -6,7 +6,7 @@ public class FlightFreqTable {
     private Map<String, PriorityQueue<AirportPair>> freqTable 
     = new HashMap<>();
 
-    FlightFreqTable() {
+    public FlightFreqTable() {
 		String inputFile= "files/flightFreqTable/out.csv";
 
 		freqTable = generateMap(inputFile);
@@ -46,6 +46,7 @@ public class FlightFreqTable {
     				}
     			
     		}
+    		 freqTable.get(startAirport).addAll(topFreqList);
     		 return topFreqList;
     	}
     		

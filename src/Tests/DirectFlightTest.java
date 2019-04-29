@@ -137,7 +137,74 @@ public class DirectFlightTest {
 	
 	@Test
 	public void equalsTest() {
-		assertTrue(!f1.equals(f2));
+		String startAirport = "LAX";
+		String endAirport = "SFO";
+		double price = 500;
+		ArrayList<String> routing = new ArrayList<String>();
+		routing.add("routing A");
+		routing.add("routing B");
+		String startTime = "20190520";
+		String endTime = "20190521";
+		String flightDuration = "0 days 5 hours 32 minutes";
+		int duration = 5;
+		int rank = 2500;
+		boolean isDirect = true;
+		String airline = "United";
+		String plane = "Being 737 Max";
+		
+		DirectFlight e1 = new DirectFlight(
+											startAirport,
+											endAirport,
+											price,
+											routing,
+											startTime,
+											endTime,
+											flightDuration,
+											duration,
+											rank,
+											isDirect,
+											airline,
+											plane
+										);
+		
+		DirectFlight e2 = new DirectFlight(
+				startAirport,
+				endAirport,
+				price,
+				routing,
+				startTime,
+				endTime,
+				flightDuration,
+				duration,
+				rank,
+				isDirect,
+				airline,
+				plane
+			);
+		
+
+
+		int stops = 1;
+
+		NonDirectFlight e3 = new NonDirectFlight(
+												startAirport,
+												endAirport,
+												price,
+												stops,
+												routing,
+												startTime,
+												endTime,
+												flightDuration,
+												duration,
+												rank,
+												isDirect,
+												airline,
+												plane
+											);
+		
+		assertTrue(e1.equals(e2));
+		assertTrue(e1.equals(e3));
+		
 	}
 	
 	@Test
