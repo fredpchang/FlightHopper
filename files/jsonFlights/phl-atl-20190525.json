@@ -1,0 +1,776 @@
+[
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 10 hours 52 minutes",
+        "airline": "JetBlue Airways",
+        "ticket price": "1033.00",
+        "arrival": ", Atlanta",
+        "plane code": "E90",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "3:22pm",
+                "departure_time": "1:54pm"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)",
+                "arrival_time": "12:46am",
+                "departure_time": "9:59pm"
+            }
+        ],
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 7 hours 55 minutes",
+        "airline": "United",
+        "ticket price": "1075.00",
+        "arrival": ", Atlanta",
+        "plane code": "73G",
+        "timings": [
+            {
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "9:20am",
+                "departure_time": "8:01am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "3:56pm",
+                "departure_time": "12:52pm"
+            }
+        ],
+        "plane": "Boeing 737-700",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 5 hours 32 minutes",
+        "airline": "United",
+        "ticket price": "1078.50",
+        "arrival": ", Atlanta",
+        "plane code": "TRN",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)",
+                "arrival_time": "10:25am",
+                "departure_time": "9:23am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_time": "2:55pm",
+                "departure_time": "12:30pm"
+            }
+        ],
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 8 hours 43 minutes",
+        "airline": "JetBlue Airways",
+        "ticket price": "1085.10",
+        "arrival": ", Atlanta",
+        "plane code": "320",
+        "timings": [
+            {
+                "arrival_airport": "Fort Lauderdale, FL (FLL-Fort Lauderdale - Hollywood Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "9:31am",
+                "departure_time": "6:40am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Fort Lauderdale, FL (FLL-Fort Lauderdale - Hollywood Intl.)",
+                "arrival_time": "3:23pm",
+                "departure_time": "1:26pm"
+            }
+        ],
+        "plane": "Airbus A320",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 5 hours 47 minutes",
+        "airline": "United",
+        "ticket price": "1153.50",
+        "arrival": ", Atlanta",
+        "plane code": "TRN",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)",
+                "arrival_time": "6:14am",
+                "departure_time": "5:15am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_time": "11:02am",
+                "departure_time": "8:30am"
+            }
+        ],
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 8 hours 24 minutes",
+        "airline": "United",
+        "ticket price": "1185.00",
+        "arrival": ", Atlanta",
+        "plane code": "E7W",
+        "timings": [
+            {
+                "arrival_airport": "Houston, TX (IAH-George Bush Intercontinental)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "5:23pm",
+                "departure_time": "2:34pm"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Houston, TX (IAH-George Bush Intercontinental)",
+                "arrival_time": "10:58pm",
+                "departure_time": "7:55pm"
+            }
+        ],
+        "plane": "Embraer 175 (Enhanced Winglets)",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 5 hours 36 minutes",
+        "airline": "United",
+        "ticket price": "1235.00",
+        "arrival": ", Atlanta",
+        "plane code": "738",
+        "timings": [
+            {
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "11:38am",
+                "departure_time": "10:20am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "3:56pm",
+                "departure_time": "12:52pm"
+            }
+        ],
+        "plane": "Boeing 737-800",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 7 hours 47 minutes",
+        "airline": "JetBlue Airways",
+        "ticket price": "1240.00",
+        "arrival": ", Atlanta",
+        "plane code": "E90",
+        "timings": [
+            {
+                "arrival_airport": "Boston, MA (BOS-Logan Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "12:01pm",
+                "departure_time": "10:38am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Boston, MA (BOS-Logan Intl.)",
+                "arrival_time": "6:25pm",
+                "departure_time": "3:27pm"
+            }
+        ],
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 6 hours 23 minutes",
+        "airline": "United",
+        "ticket price": "1313.50",
+        "arrival": ", Atlanta",
+        "plane code": "TRN",
+        "timings": [
+            {
+                "arrival_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "departure_airport": "Philadelphia, PA (ZFV-30th Street Rail Station)",
+                "arrival_time": "8:22am",
+                "departure_time": "7:19am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Newark, NJ (EWR-Liberty Intl.)",
+                "arrival_time": "1:42pm",
+                "departure_time": "11:20am"
+            }
+        ],
+        "plane": "NOTE: THIS IS TRAIN SERVICE",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 5 hours 4 minutes",
+        "airline": "Delta",
+        "ticket price": "1355.00",
+        "arrival": ", Atlanta",
+        "plane code": "320",
+        "timings": [
+            {
+                "arrival_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "7:18pm",
+                "departure_time": "5:34pm"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Detroit, MI (DTW-Detroit Metropolitan Wayne County)",
+                "arrival_time": "10:38pm",
+                "departure_time": "8:35pm"
+            }
+        ],
+        "plane": "Airbus A320",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "Nonstop",
+        "flight duration": "0 days 2 hours 13 minutes",
+        "airline": "American Airlines",
+        "ticket price": "641.50",
+        "arrival": ", Atlanta",
+        "plane code": "E90",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "7:23pm",
+                "departure_time": "5:10pm"
+            }
+        ],
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "Nonstop",
+        "flight duration": "0 days 2 hours 12 minutes",
+        "airline": "Delta",
+        "ticket price": "641.50",
+        "arrival": ", Atlanta",
+        "plane code": "M90",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "5:04pm",
+                "departure_time": "2:52pm"
+            }
+        ],
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "Nonstop",
+        "flight duration": "0 days 2 hours 26 minutes",
+        "airline": "American Airlines",
+        "ticket price": "641.50",
+        "arrival": ", Atlanta",
+        "plane code": "319",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "8:40pm",
+                "departure_time": "6:14pm"
+            }
+        ],
+        "plane": "Airbus A319",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "Nonstop",
+        "flight duration": "0 days 2 hours 12 minutes",
+        "airline": "Delta",
+        "ticket price": "641.50",
+        "arrival": ", Atlanta",
+        "plane code": "M90",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "1:59pm",
+                "departure_time": "11:47am"
+            }
+        ],
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "Nonstop",
+        "flight duration": "0 days 2 hours 12 minutes",
+        "airline": "American Airlines",
+        "ticket price": "641.50",
+        "arrival": ", Atlanta",
+        "plane code": "319",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "4:47pm",
+                "departure_time": "2:35pm"
+            }
+        ],
+        "plane": "Airbus A319",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "Nonstop",
+        "flight duration": "0 days 2 hours 12 minutes",
+        "airline": "Delta",
+        "ticket price": "641.50",
+        "arrival": ", Atlanta",
+        "plane code": "M88",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "3:11pm",
+                "departure_time": "12:59pm"
+            }
+        ],
+        "plane": "BOEING (DOUGLAS) MD-88",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "Nonstop",
+        "flight duration": "0 days 2 hours 14 minutes",
+        "airline": "Delta",
+        "ticket price": "641.50",
+        "arrival": ", Atlanta",
+        "plane code": "739",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "10:24am",
+                "departure_time": "8:10am"
+            }
+        ],
+        "plane": "Boeing 737-900",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "Nonstop",
+        "flight duration": "0 days 2 hours 16 minutes",
+        "airline": "Delta",
+        "ticket price": "641.50",
+        "arrival": ", Atlanta",
+        "plane code": "M90",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "6:52pm",
+                "departure_time": "4:36pm"
+            }
+        ],
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 4 hours 15 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "319",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "1:50pm",
+                "departure_time": "12:05pm"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "4:20pm",
+                "departure_time": "3:00pm"
+            }
+        ],
+        "plane": "Airbus A319",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 6 hours 42 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "321",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "8:26am",
+                "departure_time": "6:40am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "1:22pm",
+                "departure_time": "12:00pm"
+            }
+        ],
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 4 hours 41 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "321",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "10:42am",
+                "departure_time": "8:41am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "1:22pm",
+                "departure_time": "12:00pm"
+            }
+        ],
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 5 hours 12 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "319",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "1:50pm",
+                "departure_time": "12:05pm"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "5:17pm",
+                "departure_time": "3:53pm"
+            }
+        ],
+        "plane": "Airbus A319",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 5 hours 55 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "319",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "12:18pm",
+                "departure_time": "10:25am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "4:20pm",
+                "departure_time": "3:00pm"
+            }
+        ],
+        "plane": "Airbus A319",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 4 hours 39 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "320",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "6:40am",
+                "departure_time": "5:00am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "9:39am",
+                "departure_time": "8:15am"
+            }
+        ],
+        "plane": "Airbus A320",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 4 hours 27 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "321",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "7:05pm",
+                "departure_time": "5:11pm"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "9:38pm",
+                "departure_time": "8:19pm"
+            }
+        ],
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 4 hours 23 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "E75",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "9:19pm",
+                "departure_time": "7:27pm"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "11:50pm",
+                "departure_time": "10:36pm"
+            }
+        ],
+        "plane": "Embraer 175",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 6 hours 8 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "321",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "5:27pm",
+                "departure_time": "3:30pm"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "9:38pm",
+                "departure_time": "8:19pm"
+            }
+        ],
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 5 hours 45 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "320",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "3:21pm",
+                "departure_time": "1:30pm"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "7:15pm",
+                "departure_time": "5:52pm"
+            }
+        ],
+        "plane": "Airbus A320",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 6 hours 39 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "321",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "7:05pm",
+                "departure_time": "5:11pm"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "11:50pm",
+                "departure_time": "10:36pm"
+            }
+        ],
+        "plane": "Airbus A321",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 6 hours 52 minutes",
+        "airline": "American Airlines",
+        "ticket price": "677.50",
+        "arrival": ", Atlanta",
+        "plane code": "319",
+        "timings": [
+            {
+                "arrival_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "12:18pm",
+                "departure_time": "10:25am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Charlotte, NC (CLT-Charlotte-Douglas Intl.)",
+                "arrival_time": "5:17pm",
+                "departure_time": "3:53pm"
+            }
+        ],
+        "plane": "Airbus A319",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "Nonstop",
+        "flight duration": "0 days 2 hours 1 minutes",
+        "airline": "Delta",
+        "ticket price": "741.50",
+        "arrival": ", Atlanta",
+        "plane code": "M90",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "12:01pm",
+                "departure_time": "10:00am"
+            }
+        ],
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "Nonstop",
+        "flight duration": "0 days 2 hours 1 minutes",
+        "airline": "Delta",
+        "ticket price": "741.50",
+        "arrival": ", Atlanta",
+        "plane code": "M90",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "8:01am",
+                "departure_time": "6:00am"
+            }
+        ],
+        "plane": "MDC MD90",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "Nonstop",
+        "flight duration": "0 days 2 hours 24 minutes",
+        "airline": "American Airlines",
+        "ticket price": "741.50",
+        "arrival": ", Atlanta",
+        "plane code": "E75",
+        "timings": [
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "10:49am",
+                "departure_time": "8:25am"
+            }
+        ],
+        "plane": "Embraer 175",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 7 hours 46 minutes",
+        "airline": "United",
+        "ticket price": "785.00",
+        "arrival": ", Atlanta",
+        "plane code": "73G",
+        "timings": [
+            {
+                "arrival_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "2:40pm",
+                "departure_time": "1:20pm"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Chicago, IL (ORD-O'Hare Intl.)",
+                "arrival_time": "9:06pm",
+                "departure_time": "6:00pm"
+            }
+        ],
+        "plane": "Boeing 737-700",
+        "departure": ", Philadelphia"
+    },
+    {
+        "stops": "1 Stop",
+        "flight duration": "0 days 6 hours 13 minutes",
+        "airline": "American Airlines",
+        "ticket price": "910.00",
+        "arrival": ", Atlanta",
+        "plane code": "E90",
+        "timings": [
+            {
+                "arrival_airport": "Washington, DC (DCA-Ronald Reagan Washington National)",
+                "departure_airport": "Philadelphia, PA (PHL-Philadelphia Intl.)",
+                "arrival_time": "9:00am",
+                "departure_time": "7:56am"
+            },
+            {
+                "arrival_airport": "Atlanta, GA (ATL-Hartsfield-Jackson Atlanta Intl.)",
+                "departure_airport": "Washington, DC (DCA-Ronald Reagan Washington National)",
+                "arrival_time": "2:09pm",
+                "departure_time": "12:14pm"
+            }
+        ],
+        "plane": "Embraer 190",
+        "departure": ", Philadelphia"
+    }
+]

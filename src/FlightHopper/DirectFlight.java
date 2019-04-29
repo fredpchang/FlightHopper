@@ -6,15 +6,15 @@ public class DirectFlight implements IFlight {
 	String startAirport;
 	String endAirport;
 	double price;
-	String startTime; //format: yyyymmdd
-	String endTime; //format: yyyymmdd
-	String flightDuration; //string form for printing
+	String startTime; //format: yyyymmddhhmm
+	String endTime; //format: yyyymmddhhmm
 	int duration;
 	int rank;
 	boolean isDirect;
 	String airline;
 	String plane;
 	ArrayList<String> routing; //string of routing for printing
+	String flightDuration; //string form for printing
 
 	/**
 	 * default constructor

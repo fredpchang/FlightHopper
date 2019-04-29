@@ -30,8 +30,11 @@ public class FlightScraper {
      * @param date1 the date
      * @param flex flexibility
      * @return the list of tickets
+     * @throws ParseException
+     * @throws IOException
+     * @throws FileNotFoundException
      */
-    public List<IFlight> runScraper(String startAirport, String endAirport, String date1, int flex) {
+    public List<IFlight> runScraper(String startAirport, String endAirport, String date1, int flex) throws FileNotFoundException, IOException, ParseException {
 		List<IFlight> to_return = new LinkedList<IFlight>();
 		String[] dateData = date1.split("/");
 		if(dateData.length != 3) return null;
@@ -53,6 +56,9 @@ public class FlightScraper {
      * @param endAirport name of end airport
      * @param date the date of flight
      * @return List<IFlight> list of flight tickets
+     * @throws ParseException
+     * @throws IOException
+     * @throws FileNotFoundException
      */
     private List<IFlight> scraperPyHelper(String startAirport, String endAirport, String date) {
 		String pythonPath = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3";

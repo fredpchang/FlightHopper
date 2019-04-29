@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class TripLinkedListTest {
     TripLinkedList list;
     Airport lax, sfo, sea;
-    String l = "Los Angeles",s = "San Francisco",a = "Seattle";
+    String l = "LAX",s = "SFO",a = "SEA";
     @Before
     public void setUp() throws Exception {
         list = new TripLinkedList();
@@ -99,8 +99,8 @@ public class TripLinkedListTest {
 //        assertTrue(list1.contains(l));
         list1.add(a);
         list1.add(s);
-        assertEquals(lax.getName(), list1.get("Los Angeles"));
-        assertEquals(sea.getName(), list1.get("Seattle"));
+        assertEquals(lax.getName(), list1.get("LAX"));
+        assertEquals(sea.getName(), list1.get("SEA"));
         assertNull(list1.get("HEllo"));
     }
 }

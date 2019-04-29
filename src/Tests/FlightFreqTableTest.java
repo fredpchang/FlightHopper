@@ -6,9 +6,6 @@ import java.util.*;
 import FlightHopper.Airport;
 import FlightHopper.AirportPair;
 import FlightHopper.FlightFreqTable;
-import FlightHopper.FlightHopper;
-
-import org.hamcrest.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,7 +19,6 @@ public class FlightFreqTableTest {
 	PriorityQueue<AirportPair> pQueue;
 
 	
-<<<<<<< HEAD
 	@Before
 	 public void setUp() {
 		String inputFile1 = "../Filpath/filename";
@@ -36,17 +32,6 @@ public class FlightFreqTableTest {
 		startAirport = "PHL";
 		
 		airportP1 = new AirportPair();				
-=======
-	@Test
-	
-	public void getTopAirportListTest() {
-		flightFreqT= new FlightFreqTable();
-		startAirport = "Philadelphia";
-		topPlacesList = new ArrayList<>();
-		
-		airportP1 = new AirportPair();
-				
->>>>>>> 0761d400153ad104abab6ca3f2e8029e9dbf007c
 		airportP1.setStartAirport(startAirport);
 		airportP1.setEndAirport("LAX");
 		airportP1.setFrequency(100);
@@ -101,15 +86,6 @@ public class FlightFreqTableTest {
 		testList.add(a1);
 		testList.add(a2);
 		testList.add(a3);
-<<<<<<< HEAD
-=======
-		
-		//System.out.println("list is "+flightFreqT.getTop(startAirport).size());
-		System.out.println("list is "+ testList.size());
-		
-		assertNull(flightFreqT.getTop(startAirport));
-		//assertEquals(testList.size(),flightFreqT.getTop(startAirport).size());
->>>>>>> 0761d400153ad104abab6ca3f2e8029e9dbf007c
 		
 		assertFalse(testList.equals(flightFreqT.getTop(startAirport2)));
 	}
@@ -118,17 +94,6 @@ public class FlightFreqTableTest {
 	@Test
 	
 	public void getFreqTableTest() {
-<<<<<<< HEAD
-=======
-		flightFreqT= new FlightFreqTable();
-		System.out.println(""+flightFreqT.getClass());
-		//assertTrue(flightFreqT.getClass() instanceof FlightFreqTable);
-		//assertThat(flightFreqT.getClass(),instanceof(FlightHopper.FlightFreqTable.class));
-		//assert(flightFreqT.getClass() instanceof FlightHopper.FlightFreqTable);
-		PriorityQueue<AirportPair> pQueue = new PriorityQueue<AirportPair>((AirportPair a, AirportPair b) -> {
-			return 0 - (a.getFrequency() - b.getFrequency());
-		});
->>>>>>> 0761d400153ad104abab6ca3f2e8029e9dbf007c
 		Map<String, PriorityQueue<AirportPair>> freqMap = new HashMap<>();
 
 		pQueue.add(airportP1);
@@ -178,22 +143,13 @@ public class FlightFreqTableTest {
 		pQueue.add(airportP3);
 		
 		freqMap.put(startAirport, pQueue);
-<<<<<<< HEAD
 
 		assertNotEquals(freqMap, freqtest1.getFreqTable());
-=======
-		
-		assertEquals(0,flightFreqT.getFreqTable().size());
-		//flightFreqT.setFreqTable(freqMap);
-		
-		//assertNull(flightFreqT.getFreqTable());
->>>>>>> 0761d400153ad104abab6ca3f2e8029e9dbf007c
 		
 	}
-
+	
 	@Test
 	
-<<<<<<< HEAD
 	public void freqTableListTest() {
 		FlightFreqTable freqtable = new FlightFreqTable();
 		startAirport = "ANC";
@@ -209,23 +165,16 @@ public class FlightFreqTableTest {
 	
 	@Test
 	
-=======
->>>>>>> 0761d400153ad104abab6ca3f2e8029e9dbf007c
 	public void generateFreqMapTest() {
 		flightFreqT= new FlightFreqTable();
 		startAirport = "Philadelphia";
 		
-<<<<<<< HEAD
 		
-=======
-
->>>>>>> 0761d400153ad104abab6ca3f2e8029e9dbf007c
 
 	}
 	
 	@Test
 	
-<<<<<<< HEAD
 	public void setFreqTableTest() {
 		Map<String, PriorityQueue<AirportPair>> freqMap = new HashMap<>();
 
@@ -290,12 +239,4 @@ public class FlightFreqTableTest {
 	}
 	
 	
-=======
-	private void setFreqTableTest() {
-		flightFreqT= new FlightFreqTable();
-		startAirport = "Philadelphia";
-		
-		
-	}
->>>>>>> 0761d400153ad104abab6ca3f2e8029e9dbf007c
 }

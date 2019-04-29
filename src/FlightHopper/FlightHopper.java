@@ -4,10 +4,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.*;
 
+import org.json.simple.parser.ParseException;
 
 public class FlightHopper {
     public int queryType;
-//    List<Airport> airports = new ArrayList<>();
+    List<Airport> airports = new ArrayList<>();
 
 //    Map<String, Airport> airports = new HashMap<>();
 

@@ -10,8 +10,8 @@ public class NonDirectFlight implements IFlight {
 	double price;
 	int stops;
 	ArrayList<String> routing; //formatted form for printing
-	String startTime; //format: yyyymmdd
-	String endTime; //format: yyyymmdd
+	String startTime; //format: yyyymmddhhmm
+	String endTime; //format: yyyymmddhhmm
 	String flightDuration; //string form for printing
 	int duration;
 	int rank;
@@ -265,7 +265,7 @@ public class NonDirectFlight implements IFlight {
 	 */
 	@Override
 	public boolean checkValid(IFlight flight) {
-		return true;
+		return false;
 	}
 	/**
 	 * Get the rank of the ticket
