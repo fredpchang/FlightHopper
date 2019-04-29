@@ -47,12 +47,14 @@ public class DirectAnalyzer implements IFlightTicketService {
     public List<IFlight> getOptimalRoutesOfTwoCities(List<String> userInput) {
         List<IFlight> re = new ArrayList<IFlight>();
         double priceWeight = 1;
-        for(int i = 0; i < 4; i++) {
-            List<IFlight> temp = this.getRoute(userInput, priceWeight);
+        double[] weights = {1,0,0.25,0.5,0.75};
+        
+        for(int i = 0; i <= 4; i++) {
+            List<IFlight> temp = this.getRoute(userInput, weights[i]);
             // only care about top 3
             int j = 0;
             for(IFlight f : temp) {
-                if(j>=3) break;
+                if(j>=1) break;
                 if(!re.contains(f)) {
                     re.add(f);
                     j++;
