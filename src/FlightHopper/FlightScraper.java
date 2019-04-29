@@ -75,6 +75,19 @@ public class FlightScraper {
 			String stringDate = year+month+day;
 
 			String filename = startAirport + "-" +  endAirport + "-" + stringDate + ".json";
+//			String filePath = "files/jsonFlights/" + filename;
+//			for(int i = 0; i < 5; i++) {
+//				try {
+//					FileReader f = new FileReader(filePath);
+//					break;
+//				}
+//				catch (Exception e) {
+//					System.out.println(command);
+//					p = rt.exec(command);
+//					p.waitFor();
+//					continue;
+//				}
+//			}
 			return jsonParser(filename);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
