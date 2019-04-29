@@ -31,40 +31,21 @@ public class FlightScraperTest {
 	@Test
 	public void testParamFilter() {
 		FlightScraper tst = new FlightScraper();
-		DirectFlight df1 = new DirectFlight();
-		df1.setPrice(123.4);
-		df1.setDuration(3);
-		DirectFlight df2 = new DirectFlight();
-		df2.setPrice(43.4);
-		df2.setDuration(13);
-		DirectFlight df3 = new DirectFlight();
-		df3.setPrice(87.4);
-		df3.setDuration(4);
-		DirectFlight df4 = new DirectFlight();
-		df4.setPrice(423.4);
-		df4.setDuration(2);
-		DirectFlight df5 = new DirectFlight();
-		df5.setPrice(123.4);
-		df5.setDuration(344);
-		DirectFlight df6 = new DirectFlight();
-		df6.setPrice(8.4);
-		df6.setDuration(788);
-		NonDirectFlight n1 = new NonDirectFlight();
-		n1.setPrice(46.2);
-		n1.setDuration(244);
-		NonDirectFlight n2 = new NonDirectFlight();
-		n2.setPrice(67.2);
-		n2.setDuration(12);
-		NonDirectFlight n3 = new NonDirectFlight();
-		n3.setPrice(16.2);
-		n3.setDuration(4);
-		NonDirectFlight n4 = new NonDirectFlight();
-		n4.setPrice(646.2);
-		n4.setDuration(9);
-		NonDirectFlight n5 = new NonDirectFlight();
-		n5.setPrice(467.2);
-		n5.setDuration(24);
-		List <IFlight> l1 = new LinkedList<IFlight>();
+		DirectFlight df1 = new DirectFlight("sfo","nyc",123.4,null,"12","15","3",3,12,true,"AA","boeing");
+		DirectFlight df2 = new DirectFlight("sfo","nyc",43.4,null,"12","15","3",13,12,true,"AA","boeing");
+		DirectFlight df3 = new DirectFlight("sfo","nyc",87.4,null,"12","15","3",4,12,true,"AA","boeing");
+		DirectFlight df4 = new DirectFlight("sfo","nyc",423.4,null,"12","15","3",2,12,true,"AA","boeing");
+		DirectFlight df5 = new DirectFlight("sfo","nyc",123.4,null,"12","15","3",344,12,true,"AA","boeing");
+		DirectFlight df6 = new DirectFlight("sfo","nyc",8.4,null,"12","15","3",788,12,true,"AA","boeing");
+
+		
+		NonDirectFlight n1 = new NonDirectFlight("sfo","nyc",46.2, 2, null,"12","13", "244", 244,45,false,"AA","boeing");
+		NonDirectFlight n2 = new NonDirectFlight("sfo","nyc",67.2, 2, null,"12","13", "244", 12,45,false,"AA","boeing");
+		NonDirectFlight n3 = new NonDirectFlight("sfo","nyc",16.2, 2, null,"12","13", "244", 4,45,false,"AA","boeing");
+		NonDirectFlight n4 = new NonDirectFlight("sfo","nyc",646.2, 2, null,"12","13", "244", 9,45,false,"AA","boeing");
+		NonDirectFlight n5 = new NonDirectFlight("sfo","nyc",746.2, 2, null,"12","13", "244", 24,45,false,"AA","boeing");
+
+		List <IFlight>  l1 = new LinkedList<IFlight>();
 		l1.add(df1);
 		l1.add(df2);
 		l1.add(df3);
@@ -76,8 +57,9 @@ public class FlightScraperTest {
 		l1.add(n3);
 		l1.add(n4);
 		l1.add(n5);
+		// System.out.println(l1.size());
 		List <IFlight>  l2 = tst.paramFilter(134, 24, l1);
-//		assertTrue(l2.size() == 5);
+		assertTrue(l2.size() == 5);
 	}
 	
 	@Test

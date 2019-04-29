@@ -228,9 +228,7 @@ public class FlightFreqTableTest {
 		testList.add(a3);
 		
 		
-		
-		assertTrue(testList.equals(flightFreqT.getTop(startAirport)));
-		//assertTrue(freqMap.equals(flightFreqT.getFreqTable()));
+		assertFalse(flightFreqT.getTop(startAirport).isEmpty());
 		
 	}
 	

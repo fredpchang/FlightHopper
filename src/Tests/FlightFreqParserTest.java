@@ -30,7 +30,6 @@ public class FlightFreqParserTest {
 	}
 	
 	@Test
-	
 	public void freqparseTest() {
 		FlightFreqParser p = new FlightFreqParser();
 		TreeMap<String, TreeMap<String, AirportPair>> flightFreqTable = new TreeMap<>();
@@ -42,7 +41,7 @@ public class FlightFreqParserTest {
 			e.printStackTrace();
 		}
 		
-		assertNull(flightFreqTable);
+		assertFalse(flightFreqTable.isEmpty());
 	}
 	
 		
