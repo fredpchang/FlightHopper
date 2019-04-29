@@ -1,8 +1,8 @@
 package Tests;
 import static org.junit.Assert.*;
 
-import java.io.FileNotFoundException;
 import java.util.*;
+import java.io.*;
 
 import FlightHopper.AirportPair;
 import FlightHopper.FlightFreqParser;
@@ -12,38 +12,28 @@ import org.junit.Test;
 
 public class FlightFreqParserTest {
 
-	@SuppressWarnings("rawtypes")
 	@Test
-	 public void flightFreqParserTest() {
+	 public void flightFreqParserTest() throws FileNotFoundException{
+		
 		FlightFreqParser flightParse = new FlightFreqParser();
-		String inputFile = "../Filpath/filename";
-		
-		//flightFreqTable = flightParse.fileReader(inputFile);
-		
-		try {
-			flightParse.fileReader(inputFile);
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		String inputFile = "../invalid/filepath/filename";
+		flightParse.fileReader(inputFile);
 		
 	}
 	
+	@SuppressWarnings("unchecked")
 	@Test
 	
-	public void freqparseTest() {
-		FlightFreqParser p = new FlightFreqParser();
-		TreeMap<String, TreeMap<String, AirportPair>> flightFreqTable = new TreeMap<>();
-		
+	public void flightFreqParseFileTest() {
+		FlightFreqParser flightParse = new FlightFreqParser();
+		TreeMap<String, TreeMap<String, AirportPair>> fileParseTree= new TreeMap<>();
+		String inputFile= "files/flightFreqTable/out.csv";
 		try {
-			flightFreqTable = p.fileReader("files/flightFreqTable/out.csv");
+			fileParseTree = flightParse.fileReader(inputFile);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		assertNull(flightFreqTable);
+		assertNull(fileParseTree);
 	}
-	
-		
 }

@@ -14,8 +14,7 @@ public class FlightFreqTable {
      * @return
      */
     public List<AirportPair> getTop(String startAirport) {
-    	Map<String, PriorityQueue<AirportPair>> getFreqTableMap = this.freqTable;
-    	//Map<String, PriorityQueue<AirportPair>> getFreqTableMap = getFreqTable() ;
+    	Map<String, PriorityQueue<AirportPair>> getFreqTableMap = getFreqTable() ;
     	List<AirportPair> topFreqList = new ArrayList<>();
     	// check if the freq table size is 0
     	if (getFreqTableMap.isEmpty())
@@ -45,7 +44,6 @@ public class FlightFreqTable {
     	}
     		
     	return topFreqList;
-    	//return null;
     }
 
 
@@ -54,7 +52,7 @@ public class FlightFreqTable {
      * @param inputFile
      * @return
      */
-    
+    @SuppressWarnings("unchecked")
 	public Map<String, PriorityQueue<AirportPair>> generateMap(String inputFile) {
 
     	FlightFreqParser parserOp = new FlightFreqParser();
@@ -103,10 +101,10 @@ public class FlightFreqTable {
      * @return freq table
      */
     public Map<String, PriorityQueue<AirportPair>> getFreqTable() {
-    	//String inputFile= "files/flightFreqTable/out.csv";
+    	String inputFile= "files/flightFreqTable/out.csv";
     	
-    	//freqTable = generateMap(inputFile);
-    	//setFreqTable(freqTable);
+    	freqTable = generateMap(inputFile);
+    	setFreqTable(freqTable);
     	return freqTable;
     	//return null;
     }
