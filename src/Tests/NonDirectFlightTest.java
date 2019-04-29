@@ -167,7 +167,56 @@ public class NonDirectFlightTest {
 
 	@Test
 	public void equalsTest() {
-		assertTrue(!f1.equals(f2));
+		String startAirport = "LAX";
+		String endAirport = "SFO";
+		double price = 500;
+		int stops = 1;
+		ArrayList<String> routing = new ArrayList<String>();
+		routing.add("routing A");
+		routing.add("routing B");
+		String startTime = "20190520";
+		String endTime = "20190521";
+		String flightDuration = "0 days 5 hours 32 minutes";
+		int duration = 5;
+		int rank = 2500;
+		boolean isDirect = false;
+		String airline = "United";
+		String plane = "Being 737 Max";
+
+		NonDirectFlight e1 = new NonDirectFlight(
+												startAirport,
+												endAirport,
+												price,
+												stops,
+												routing,
+												startTime,
+												endTime,
+												flightDuration,
+												duration,
+												rank,
+												isDirect,
+												airline,
+												plane
+											);
+		
+		NonDirectFlight e2 = new NonDirectFlight(
+				startAirport,
+				endAirport,
+				price,
+				stops,
+				routing,
+				startTime,
+				endTime,
+				flightDuration,
+				duration,
+				rank,
+				isDirect,
+				airline,
+				plane
+			);
+		
+		assertTrue(e1.equals(e2));
+		
 	}
 
 	@Test
