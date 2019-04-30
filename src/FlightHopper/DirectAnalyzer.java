@@ -47,8 +47,11 @@ public class DirectAnalyzer implements IFlightTicketService {
     public List<IFlight> getOptimalRoutesOfTwoCities(List<String> userInput) {
         List<IFlight> re = new ArrayList<IFlight>();
         double priceWeight = 1;
-        for(int i = 0; i < 5; i++) {
-            List<IFlight> temp = this.getRoute(userInput, priceWeight);
+        generateList(userInput);
+        double[] weights = {1,0,0.25,0.5,0.75};
+        
+        for(int i = 0; i <= 4; i++) {
+            List<IFlight> temp = this.getRoute(userInput, weights[i]);
             // only care about top 3
             int j = 0;
             for(IFlight f : temp) {
@@ -87,14 +90,18 @@ public class DirectAnalyzer implements IFlightTicketService {
         if(maxPrice == -1) maxPrice = Integer.MAX_VALUE;
         if(maxDuration == -1) maxDuration = Integer.MAX_VALUE;
         int flex = Integer.valueOf(flexibility);
-        Set<IFlight> re = new HashSet<IFlight>();
-        double priceWeight = 0;
-        for(int i = 0; i < 4; i++) {
-            re.addAll(this.getRoute(userInput, priceWeight));
-            priceWeight += 0.25;
-        }
-        //TODO finish this graph, even though it's trivial
+        List<IFlight> re = new ArrayList<>();
 
+
+        re.addAll(this.getTickets(startAirport,endAirport,
+                date, flexibility, maxDuration, maxPrice));
+
+        //TODO finish this graph, even though it's trivial
+        Airport start = new Airport(startAirport);
+        start.setTickets(new ArrayList<>(re));
+        Airport end = new Airport(endAirport);
+        start.setDestination(end);
+        tripLinkedList.setStartAirport(start);
         return null;
     }
     /***
@@ -117,8 +124,7 @@ public class DirectAnalyzer implements IFlightTicketService {
         if(maxDuration == -1) maxDuration = Integer.MAX_VALUE;
         int flex = Integer.valueOf(flexibility);
 
-        List<IFlight> tickets = this.getTickets(startAirport, endAirport, date, flexibility,
-                maxPrice, maxDuration);
+        List<IFlight> tickets = tripLinkedList.getRoot().getTickets();
         tickets.sort((IFlight a, IFlight b) -> {
             return a.getFlightRank(priceWeight) - b.getFlightRank(priceWeight);
         });

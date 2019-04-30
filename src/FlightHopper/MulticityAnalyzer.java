@@ -47,9 +47,10 @@ public class MulticityAnalyzer implements IFlightTicketService {
      */
     public List<List<IFlight>> getOptimalRoutesOfMultiCities(List<String> userInput) {
         generateList(userInput);
-        double weight = 1;
+//        double weight = 1;
+        double[] weights = {1, 0, 0.25, 0.5, 0.75};
         for(int i = 0 ; i <=4; i++) {
-            List<IFlight> temp = this.getRoute(userInput, weight);
+            List<IFlight> temp = this.getRoute(userInput, weights[i]);
 //            List<IFlight> shows = new ArrayList<>();
 //            int j = 0;
 //            for(IFlight f : temp) {
@@ -60,7 +61,7 @@ public class MulticityAnalyzer implements IFlightTicketService {
 //                }
 //            }
             routesSelctions.add(new ArrayList<>(temp));
-            weight -= 0.25;
+//            weight -= 0.25;
         }
         return routesSelctions;
     }

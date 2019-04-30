@@ -78,18 +78,17 @@ public class NonDirectFlight implements IFlight {
 	@Override
 	public void printFlight(){
 
-		System.out.printf("[%s] ---> [%s] \n", this.getStartAirport(), this.getEndAirport());
-		System.out.println("Stops: " + this.stops);
-		System.out.println("Price: $" + this.price);
-		System.out.println("Duration (hrs): " + this.getDuration());
-		System.out.println(this.getAirline() + " " + this.getPlane());
+		System.out.printf("[%s] -----%shrs----> [%s] $%s \n", this.getStartAirport(), this.getDuration(), this.getEndAirport(), this.price);
 		String year = this.getStartTime().substring(0, 4);
 		String month = this.getStartTime().substring(4, 6);
 		String day = this.getStartTime().substring(6, 8);
 		System.out.println(year + "/" + month + "/" + day);
+		System.out.println(this.stops + " stops");
+		System.out.println(this.getAirline() + " " + this.getPlane());
 		for (String i : this.getRouting()) {
 			System.out.println(i);
 		}
+		System.out.println();
 	}
 
 	/**
@@ -285,17 +284,6 @@ public class NonDirectFlight implements IFlight {
 	public boolean isDirect() {
 		return false;
 	}
-//	@Override
-//	public boolean equals(Object o) {
-//		NonDirectFlight a = (NonDirectFlight) o;
-//		return this.startAirport.getName().equals(a.startAirport.getName())
-//				&& this.endAirport.getName().equals(a.endAirport.getName())
-//				&& this.startTime.equals(a.startTime)
-//				&& this.endTime.equals(a.endTime)
-//				&& this.price == a.price
-//				&& this.airline.equals(a.airline);
-//	}
-
 
 	/**
 	 * set if is direct

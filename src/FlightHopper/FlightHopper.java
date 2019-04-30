@@ -42,8 +42,8 @@ public class FlightHopper {
                 userInput.add(input);
 
                 //Print out list of top recommendations
-                System.out.printf("Here are some popular destinations from [%s]: \n", input);
                 List<AirportPair> top = freqTable.getTop(input);
+                if(top.size() > 0) System.out.printf("Here are some popular destinations from [%s]: \n", input);
                 for (AirportPair a : top) {
                     System.out.println(a.getEndAirport());
                 }
@@ -88,13 +88,37 @@ public class FlightHopper {
                 digit = "a";
                 System.out.println(userInput);
                 DirectAnalyzer da = new DirectAnalyzer();
-                System.out.println("Here are the top offers we found:");
 //                System.out.println(da.getOptimalRoutesOfTwoCities(userInput));
                 List<IFlight> ls = da.getOptimalRoutesOfTwoCities(userInput);
+                if(ls.size() == 0) {
+        			System.out.println("Invalid flight search. Please try another query.");
+                	continue;
+                }
+                else {
+                	System.out.println("\n\n\n");
+                    System.out.println("Here are the top offers we found:");
+                }
+                
+                int counter = 0;
                 for(IFlight f : ls) {
-                    System.out.println("------------------------------");
+                    
+                    if (counter == 0) {
+                        System.out.println("==================================== ITINERARY (CHEAPEST) ====================================");
+                    }
+                    else if (counter == 1) {
+                        System.out.println("==================================== ITINERARY (SHORTEST) ====================================");
+                    }
+                    else {
+                        System.out.println("------------------------------ ITINERARY ------------------------------");
+                    }
+
                     f.printFlight();
                     System.out.println();
+                    
+                    if (counter == 1) {
+                        System.out.println("==================================== OTHER RECOMMENDATIONS ====================================");
+                    }
+                    counter++;
                 }
 
                 System.out.println("Press q quit program, press any other key to return to main menu");
@@ -107,6 +131,7 @@ public class FlightHopper {
             // multiple cities
             else {
                 List<String> userInput = new ArrayList<>();
+                int cityNum = 0;
                 System.out.println("Welcome to multi city itinerary generator");
                 System.out.println("Please enter the day you want to start you trip, format is xx/xx/20xx");
                 String date = scanner.nextLine();
@@ -120,6 +145,7 @@ public class FlightHopper {
                 System.out.println("Please enter the start airport");
                 String airport = scanner.nextLine().toUpperCase();
                 userInput.add(airport);
+                cityNum++;
                 System.out.println("Please enter the flexibility of the flight, if none enter 0");
                 String digit = scanner.nextLine();
 //                System.out.println(Pattern.compile("\\d+").matcher(digit).find());
@@ -130,14 +156,15 @@ public class FlightHopper {
                 userInput.add(digit);
                 digit = "a";
                 while (true) {
-                    System.out.printf("Here are some popular destinations from [%s]: \n", airport);
                     List<AirportPair> top = freqTable.getTop(airport);
+                    if(top.size() > 0) System.out.printf("Here are some popular destinations from [%s]: \n", airport);
                     for (AirportPair a : top) {
                         System.out.println(a.getEndAirport());
                     }
                     System.out.println("Please enter the airport you want to arrive");
                     airport = scanner.nextLine().toUpperCase();
                     userInput.add(airport);
+                    cityNum++;
                     System.out.println("Is this your final destination, Y/N");
                     String yn = scanner.nextLine().toUpperCase();
                     if(yn.equals("Y")) {
@@ -155,14 +182,53 @@ public class FlightHopper {
                 }
 //                System.out.println(userInput);
                 MulticityAnalyzer ma = new MulticityAnalyzer();
-                System.out.println("Here are top itineraries we generated for you:");
                 List<List<IFlight>> ls = ma.getOptimalRoutesOfMultiCities(userInput);
+                if(ls.size() == 0) {
+        			System.out.println("Invalid flight search. Please try another query.");
+                	continue;
+                }
+                if(ls.get(0).size() != cityNum - 1) {
+        			System.out.println("Invalid flight search. Please try another query.");
+                	continue;
+                }
+                System.out.println("\n\n\n");
+                System.out.println("Here are top itineraries we generated for you:");
+                
+                int counter = 0;
                 for(List<IFlight> f : ls) {
-                    System.out.println("---------------");
-                    for(IFlight f1 : f ) {
-                        f1.printFlight();
+                    
+                    if (counter == 0) {
+                        System.out.println("==================================== ITINERARY (CHEAPEST) ====================================");
                     }
-                    System.out.println("---------------");
+                    else if (counter == 1) {
+                        System.out.println("==================================== ITINERARY (SHORTEST) ====================================");
+                    }
+                    else {
+                        System.out.println("------------------------------ ITINERARY ------------------------------");
+                    }
+                    double price = 0;
+                    int hour = 0;
+                    for(IFlight f1 : f ) {
+                        if(f1 instanceof DirectFlight) {
+                        	price += ((DirectFlight) f1).getPrice();
+                        	hour += ((DirectFlight) f1).getDuration();
+                        }
+                        else {
+                        	price += ((NonDirectFlight) f1).getPrice();
+                        	hour += ((NonDirectFlight) f1).getDuration();
+                        }
+                    }
+                    
+                    System.out.println("$" + price + " (" + hour + "hrs)");
+                    for(IFlight f1 : f ) {
+                    	f1.printFlight();
+                    }
+                    
+                    if (counter == 1) {
+                        System.out.println("==================================== OTHER RECOMMENDATIONS ====================================");
+                    }
+                    
+                    counter++;
 
                 }
                 System.out.println("Press q quit program, press any other key to return to main menu");
