@@ -94,7 +94,7 @@ public class DirectAnalyzer implements IFlightTicketService {
 
 
         re.addAll(this.getTickets(startAirport,endAirport,
-                date, flexibility, maxDuration, maxPrice));
+                date, flexibility, maxPrice, maxDuration));
 
         //TODO finish this graph, even though it's trivial
         Airport start = new Airport(startAirport);
