@@ -60,8 +60,13 @@ public class FlightScraper {
     	try {
     		String pythonpath = "/Users/fredchang/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Fred's
 //    		String pythonpath = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Kevin's
+    		
+    		/** ------ Python Flight Scraper Developed by scrapehero.com ------ **/
     		String command =  pythonpath + "files/jsonFlights/expedia.py " + startAirport + " " +  endAirport + " " + date;
-			System.out.println(command);
+    		
+    		
+//			System.out.println(command); //Note: Enable to test print Terminal Command
+    		System.out.println("Searching tickets from " + startAirport + " to " + endAirport + " on " + date + "...");
     		Process p = rt.exec(command);
     		p.waitFor();
 
