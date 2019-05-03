@@ -12,7 +12,8 @@
 2. Locate your Python path. These are known paths for Windows/Mac, however, the exact path is not guaranteed and the user will need to locate where their Canopy Python installation is relative to their machine.
 
 Mac: */Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3*
-Windows:
+
+Windows: */Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3*
 
 3. Setup command string to be: *"/Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3"* **
 
