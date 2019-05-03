@@ -16,13 +16,13 @@
 # External APIs, Libraries, Scripts, Datasets
 
 ## Expedia Python Scraper
-Source:
+Source: https://gist.github.com/scrapehero/bc34513e2ea72dc0890ad47fbd8a1a4f
 
 ## SimpleJSON
-Source:
+Source: https://github.com/simplejson/simplejson
 
 ## Historical Flight Dataset
-Kaggle - USDOT
+Source: https://www.kaggle.com/usdot/flight-delays#flights.csv
 
 
 --------------------------------------------------------------
