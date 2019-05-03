@@ -22,9 +22,6 @@ public class FlightFreqTable {
     public List<AirportPair> getTop(String startAirport) {
     	Map<String, PriorityQueue<AirportPair>> getFreqTableMap = getFreqTable() ;
     	List<AirportPair> topFreqList = new ArrayList<>();
-    	// check if the freq table size is 0
-    	if (getFreqTableMap.isEmpty())
-    		return topFreqList;
     	
     	if(getFreqTableMap.containsKey(startAirport)) {
     		PriorityQueue<AirportPair> retpq = new PriorityQueue<AirportPair>();
@@ -63,7 +60,7 @@ public class FlightFreqTable {
 	public Map<String, PriorityQueue<AirportPair>> generateMap(String inputFile) {
 
     	FlightFreqParser parserOp = new FlightFreqParser();
-    	//String inputFile= "files/flightFreqTable/out.csv";
+
     	TreeMap<String, TreeMap<String, AirportPair>> freqMap = new TreeMap<>();
     	try {
 			
@@ -73,8 +70,6 @@ public class FlightFreqTable {
 			e.printStackTrace();
 		}
     	
-    	//System.out.println("freq map key set " +freqMap.keySet());
-    	//System.out.println("tree map size "+freqMap.keySet().size());
     	/*
     	 * for each key in the tree map add the destination in
     	 * priority queue order in freqTable Map<air, pq>
@@ -96,9 +91,6 @@ public class FlightFreqTable {
     	}
     	// done generating the freq table map
     	
-    	//System.out.println("map keys "+freqTable.keySet());
-    	//System.out.println("map keys size "+freqTable.keySet().size());
-    	//System.out.println("generated start map size "+freqMap.size());
         return freqTable;
         	
     }
@@ -110,7 +102,6 @@ public class FlightFreqTable {
     public Map<String, PriorityQueue<AirportPair>> getFreqTable() {
 
     	return freqTable;
-    	//return null;
     }
 
     /**
