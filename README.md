@@ -9,7 +9,14 @@
 
 ## FlightScraper.java (Setup Python3 Environment)
 1. Download Canopy (*https://store.enthought.com/downloads/*)
-2. Setup command string to be: *"/Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3 expedia.py jfk sea 05/16/2019"*
+2. Locate your Python path. These are known paths for Windows/Mac, however, the exact path is not guaranteed and the user will need to locate where their Canopy Python installation is relative to their machine.
+
+Mac: * /Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3 *
+Windows:
+
+3. Setup command string to be: *"/Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3"* **
+
+**This command is located in scraperPyHelper() method.
 
 
 --------------------------------------------------------------
@@ -28,4 +35,4 @@ Source: https://www.kaggle.com/usdot/flight-delays#flights.csv
 --------------------------------------------------------------
 
 # Regarding Test Code Coverage
-Due to the nature of our program pulling real-time ticket information from Expedia, it is virtually impossible to test for same results (unless we run the test right after writing it)
+Due to the nature of our program pulling real-time ticket information from Expedia, it is virtually impossible to test for same results (unless we run the test right after writing it). We have included recordings of our test passing in our submission.
