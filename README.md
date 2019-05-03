@@ -16,7 +16,9 @@ Mac: */Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3*
 Windows: */Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3*
 
 How to find python path in general: create a python file in canopy. Write:
+
 `import sys`
+
  `print(sys.executable)`
 
 Run the file and the output of this file is your python path in canopy
