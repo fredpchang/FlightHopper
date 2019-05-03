@@ -1,4 +1,4 @@
-# FlightHopper
+# FlightHopper - README
 
 
 # Setup
@@ -11,6 +11,18 @@
 1. Download Canopy (*https://store.enthought.com/downloads/*)
 2. Setup command string to be: *"/Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3 expedia.py jfk sea 05/16/2019"*
 
+
+--------------------------------------------------------------
+# External APIs, Libraries, Scripts, Datasets
+
+## Expedia Python Scraper
+Source:
+
+## SimpleJSON
+Source:
+
+## Historical Flight Dataset
+Kaggle - USDOT
 
 
 --------------------------------------------------------------
