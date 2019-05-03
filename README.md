@@ -15,9 +15,12 @@ Mac: */Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3*
 
 Windows: */Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3*
 
-3. Setup command string to be: *"/Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3"* **
+How to find python path in general: create a python file in canopy. Write:
+'import sys'
+'print(sys.executable)'
 
-**This command is located in scraperPyHelper() method.
+Run the file and the output of this file is your python path in canopy
+3. Replace variable pythonpath with : *"yourPath"* . This command is located in scraperPyHelper() method.
 
 
 --------------------------------------------------------------
