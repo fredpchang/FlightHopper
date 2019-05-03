@@ -58,11 +58,14 @@ public class FlightScraper {
 
 		Runtime rt = Runtime.getRuntime();
     	try {
-    		String pythonpath = "/Users/fredchang/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Fred's
-//    		String pythonpath = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Kevin's
+    		/* USER: ENTER YOUR CANOPY PYTHON FILEPATH HERE */
+    		String pythonpath = "/Users/fredchang/Library/Enthought/Canopy/edm/envs/User/bin/python3"; //Fred's
+    		/* USER MODIFICATION ENDS */
+    		
+//    		String pythonpath = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3"; //Kevin's
     		
     		/** ------ Python Flight Scraper Developed by scrapehero.com ------ **/
-    		String command =  pythonpath + "files/jsonFlights/expedia.py " + startAirport + " " +  endAirport + " " + date;
+    		String command =  pythonpath + " files/jsonFlights/expedia.py " + startAirport + " " +  endAirport + " " + date;
     		
     		
 //			System.out.println(command); //Note: Enable to test print Terminal Command
