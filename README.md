@@ -22,6 +22,7 @@ How to find python path in general: create a python file in canopy. Write:
  `print(sys.executable)`
 
 Run the file and the output of this file is your python path in canopy
+
 3. Replace variable pythonpath with : *"yourPath"* . This command is located in scraperPyHelper() method.
 
 
