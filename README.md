@@ -1,5 +1,8 @@
 # FlightHopper - README
 
+# Authors
+Shivani Burad, Fred Chang, Kevin Che, Katherine Hsu
+
 
 # Setup
 
