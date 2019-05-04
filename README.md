@@ -42,7 +42,7 @@ Finding the best flight between two cities
 Finding the best flights between a list of cities
 
 ## Recommendation System
-When entering a US airport, FlightHopper will return a list of popular destinations from that city.
+When entering a US airport, FlightHopper will return a list of popular destinations from that city. This feature is built into both search types.
 
 
 --------------------------------------------------------------
