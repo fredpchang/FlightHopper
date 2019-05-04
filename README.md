@@ -3,7 +3,7 @@
 # Authors
 Shivani Burad, Fred Chang, Kevin Che, Katherine Hsu
 
-
+--------------------------------------------------------------
 # Setup
 
 ## FlightScraper.java (Setup JSON Jar)
@@ -27,6 +27,22 @@ Shivani Burad, Fred Chang, Kevin Che, Katherine Hsu
  Run the file and the output of this file is your python path in canopy
 
 3. Replace variable pythonpath with : *"yourPath"* . This command is located in scraperPyHelper() method.
+
+## FlightHopper.java (Main)
+1. Run program (Initialization requires some time to build the recommendation system. Please be patient!)
+2. Have fun!
+
+--------------------------------------------------------------
+# Features
+
+## Direct Flight Search
+Finding the best flight between two cities
+
+## MultiCity Search
+Finding the best flights between a list of cities
+
+## Recommendation System
+When entering a US airport, FlightHopper will return a list of popular destinations from that city.
 
 
 --------------------------------------------------------------
