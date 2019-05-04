@@ -11,17 +11,17 @@
 1. Download Canopy (*https://store.enthought.com/downloads/*)
 2. Locate your Python path. These are known paths for Windows/Mac, however, the exact path is not guaranteed and the user will need to locate where their Canopy Python installation is relative to their machine.
 
-Mac: */Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3*
+ Mac: */Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3*
 
-Windows: */Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3*
+ Windows: *Unknown Path*
 
-How to find python path in general: create a python file in canopy. Write:
+ How to find python path in general: create a python file in canopy. Write:
 
-`import sys`
+ `import sys`
 
  `print(sys.executable)`
 
-Run the file and the output of this file is your python path in canopy
+ Run the file and the output of this file is your python path in canopy
 
 3. Replace variable pythonpath with : *"yourPath"* . This command is located in scraperPyHelper() method.
 
