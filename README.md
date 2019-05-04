@@ -13,7 +13,7 @@
 
  Mac: */Users/yourNameHere/Library/Enthought/Canopy/edm/envs/User/bin/python3*
 
- Windows: *Unknown Path*
+ Windows: *C:\\Users\\yourNameHere\\AppData\\Local\\Enthought\\Canopy\\edm\\envs\\User\\python.exe*
 
  How to find python path in general: create a python file in canopy. Write:
 
