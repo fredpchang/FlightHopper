@@ -315,17 +315,15 @@ public class DirectFlight implements IFlight {
 	@Override
 	public void printFlight(){
 
-
-		System.out.printf("[%s] ---> [%s] \n", this.getStartAirport(), this.getEndAirport());
-		System.out.println("Stops: Nonstop");
-		System.out.println("Price: $" + this.price);
-		System.out.println("Duration: " + this.getDuration());
-		System.out.println(this.getAirline() + " " + this.getPlane());
+		System.out.printf("[%s] -----%shrs----> [%s] $%s \n", this.getStartAirport(), this.getDuration(), this.getEndAirport(), this.price);
 		String year = this.getStartTime().substring(0, 4);
 		String month = this.getStartTime().substring(4, 6);
 		String day = this.getStartTime().substring(6, 8);
 		System.out.println(year + "/" + month + "/" + day);
+		System.out.println("Nonstop");
+		System.out.println(this.getAirline() + " " + this.getPlane());
 		System.out.println(routing.get(0));
+		System.out.println();
 
 
 		return;

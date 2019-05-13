@@ -58,10 +58,18 @@ public class FlightScraper {
 
 		Runtime rt = Runtime.getRuntime();
     	try {
-    		String pythonpath = "/Users/fredchang/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Fred's
-//    		String pythonpath = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3 "; //Kevin's
-    		String command =  pythonpath + "files/jsonFlights/expedia.py " + startAirport + " " +  endAirport + " " + date;
-			System.out.println(command);
+    		/* USER: ENTER YOUR CANOPY PYTHON FILEPATH HERE */
+    		String pythonpath = "/Users/fredchang/Library/Enthought/Canopy/edm/envs/User/bin/python3"; //Fred's
+    		/* USER MODIFICATION ENDS */
+    		
+//    		String pythonpath = "/Users/chezhenhao/Library/Enthought/Canopy/edm/envs/User/bin/python3"; //Kevin's
+    		
+    		/** ------ Python Flight Scraper Developed by scrapehero.com ------ **/
+    		String command =  pythonpath + " files/jsonFlights/expedia.py " + startAirport + " " +  endAirport + " " + date;
+    		
+    		
+//			System.out.println(command); //Note: Enable to test print Terminal Command
+    		System.out.println("Searching tickets from " + startAirport + " to " + endAirport + " on " + date + "...");
     		Process p = rt.exec(command);
     		p.waitFor();
 
@@ -74,6 +82,19 @@ public class FlightScraper {
 			String stringDate = year+month+day;
 
 			String filename = startAirport + "-" +  endAirport + "-" + stringDate + ".json";
+//			String filePath = "files/jsonFlights/" + filename;
+//			for(int i = 0; i < 5; i++) {
+//				try {
+//					FileReader f = new FileReader(filePath);
+//					break;
+//				}
+//				catch (Exception e) {
+//					System.out.println(command);
+//					p = rt.exec(command);
+//					p.waitFor();
+//					continue;
+//				}
+//			}
 			return jsonParser(filename);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -94,24 +115,27 @@ public class FlightScraper {
 	public List <IFlight> jsonParser(String fileName) {
 		//NOTE: remove "private" word above in order to test from FlightHopper.java class!!!
 
-		/* ArrayList to return */
-		List<IFlight> list = new ArrayList<>();
-
-		/* Get full filepath of JSON file */
-		String filePath = "files/jsonFlights/" + fileName;
-
-		/* Get start date */
-		String[] tempDate = fileName.split("-",3);
-		String startDate = tempDate[2];
-		startDate = startDate.substring(0, 8);
-
-		/* Set up Parser */
-		//Note: need to import ison-simple jar
-		JSONParser parser = new JSONParser();
-		JSONArray jsonArray;
+		
 		try {
-			jsonArray = (JSONArray) parser.parse(new FileReader(filePath));
+			
+			/* ArrayList to return */
+			List<IFlight> list = new ArrayList<>();
+
+			/* Get full filepath of JSON file */
+			String filePath = "files/jsonFlights/" + fileName;
+
+			/* Get start date */
+			String[] tempDate = fileName.split("-",3);
+			String startDate = tempDate[2];
+			startDate = startDate.substring(0, 8);
+
+			/* Set up Parser */
+			//Note: need to import ison-simple jar
+			JSONParser parser = new JSONParser();
+			JSONArray jsonArray =  (JSONArray) parser.parse(new FileReader(filePath));
 //	    	System.out.println(jsonArray); //Note: enable to test print all content in jsonArray
+
+
 			/* Read each flight and save as IFlight object */
 			for (int i = 0 ; i < jsonArray.size() ; i++) {
 				JSONObject jo = (JSONObject) jsonArray.get(i);
@@ -254,19 +278,20 @@ public class FlightScraper {
 //	    	for (IFlight f : list) {
 //	    		f.printFlight();
 //	    		System.out.println("");
-			
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
-		return list;
+			return list;
+			
+			
+			
+			
+			
+			
+			
+		} catch(Exception e){
+			return new ArrayList<IFlight>();
+		}
+		
+
     }
 
     /**

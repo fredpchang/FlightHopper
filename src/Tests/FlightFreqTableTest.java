@@ -23,13 +23,14 @@ public class FlightFreqTableTest {
 	 public void setUp() {
 		String inputFile1 = "../Filpath/filename"; //some arbitrary invalid filepath
 		String inputFile = "files/flightFreqTable/out.csv"; //proper filepath
-		
+
 		pQueue = new PriorityQueue<AirportPair>((AirportPair a, AirportPair b) -> {
 			return 0 - (a.getFrequency() - b.getFrequency());
 		});
 		
 		flightFreqT = new FlightFreqTable();
 		startAirport = "PHL";
+		System.out.println("freq map size "+flightFreqT.getFreqTable().size());
 		
 		airportP1 = new AirportPair();				
 		airportP1.setStartAirport(startAirport);
@@ -46,7 +47,7 @@ public class FlightFreqTableTest {
 		airportP3.setStartAirport(startAirport);
 		airportP3.setEndAirport("SFO");
 		airportP3.setFrequency(70);
-		
+	
 		flightFreqT.generateMap(inputFile1);
 		flightFreqT.generateMap(inputFile);
 
@@ -57,7 +58,6 @@ public class FlightFreqTableTest {
 		
 		startAirport2 = "ANC";
 		topPlacesList = new ArrayList<>();
-
 		topPlacesList.add(airportP1);
 		topPlacesList.add(airportP2);
 		topPlacesList.add(airportP3);
@@ -99,12 +99,10 @@ public class FlightFreqTableTest {
 		pQueue.add(airportP3);
 		
 		freqMap.put(startAirport, pQueue);
-		//System.out.println("freq map size "+freqMap.size());
 		
 		flightFreqT.setFreqTable(freqMap);
 		
 		assertTrue(freqMap.equals(flightFreqT.getFreqTable()));
-		//assertEquals(freqMap.size(), flightFreqT.getFreqTable().size());
 		
 	}
 	
@@ -151,13 +149,8 @@ public class FlightFreqTableTest {
 		FlightFreqTable freqtable = new FlightFreqTable();
 		startAirport = "ANC";
 		List<AirportPair> list = freqtable.getTop(startAirport);
-		//System.out.println("size of list " +list.size());
-		//System.out.println("size of list " +list);
-		int i=0;
-		//while(i<list.size()) {
-		//	System.out.println("top  "+list.get(i).getEndAirport() +" with freq "+ list.get(i).getFrequency());
-			i++;
-		//}
+		assertFalse(list.isEmpty());
+	
 	}
 	
 	@Test
@@ -183,7 +176,6 @@ public class FlightFreqTableTest {
 
 		flightFreqT.setFreqTable(freqMap);
 		assertTrue(freqMap.equals(flightFreqT.getFreqTable()));
-		//assertFalse(freqMap)
 	}
 	
 	@Test	
@@ -199,8 +191,6 @@ public class FlightFreqTableTest {
 		freqMap.put(startAirport, pQueue);
 
 		flightFreqT.setFreqTable(freqMap);
-		
-		//System.out.println(flightFreqT.getFreqTable().size());
 		
 		AirportPair a1,a2,a3;
 		a1 = new AirportPair();
@@ -231,6 +221,7 @@ public class FlightFreqTableTest {
 		assertFalse(flightFreqT.getTop(startAirport).isEmpty());
 		
 	}
+	
 	
 	
 }

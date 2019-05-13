@@ -66,7 +66,10 @@ public class FlightScraperTest {
 	public void testParamFilter2() throws FileNotFoundException, IOException, ParseException {
 		FlightScraper tst = new FlightScraper();
 		
-		List <IFlight>  l1 = tst.jsonParser("nyc-mia-20190430.json");
+		List <IFlight>  l1 = tst.jsonParser("nyc-mia-20190430test.json");
+//		System.out.println(l1.size());
+//		assertEquals(l1.get(0).g);
+		assertEquals(l1.size(),35);
 		List <IFlight>  l2 = tst.paramFilter(134, 24, l1);
 		assertTrue(l2.size() == 0);
 	}
@@ -86,10 +89,16 @@ public class FlightScraperTest {
 		l1.add(n2);
 		l1.add(n3);
 		List <IFlight>  l2 = tst.paramFilter(134, 24, l1);
-		assertTrue(l2.size() == 5);
+		System.out.println(l2.size());
+		
+		assertTrue(l2.size() == 4);
 	}
 	
-	
+//	@Test
+//	public void testeException() {
+//			FlightScraper tst = new FlightScraper();
+//			assertNull(tst.jsonParser("nyc-mia-20190430error.json"));
+//	}
 	
 
 }
